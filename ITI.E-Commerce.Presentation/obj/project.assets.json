@@ -7163,24 +7163,24 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ElectronicShopModel\\ElectronicShopModel.csproj",
+      "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ElectronicShopModel\\ElectronicShopModel.csproj",
       "ITI.ElectroDev.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ali\\.nuget\\packages\\": {}
+    "C:\\Users\\ALL IN ONE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.E-Commerce.Presentation\\ITI.E-Commerce.Presentation.csproj",
+      "projectUniqueName": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.E-Commerce.Presentation\\ITI.E-Commerce.Presentation.csproj",
       "projectName": "ITI.E-Commerce.Presentation",
-      "projectPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.E-Commerce.Presentation\\ITI.E-Commerce.Presentation.csproj",
-      "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-      "outputPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.E-Commerce.Presentation\\obj\\",
+      "projectPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.E-Commerce.Presentation\\ITI.E-Commerce.Presentation.csproj",
+      "packagesPath": "C:\\Users\\ALL IN ONE\\.nuget\\packages\\",
+      "outputPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.E-Commerce.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ALL IN ONE\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7194,11 +7194,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ElectronicShopModel\\ElectronicShopModel.csproj": {
-              "projectPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ElectronicShopModel\\ElectronicShopModel.csproj"
+            "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ElectronicShopModel\\ElectronicShopModel.csproj": {
+              "projectPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ElectronicShopModel\\ElectronicShopModel.csproj"
             },
-            "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
-              "projectPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
+            "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+              "projectPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
             }
           }
         }
@@ -7231,7 +7231,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -7239,8 +7239,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ElectronicShopModel\\ElectronicShopModel.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ElectronicShopModel\\ElectronicShopModel.csproj",
+      "message": "Unable to find project 'D:\\ITI3Months\\ASP.NET\\ElectroDev\\ElectronicShopModel\\ElectronicShopModel.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ElectronicShopModel\\ElectronicShopModel.csproj",
       "targetGraphs": [
         "net6.0"
       ]

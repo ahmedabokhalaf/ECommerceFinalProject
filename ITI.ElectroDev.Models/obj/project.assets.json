@@ -7251,19 +7251,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ali\\.nuget\\packages\\": {}
+    "C:\\Users\\ALL IN ONE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+      "projectUniqueName": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
       "projectName": "ITI.ElectroDev.Models",
-      "projectPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
-      "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-      "outputPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.ElectroDev.Models\\obj\\",
+      "projectPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+      "packagesPath": "C:\\Users\\ALL IN ONE\\.nuget\\packages\\",
+      "outputPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ALL IN ONE\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7338,7 +7338,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
