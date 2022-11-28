@@ -11,10 +11,9 @@ namespace ITI.ElectroDev.Models
 {
     public class Context:IdentityDbContext<User>
     {
-        //public Context(DbContextOptions options) : base(options)
-        //{
-        //}
-
+       
+        public Context(DbContextOptions options) : base(options)
+        { }
         public DbSet<Product> Product { get; set; }
         public DbSet<ProductImages> productImages { get; set; }
         public DbSet<Brand> Brands { get; set; }
@@ -33,9 +32,9 @@ namespace ITI.ElectroDev.Models
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder
-              .UseSqlServer("Data Source=.; Initial Catalog= ElectroDev; Integrated Security=True;");
-            //base.OnConfiguring(optionsBuilder);
+           
+            base.OnConfiguring(optionsBuilder);
         }
+
     }
 }

@@ -1,0 +1,52 @@
+﻿@using ITI.ElectroDev.Models
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+
+<div id="PagedCategories">
+    @model IPagedList<Category>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-nowrap">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">ID Category</th>
+                    <th scope="col">Name</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var b in Model.ToList<Category>())
+                {
+                    <tr>
+                        <td>@b.Id</td>
+                        <td>@b.Name</td>
+                        <td class="text-end">
+                            <a href="#" class="btn btn-sm btn-neutral">View</a>
+                            <a class="btn btn-danger btn btn-sm btn-square btn-neutral text-danger-hover " asp-controller="Category" asp-action="ConfirmDelete" asp-route-id="@b.Id" asp-route-Title="@b.Name"> <i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+
+                }
+                
+            </tbody>
+        </table>
+    </div>
+
+
+
+    @Html.PagedListPager(Model, pageIndex => Url.Action("PartialCategory", new { pageIndex}),
+    PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(
+    new PagedListRenderOptions()
+    {
+    MaximumPageNumbersToDisplay=3
+    },
+    new AjaxOptions()
+    {
+    HttpMethod ="GET",
+    UpdateTargetId="PagedCategories"
+
+    }
+    ))
+
+</div>
