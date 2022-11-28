@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ITI.ElectroDev.Models
 {
-    public class Context:DbContext
+    public class Context:IdentityDbContext<User>
     {
         //public Context(DbContextOptions options) : base(options)
         //{
@@ -28,7 +29,7 @@ namespace ITI.ElectroDev.Models
             new ProductImagesConfig().Configure(modelBuilder.Entity<ProductImages>());
             new RateConfig().Configure(modelBuilder.Entity<Rate>());
             modelBuilder.MapRelations();
-            //base.OnModelCreating(modelBuilder);
+            base.OnModelCreating(modelBuilder);
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
