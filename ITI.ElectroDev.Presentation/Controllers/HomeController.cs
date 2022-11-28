@@ -8,7 +8,7 @@ namespace ITI.ElectroDev.Presentation.Controllers
     {
         public IActionResult Index()
         {
-            ViewBag.Title = "Home";
+            ViewBag.Title = "Admin Dashboard";
             return View();
         }
 
