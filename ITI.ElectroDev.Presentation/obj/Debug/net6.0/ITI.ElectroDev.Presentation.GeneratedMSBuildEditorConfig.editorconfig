@@ -15,6 +15,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Category/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Category/ConfirmDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ29uZmlybURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Category/_PagedCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcX1BhZ2VkQ2F0ZWdvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

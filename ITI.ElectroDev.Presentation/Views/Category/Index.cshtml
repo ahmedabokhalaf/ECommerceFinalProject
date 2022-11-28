@@ -1,0 +1,35 @@
+﻿@using ITI.ElectroDev.Models
+@using X.PagedList
+@model IPagedList<Category>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - testproject</title>
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="https://therichpost.com/responsivestyle/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
+
+    <style>
+        .logo {
+            font-size: 3rem;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="card shadow border-0 mb-7">
+    <div class="card-header">
+        <h5 class="mb-0">Categories</h5>
+    </div>
+        <partial name="_PagedCategories" model="@Model"></partial>
+</div>
+<h1> The Index Page Of Category Controller</h1>
+
+<div style="margin-top:100px;">
+    <a class="btn btn-primary" asp-controller="Category" asp-action="Add">Add New Category</a> 
+</div>
+</body>
+</html>
