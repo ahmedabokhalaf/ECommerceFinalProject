@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.E-Commerce.Presentation\\ITI.E-Commerce.Presentation.csproj": {}
+  },
+  "projects": {
+    "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.E-Commerce.Presentation\\ITI.E-Commerce.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.E-Commerce.Presentation\\ITI.E-Commerce.Presentation.csproj",
+        "projectName": "ITI.E-Commerce.Presentation",
+        "projectPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.E-Commerce.Presentation\\ITI.E-Commerce.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+        "outputPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.E-Commerce.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ElectronicShopModel\\ElectronicShopModel.csproj": {
+                "projectPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ElectronicShopModel\\ElectronicShopModel.csproj"
+              },
+              "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+                "projectPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+        "projectName": "ITI.ElectroDev.Models",
+        "projectPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+        "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+        "outputPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_Project\\ITI.ElectroDev.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
