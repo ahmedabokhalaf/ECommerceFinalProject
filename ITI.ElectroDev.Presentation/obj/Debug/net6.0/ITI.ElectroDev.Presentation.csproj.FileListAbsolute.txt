@@ -738,3 +738,45 @@ C:\Users\Mariam Ayman\Desktop\Amazon\ITI.ElectroDev.Presentation\bin\Debug\net6.
 C:\Users\Mariam Ayman\Desktop\Amazon\ITI.ElectroDev.Presentation\bin\Debug\net6.0\X.PagedList.dll
 C:\Users\Mariam Ayman\Desktop\Amazon\ITI.ElectroDev.Presentation\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
 C:\Users\Mariam Ayman\Desktop\Amazon\ITI.ElectroDev.Presentation\bin\Debug\net6.0\libman.json
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\libman.json
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Castle.Core.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Humanizer.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\X.PagedList.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\ITI.ElectroDev.Models.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\ITI.ElectroDev.Models.pdb
