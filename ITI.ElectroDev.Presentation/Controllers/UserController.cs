@@ -19,6 +19,7 @@ namespace ITI.ElectroDev.Presentation
         [HttpGet]
         public IActionResult SignUp()
         {
+            ViewBag.Title = "Sign Up";
             return View();
         }
         [HttpPost]
@@ -61,6 +62,7 @@ namespace ITI.ElectroDev.Presentation
         [HttpGet]
         public IActionResult SignIn()
         {
+            ViewBag.Title = "Sign In";
             return View();
         }
 
