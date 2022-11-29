@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj": {}
+    "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+    "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+        "projectUniqueName": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
         "projectName": "ITI.ElectroDev.Models",
-        "projectPath": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
-        "packagesPath": "C:\\Users\\Fedodbdb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Models\\obj\\",
+        "projectPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+        "packagesPath": "C:\\Users\\ALL IN ONE\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fedodbdb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ALL IN ONE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,21 +89,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj": {
+    "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+        "projectUniqueName": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
         "projectName": "ITI.ElectroDev.Presentation",
-        "projectPath": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
-        "packagesPath": "C:\\Users\\Fedodbdb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\obj\\",
+        "projectPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+        "packagesPath": "C:\\Users\\ALL IN ONE\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fedodbdb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ALL IN ONE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,8 +117,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
-                "projectPath": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
+              "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+                "projectPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
               }
             }
           }
@@ -175,7 +175,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
