@@ -5,6 +5,7 @@ namespace ITI.ElectroDev.Presentation.Models
 {
     public class CategoryCreateModel
     {
+        public int Id { get; set; }
         [Display(Name = "Title")]
         [Required(ErrorMessage = "حقل العنوان مطلوب")]
         [MaxLength(200, ErrorMessage = "لا يزيد عن 200")]
