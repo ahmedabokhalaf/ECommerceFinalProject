@@ -1,14 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "dgSpecHash": "hRCcEsqrLUgTABnWEPo6qwYMyus7CaSgbUxfjpRqY0JwWIljJKTZamt0l/+uasBvBnd5TX++mykoilR6gE0q4w==",
-=======
-  "dgSpecHash": "/vyaVIqnT/wIQ5aKtMlhmrEeTJ50WgMyDdT98umlC5aB+E63FjWximLmNQUQANCZoY2WLFqV6h+b1pO3uWsFMg==",
->>>>>>> Mariam2
-=======
   "dgSpecHash": "KYoDXke3SJnbtAFGiegNFmpDtIRoqpWRaOIbwCrJ5wUe8rvegNprqkNTCl+0tQImJLzxKS/9Zyi7ESFyuXnXPA==",
->>>>>>> yusufhasan
   "success": true,
   "projectFilePath": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
   "expectedPackageFiles": [
