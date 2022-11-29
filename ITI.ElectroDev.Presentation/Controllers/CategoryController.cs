@@ -46,6 +46,24 @@ namespace ITI.ElectroDev.Presentation
              db.SaveChanges();
             return View();
         }
+        [HttpGet]
+        public IActionResult Edit(int id, string name)
+        {
+            dynamic category = new ExpandoObject();
+            category.Name = name;
+            category.Id = id;
+            return View(category);
+        }
+        [HttpGet]
+        public IActionResult SaveEdit(int id,string name)
+        {
+            var category = db.Category.FirstOrDefault(i => i.Id == id);
+            category.Name = name;
+            category.Id = id;
+            db.Category.Update(category);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
 
         [HttpGet]
         public IActionResult ConfirmDelete(int id, string name)
@@ -67,5 +85,6 @@ namespace ITI.ElectroDev.Presentation
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+       
     }
 }
