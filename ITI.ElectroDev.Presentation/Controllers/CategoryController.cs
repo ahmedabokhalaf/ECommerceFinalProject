@@ -20,7 +20,7 @@ namespace ITI.ElectroDev.Presentation
         [HttpGet]
         public IActionResult Index(int pageIndex = 1, int pageSize = 2)
         {
-            ViewBag.Title = "Category  | Index";
+            ViewBag.Title = "Category List";
             var categories = db.Category.ToPagedList(pageIndex, pageSize);
             return View(categories);
         }
@@ -35,6 +35,7 @@ namespace ITI.ElectroDev.Presentation
         [HttpGet]
         public IActionResult Add()
         {
+            ViewBag.Title = "Add New Category";
             return View();
         }
 
@@ -49,6 +50,7 @@ namespace ITI.ElectroDev.Presentation
         [HttpGet]
         public IActionResult ConfirmDelete(int id, string name)
         {
+            ViewBag.Title = "Delete Category";
             dynamic category = new ExpandoObject();
             category.Name = name;
             category.Id = id;

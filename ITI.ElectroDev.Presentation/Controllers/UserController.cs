@@ -2,23 +2,28 @@
 using ITI.ElectroDev.Presentation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ITI.ElectroDev.Presentation
 {
 
+    
     public class UserController : Controller
     {
+        Context c;
         UserManager<User> UserManager;
         SignInManager<User> SignInManager;
-        public UserController(UserManager<User> usermanager, SignInManager<User> signInManager)
+        public UserController(UserManager<User> usermanager, SignInManager<User> signInManager, Context _c)
         {
             UserManager = usermanager;
             SignInManager = signInManager;
+            this.c = _c;
         }
 
         [HttpGet]
         public IActionResult SignUp()
         {
+            ViewBag.Title = "Sign Up";
             return View();
         }
         [HttpPost]
@@ -61,6 +66,9 @@ namespace ITI.ElectroDev.Presentation
         [HttpGet]
         public IActionResult SignIn()
         {
+            ViewBag.UserName = c.Users.Select(i => new SelectListItem(i.UserName,i.UserName));
+
+            ViewBag.Title = "Sign In";
             return View();
         }
 
@@ -97,6 +105,13 @@ namespace ITI.ElectroDev.Presentation
         {
             await SignInManager.SignOutAsync();
             return RedirectToAction("SignIn", "User");
+        }
+
+        [HttpGet]
+        public IActionResult Control()
+        {
+            ViewBag.Title = "Control";
+            return View();
         }
     }
 }
