@@ -7251,19 +7251,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ALL IN ONE\\.nuget\\packages\\": {}
+    "C:\\Users\\Fedodbdb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
       "projectName": "ITI.ElectroDev.Models",
-      "projectPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
-      "packagesPath": "C:\\Users\\ALL IN ONE\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\obj\\",
+      "projectPath": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+      "packagesPath": "C:\\Users\\Fedodbdb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ALL IN ONE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Fedodbdb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7338,7 +7338,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

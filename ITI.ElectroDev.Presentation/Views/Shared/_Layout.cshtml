@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<<<<<<< HEAD
-    <title>@ViewBag.Title - ElectroDev</title>
+@*<<<<<<< HEAD
+*@    <title>@ViewBag.Title - ElectroDev</title>
      <!-- Core Style CSS -->
     <link rel="stylesheet" href="https://therichpost.com/responsivestyle/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
@@ -13,9 +13,6 @@
    <style>
     .logo{font-size: 3rem;}
    </style>
-  
-</head>
-<body>
    @RenderBody()
   
 =======
@@ -29,9 +26,12 @@
             font-size: 3rem;
         }
     </style>
-
 </head>
 <body>
+  
+
+
+
     <!-- Dashboard -->
     <div class="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary">
         <!-- Vertical Navbar -->
@@ -57,7 +57,7 @@
                         <li class="nav-item"> <a class="nav-link" href="#"> <i class="bi bi-bar-chart"></i> Add Category </a> </li>
                         <li class="nav-item"> <a class="nav-link" href="#"> <i class="bi bi-chat"></i> Add Product <span class="badge bg-soft-primary text-primary rounded-pill d-inline-flex align-items-center ms-auto">6</span> </a> </li>
                         <li class="nav-item"> <a class="nav-link" href="#"> <i class="bi bi-bookmarks"></i> Collections </a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#"> <i class="bi bi-people"></i> Users </a> </li>
+                        <li class="nav-item"> <a class="nav-link" asp-action="SignUp" asp-controller="User"> <i class="bi bi-people"></i> Users </a> </li>
                     </ul> <!-- Divider -->
                     <hr class="navbar-divider my-5 opacity-20"> <!-- Navigation -->
                     <ul class="navbar-nav mb-md-4">
@@ -99,11 +99,14 @@
                     </ul>
                 </div>
             </div>
+
         </nav>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+        </div>
+
     </div>
 	<!-- jQuery Plugins -->
 	<script src="~/js/jquery.min.js"></script>
@@ -119,4 +122,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 >>>>>>> Mariam
 </body>
-</html
+</html>
