@@ -1,5 +1,5 @@
 ﻿using ITI.ElectroDev.Models;
-using ITI.ElectroDev.Presentation.Models;
+using ITI.ElectroDev.Presentation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -7,7 +7,7 @@ using System.Data;
 using System.Dynamic;
 using X.PagedList;
 
-namespace ITI.ElectroDev.Presentation.Controllers
+namespace ITI.ElectroDev.Presentation
 {
     public class CategoryController : Controller
     {

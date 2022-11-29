@@ -1,8 +1,8 @@
-﻿using ITI.ElectroDev.Presentation.Models;
+﻿using ITI.ElectroDev.Presentation;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ITI.ElectroDev.Presentation.Controllers
+namespace ITI.ElectroDev.Presentation
 {
     public class HomeController : Controller
     {

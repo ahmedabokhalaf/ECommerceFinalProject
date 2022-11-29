@@ -26,3 +26,17 @@ C:\Users\Mariam Ayman\Desktop\Amazon\ITI.ElectroDev.Models\obj\Debug\net6.0\refi
 C:\Users\Mariam Ayman\Desktop\Amazon\ITI.ElectroDev.Models\obj\Debug\net6.0\ITI.ElectroDev.Models.pdb
 C:\Users\Mariam Ayman\Desktop\Amazon\ITI.ElectroDev.Models\obj\Debug\net6.0\ITI.ElectroDev.Models.genruntimeconfig.cache
 C:\Users\Mariam Ayman\Desktop\Amazon\ITI.ElectroDev.Models\obj\Debug\net6.0\ref\ITI.ElectroDev.Models.dll
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\bin\Debug\net6.0\ITI.ElectroDev.Models.deps.json
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\bin\Debug\net6.0\ITI.ElectroDev.Models.runtimeconfig.json
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\bin\Debug\net6.0\ITI.ElectroDev.Models.dll
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\bin\Debug\net6.0\ITI.ElectroDev.Models.pdb
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\obj\Debug\net6.0\ITI.ElectroDev.Models.csproj.AssemblyReference.cache
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\obj\Debug\net6.0\ITI.ElectroDev.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\obj\Debug\net6.0\ITI.ElectroDev.Models.AssemblyInfoInputs.cache
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\obj\Debug\net6.0\ITI.ElectroDev.Models.AssemblyInfo.cs
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\obj\Debug\net6.0\ITI.ElectroDev.Models.csproj.CoreCompileInputs.cache
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\obj\Debug\net6.0\ITI.ElectroDev.Models.dll
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\obj\Debug\net6.0\refint\ITI.ElectroDev.Models.dll
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\obj\Debug\net6.0\ITI.ElectroDev.Models.pdb
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\obj\Debug\net6.0\ITI.ElectroDev.Models.genruntimeconfig.cache
+C:\Users\Fedodbdb\Desktop\New folder\ITI.ElectroDev.Models\obj\Debug\net6.0\ref\ITI.ElectroDev.Models.dll
