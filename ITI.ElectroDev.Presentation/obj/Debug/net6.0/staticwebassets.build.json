@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CzOMJQlyvcvDf3aDuwJzus2O0QiPSSROSM2JI5mTrfA=",
+  "Hash": "Cl5rLn1m3zxRBewt0NA/9jaXWTT1lAdrNGWFqMsKIXs=",
   "Source": "ITI.ElectroDev.Presentation",
   "BasePath": "_content/ITI.ElectroDev.Presentation",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ITI.ElectroDev.Presentation\\wwwroot",
       "Source": "ITI.ElectroDev.Presentation",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ITI.ElectroDev.Presentation.styles.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ITI.ElectroDev.Presentation.styles.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "ITI.ElectroDev.Presentation.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ITI.ElectroDev.Presentation.styles.css"
+      "OriginalItemSpec": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ITI.ElectroDev.Presentation.styles.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ITI.ElectroDev.Presentation.bundle.scp.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ITI.ElectroDev.Presentation.bundle.scp.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "ITI.ElectroDev.Presentation.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ITI.ElectroDev.Presentation.bundle.scp.css"
+      "OriginalItemSpec": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ITI.ElectroDev.Presentation.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\css\\font-awesome.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\css\\font-awesome.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "css/font-awesome.min.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\css\\nouislider.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\css\\nouislider.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "css/nouislider.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\nouislider.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\css\\site.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\css\\site.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\css\\slick.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\css\\slick.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "css/slick.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\slick.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\css\\slick-theme.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\css\\slick-theme.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "css/slick-theme.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\slick-theme.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\css\\style.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\css\\style.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\favicon.ico",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\favicon.ico",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\FontAwesome.otf",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\FontAwesome.otf",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\slick.eot",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\slick.eot",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "fonts/slick.eot",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\slick.eot"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\slick.svg",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\slick.svg",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "fonts/slick.svg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\slick.svg"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\slick.ttf",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\slick.ttf",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "fonts/slick.ttf",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\slick.ttf"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\slick.woff",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\fonts\\slick.woff",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "fonts/slick.woff",
       "AssetKind": "All",
@@ -357,10 +357,418 @@
       "OriginalItemSpec": "wwwroot\\fonts\\slick.woff"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\hotdeal.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\053ea7e7-8fb4-4aaa-8334-4a26db902c92download.jpg",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/053ea7e7-8fb4-4aaa-8334-4a26db902c92download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\053ea7e7-8fb4-4aaa-8334-4a26db902c92download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\0839e7ed-366c-4f56-8384-c7b0535309fedownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/0839e7ed-366c-4f56-8384-c7b0535309fedownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\0839e7ed-366c-4f56-8384-c7b0535309fedownload.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\0eff388b-1959-4dc6-936b-dfd233f3da17download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/0eff388b-1959-4dc6-936b-dfd233f3da17download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\0eff388b-1959-4dc6-936b-dfd233f3da17download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\10690af8-5b8d-4032-ae2b-5d65ee6f765ddownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/10690af8-5b8d-4032-ae2b-5d65ee6f765ddownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\10690af8-5b8d-4032-ae2b-5d65ee6f765ddownload.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\164896e8-2c88-4a2a-828c-41f7c13ed3f6download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/164896e8-2c88-4a2a-828c-41f7c13ed3f6download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\164896e8-2c88-4a2a-828c-41f7c13ed3f6download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\2cd9cacf-720f-4329-97da-9c53d1074435download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/2cd9cacf-720f-4329-97da-9c53d1074435download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\2cd9cacf-720f-4329-97da-9c53d1074435download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\3c88e198-184b-445b-a0a3-681f06b6de21download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/3c88e198-184b-445b-a0a3-681f06b6de21download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\3c88e198-184b-445b-a0a3-681f06b6de21download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\47acde33-732d-4dfa-a271-c7e0bfeec938download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/47acde33-732d-4dfa-a271-c7e0bfeec938download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\47acde33-732d-4dfa-a271-c7e0bfeec938download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\52bd03d5-16a3-4179-8670-5e30b148817eproblem1-en.png",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/52bd03d5-16a3-4179-8670-5e30b148817eproblem1-en.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\52bd03d5-16a3-4179-8670-5e30b148817eproblem1-en.png"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\638a3345-23bf-4c7b-9222-8e9f62649b44download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/638a3345-23bf-4c7b-9222-8e9f62649b44download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\638a3345-23bf-4c7b-9222-8e9f62649b44download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\6c0b1d26-8b78-4522-ad1c-4d61ce490f31download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/6c0b1d26-8b78-4522-ad1c-4d61ce490f31download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\6c0b1d26-8b78-4522-ad1c-4d61ce490f31download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\7e15d2d3-3ea4-45da-99f2-72108f61287adownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/7e15d2d3-3ea4-45da-99f2-72108f61287adownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\7e15d2d3-3ea4-45da-99f2-72108f61287adownload.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\8f3816e0-7660-4acd-a92e-4e71e6b5b82adownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/8f3816e0-7660-4acd-a92e-4e71e6b5b82adownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\8f3816e0-7660-4acd-a92e-4e71e6b5b82adownload.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\b0aace9c-723e-46e4-ab56-73895199893ddownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/b0aace9c-723e-46e4-ab56-73895199893ddownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\b0aace9c-723e-46e4-ab56-73895199893ddownload.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\b7b733a7-cd6a-4850-b5b7-470568c63a31download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/b7b733a7-cd6a-4850-b5b7-470568c63a31download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\b7b733a7-cd6a-4850-b5b7-470568c63a31download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\c097e3d6-1c30-4145-b378-f21e360a3706problem1-en.png",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/c097e3d6-1c30-4145-b378-f21e360a3706problem1-en.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c097e3d6-1c30-4145-b378-f21e360a3706problem1-en.png"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\c6b6efd3-bb14-47c4-99b1-4fa82b00df51problem1-en.png",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/c6b6efd3-bb14-47c4-99b1-4fa82b00df51problem1-en.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c6b6efd3-bb14-47c4-99b1-4fa82b00df51problem1-en.png"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\d8056b8b-65a2-4696-a56f-2238595a289ddownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/d8056b8b-65a2-4696-a56f-2238595a289ddownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\d8056b8b-65a2-4696-a56f-2238595a289ddownload.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\d9ef0d0b-663b-4b10-9d21-fd4ad747a2b0problem1-en.png",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/d9ef0d0b-663b-4b10-9d21-fd4ad747a2b0problem1-en.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\d9ef0d0b-663b-4b10-9d21-fd4ad747a2b0problem1-en.png"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\e13c8b2d-448b-418f-b274-9aaf5cd7948b12.PNG",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/e13c8b2d-448b-418f-b274-9aaf5cd7948b12.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\e13c8b2d-448b-418f-b274-9aaf5cd7948b12.PNG"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\e26e19e0-27bd-4ddc-a27f-bbeb19672e46download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/e26e19e0-27bd-4ddc-a27f-bbeb19672e46download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\e26e19e0-27bd-4ddc-a27f-bbeb19672e46download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\f000e1f2-96c0-4c0e-b4d8-22bc10f7f574download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/f000e1f2-96c0-4c0e-b4d8-22bc10f7f574download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f000e1f2-96c0-4c0e-b4d8-22bc10f7f574download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\f5559a04-234f-4330-91fc-40850439137edownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/f5559a04-234f-4330-91fc-40850439137edownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f5559a04-234f-4330-91fc-40850439137edownload.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\f707bf2c-6879-4184-8535-7b9fce8ecb39download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/f707bf2c-6879-4184-8535-7b9fce8ecb39download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f707bf2c-6879-4184-8535-7b9fce8ecb39download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\hotdeal.png",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/hotdeal.png",
       "AssetKind": "All",
@@ -374,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hotdeal.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\logo.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\logo.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -391,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product01.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product01.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/product01.png",
       "AssetKind": "All",
@@ -408,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product01.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product02.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product02.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/product02.png",
       "AssetKind": "All",
@@ -425,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product02.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product03.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product03.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/product03.png",
       "AssetKind": "All",
@@ -442,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product03.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product04.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product04.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/product04.png",
       "AssetKind": "All",
@@ -459,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product04.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product05.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product05.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/product05.png",
       "AssetKind": "All",
@@ -476,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product05.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product06.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product06.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/product06.png",
       "AssetKind": "All",
@@ -493,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product06.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product07.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product07.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/product07.png",
       "AssetKind": "All",
@@ -510,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product07.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product08.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product08.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/product08.png",
       "AssetKind": "All",
@@ -527,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product08.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product09.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\product09.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/product09.png",
       "AssetKind": "All",
@@ -544,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product09.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\shop01.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\shop01.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/shop01.png",
       "AssetKind": "All",
@@ -561,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop01.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\shop02.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\shop02.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/shop02.png",
       "AssetKind": "All",
@@ -578,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop02.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\shop03.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\shop03.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/shop03.png",
       "AssetKind": "All",
@@ -595,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop03.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -612,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\js\\jquery.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\js\\jquery.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -629,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\js\\jquery.zoom.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\js\\jquery.zoom.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "js/jquery.zoom.min.js",
       "AssetKind": "All",
@@ -646,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.zoom.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\js\\main.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\js\\main.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -663,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\js\\nouislider.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\js\\nouislider.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "js/nouislider.min.js",
       "AssetKind": "All",
@@ -680,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\js\\nouislider.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\js\\site.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\js\\site.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -697,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\js\\slick.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\js\\slick.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "js/slick.min.js",
       "AssetKind": "All",
@@ -714,10 +1122,112 @@
       "OriginalItemSpec": "wwwroot\\js\\slick.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\bootstrap-icons\\bootstrap-icons.svg",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "lib/bootstrap/bootstrap-icons/bootstrap-icons.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\bootstrap-icons\\bootstrap-icons.svg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\bootstrap-icons\\font\\bootstrap-icons.css",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "lib/bootstrap/bootstrap-icons/font/bootstrap-icons.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\bootstrap-icons\\font\\bootstrap-icons.css"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\bootstrap-icons\\font\\bootstrap-icons.json",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "lib/bootstrap/bootstrap-icons/font/bootstrap-icons.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\bootstrap-icons\\font\\bootstrap-icons.json"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\bootstrap-icons\\font\\bootstrap-icons.min.css",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "lib/bootstrap/bootstrap-icons/font/bootstrap-icons.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\bootstrap-icons\\font\\bootstrap-icons.min.css"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "lib/bootstrap/bootstrap-icons/font/fonts/bootstrap-icons.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "lib/bootstrap/bootstrap-icons/font/fonts/bootstrap-icons.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -731,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -748,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -765,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -782,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -799,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -816,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -833,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -850,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -867,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -884,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -901,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -918,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -935,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -952,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -969,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -986,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1003,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1020,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1037,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1054,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1071,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1088,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1105,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1122,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1139,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1156,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1173,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1190,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1207,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1224,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1241,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1258,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1275,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1292,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1309,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1326,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1343,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1360,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1377,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1394,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1411,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1428,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1445,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1462,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1479,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1496,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1513,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1530,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1547,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js",
       "AssetKind": "All",
@@ -1564,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js",
       "AssetKind": "All",
@@ -1581,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1598,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1615,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1632,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1649,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1666,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1683,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1700,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1717,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Checkout.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Checkout.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "screenshot/Checkout.png",
       "AssetKind": "All",
@@ -1734,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\screenshot\\Checkout.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Index.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Index.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "screenshot/Index.png",
       "AssetKind": "All",
@@ -1751,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\screenshot\\Index.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Product.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Product.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "screenshot/Product.png",
       "AssetKind": "All",
@@ -1768,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\screenshot\\Product.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Regular.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Regular.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "screenshot/Regular.png",
       "AssetKind": "All",
@@ -1785,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\screenshot\\Regular.png"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Store.png",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Store.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "screenshot/Store.png",
       "AssetKind": "All",

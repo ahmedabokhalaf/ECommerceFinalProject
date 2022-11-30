@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ITI.ElectroDev.Models.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20221128113358_firstmigration")]
-    partial class firstmigration
+    [Migration("20221129213120_init2")]
+    partial class init2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -86,7 +86,6 @@ namespace ITI.ElectroDev.Models.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("UserId1")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
@@ -108,7 +107,6 @@ namespace ITI.ElectroDev.Models.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasMaxLength(1000)
                         .HasColumnType("nvarchar(1000)");
 
@@ -167,7 +165,6 @@ namespace ITI.ElectroDev.Models.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Comment")
-                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
@@ -204,11 +201,9 @@ namespace ITI.ElectroDev.Models.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -405,9 +400,7 @@ namespace ITI.ElectroDev.Models.Migrations
                 {
                     b.HasOne("ITI.ElectroDev.Models.User", "User")
                         .WithMany()
-                        .HasForeignKey("UserId1")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId1");
 
                     b.Navigation("User");
                 });
@@ -445,7 +438,7 @@ namespace ITI.ElectroDev.Models.Migrations
             modelBuilder.Entity("ITI.ElectroDev.Models.Rate", b =>
                 {
                     b.HasOne("ITI.ElectroDev.Models.Product", "Product")
-                        .WithMany("Rates")
+                        .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -522,8 +515,6 @@ namespace ITI.ElectroDev.Models.Migrations
             modelBuilder.Entity("ITI.ElectroDev.Models.Product", b =>
                 {
                     b.Navigation("ProductImages");
-
-                    b.Navigation("Rates");
                 });
 #pragma warning restore 612, 618
         }

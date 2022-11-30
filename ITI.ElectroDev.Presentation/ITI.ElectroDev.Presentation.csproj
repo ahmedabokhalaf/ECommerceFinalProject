@@ -24,4 +24,8 @@
     <ProjectReference Include="..\ITI.ElectroDev.Models\ITI.ElectroDev.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
 </Project>
