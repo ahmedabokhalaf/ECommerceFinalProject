@@ -24,7 +24,13 @@
 </header>
 <main class="bg-surface-primary border-bottom pt-6 mt-5">
     <div class="container-fluid mt-5 mb-5">
-    <partial name="_PagedCategories" model="@Model"></partial>
+        @if (Model.ToList<Category>().Count != 0)
+        {
+            <partial name="_PagedCategories" model="@Model"></partial>
+        }else{
+            <h3 class="text-center">Not Categorty added</h3>
+        }
+            
     </div>
 </main>
        
