@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -18,15 +19,16 @@ namespace ITI.ElectroDev.Models
         public DbSet<ProductImages> productImages { get; set; }
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Category> Category { get; set; }
-        public DbSet<Rate> Rate { get; set; }
-
+        public DbSet<OrderItems> OrderItems { get; set; }
+        public DbSet<OrderDetails> OrderDetails { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             new BrandConfig().Configure(modelBuilder.Entity<Brand>());
             new CategoryConfig().Configure(modelBuilder.Entity<Category>());
             new ProductConfig().Configure(modelBuilder.Entity<Product>());
             new ProductImagesConfig().Configure(modelBuilder.Entity<ProductImages>());
-            new RateConfig().Configure(modelBuilder.Entity<Rate>());
+            new OrderDetailsConfig().Configure(modelBuilder.Entity<OrderDetails>());
+            new OrderItemsConfig().Configure(modelBuilder.Entity<OrderItems>());
             modelBuilder.MapRelations();
             base.OnModelCreating(modelBuilder);
         }
