@@ -105,9 +105,6 @@ namespace ITI.ElectroDev.Models.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("ModifiedAt")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
