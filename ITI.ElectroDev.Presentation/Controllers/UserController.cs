@@ -113,6 +113,14 @@ namespace ITI.ElectroDev.Presentation
             ViewBag.Title = "Control";
             return View();
         }
+
+        public IActionResult UsersDetails()
+        {
+            ViewBag.Title = "All users";
+            var users = c.Users.ToList();
+
+            return View(users);
+        }
     }
 }
 

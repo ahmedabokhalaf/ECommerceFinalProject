@@ -1,0 +1,18 @@
+﻿@model  List<User> 
+<h3 style="text-align:center;color:black; margin-top:10px;">All Users In The Dashboard</h3>
+<br />
+<br />
+<br />
+
+    @foreach(var u in Model)
+    {
+        <ul>
+          <h4>@u.UserName</h4>
+          <br>
+         <li>First Name: @u.FirstName</li>
+        <li>Last Name: @u.LastName</li>
+        <li>Email: @u.Email</li>
+
+    </ul>
+    <hr / style="border-top: 1px solid red;">
+    }
