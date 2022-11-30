@@ -23,7 +23,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ29uZmlybURlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Category/Index.cshtml]
+=======
+[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Category/Index.cshtml]
+>>>>>>> main
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -51,7 +59,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/SignIn.cshtml]
+=======
+[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/User/Control.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb250cm9sLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/User/SignIn.cshtml]
+>>>>>>> main
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 

@@ -16,8 +16,12 @@ namespace ITI.ElectroDev.Models
         public int BrandId { get; set; }
         public virtual Brand Brand { get; set; }
         public virtual ICollection<ProductImages> ProductImages { get; set; }
+<<<<<<< HEAD
         //public virtual ICollection<Rate> Rates { get; set; }
         public int OrderId { get; set; }
         public virtual Order Order { get; set; }
+=======
+        public virtual OrderItems OrderItems { get; set; }
+>>>>>>> main
     }
 }
