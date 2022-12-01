@@ -4,24 +4,30 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyModel;
-
+using System.Dynamic;
+using Microsoft.AspNetCore.Hosting;
 namespace ITI.ElectroDev.Presentation.Controllers
 {
     public class ProductController : Controller
     {
+        private IWebHostEnvironment Environment;
+
         private Context context;
         IConfiguration con;
-        public ProductController(Context _context , IConfiguration _con)
+        public ProductController(Context _context , IConfiguration _con , IWebHostEnvironment _environment)
         {
             context = _context;
             con = _con;
+            Environment = _environment;
         }
 
         [HttpGet]
         public async Task<IActionResult> Index()
         {
             var product = await context.Product.ToListAsync();
-            ViewBag.ImagesPath = con.GetSection("ImagesPath").Value.ToString();
+            // ViewBag.ImagesPath = con.GetSection("ImagesPath").Value.ToString();
+            string wwwPath = this.Environment.WebRootPath;
+            ViewBag.contentPath = this.Environment.ContentRootPath;
             return View(product);
         }
 
@@ -79,7 +85,8 @@ namespace ITI.ElectroDev.Presentation.Controllers
                     Name = createModel.Name,
                     Description = createModel.Description,
                     BrandId = createModel.BrandId,
-                    OrderId = createModel.OrderId,
+                    Price = createModel.Price ,
+                    Quantity = createModel.Quantity ,
                     ProductImages = productImages,
                 });
 
@@ -94,7 +101,101 @@ namespace ITI.ElectroDev.Presentation.Controllers
 
 
 
+
+
+        }
+
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+                return BadRequest();
+
+            var prd = await context.Product.FindAsync(id);
+
+                if (prd == null)
+                return NotFound();
+
+            var viewModel = new ProductCreateModel
+            {
+                id = prd.Id,
+                Name = prd.Name,
+                Description = prd.Description,
+                BrandId = prd.BrandId,
+                Price = prd.Price,
+                Quantity = prd.Quantity,
+                
+
+            };
+
+            return View(viewModel);
+        }
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(ProductCreateModel model)
+        {
+            if (ModelState.IsValid == false)
+            {
+                var errors =
+                    ModelState.SelectMany(i => i.Value.Errors.Select(x => x.ErrorMessage));
+
+                foreach (string err in errors)
+                    ModelState.AddModelError("", err);
+
+
+                //ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
+
+                return View();
+            }
+            var prd = await context.Product.FindAsync(model.id);
+
+            if (prd == null)
+                return NotFound();
+            prd.Name = model.Name;
+            prd.Description = model.Description;
+            prd.Price = model.Price;
+            prd.Quantity = model.Quantity;
+            prd.BrandId = model.BrandId;
+
+            context.SaveChanges();
+            return RedirectToAction("Index");
+
+        }
+
+
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+                return BadRequest();
+
+            var prd = await context.Product.FindAsync(id);
+
+            if (prd == null)
+                return NotFound();
+
+            return View(prd);
+
+        }
+
+        [HttpGet]
+        public IActionResult ConfirmDelete(int id, string Name)
+        {
+            dynamic product = new ExpandoObject();
+            product.Name = Name;
+            product.ID = id;
+            return View(product);
+        }
+
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var product = context.Product.FirstOrDefault(i => i.Id == id);
+            context.Product.Remove(product);
+            context.SaveChanges();
+            return RedirectToAction("Index");
         }
 
     }
-}
+    }

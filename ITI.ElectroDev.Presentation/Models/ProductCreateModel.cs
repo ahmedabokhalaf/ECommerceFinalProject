@@ -7,6 +7,9 @@ namespace ITI.ElectroDev.Presentation.Models
     {
 
         
+
+        public int id { set; get;  }
+
         [StringLength(250)]
         [Required(ErrorMessage = "هذا الحقل مطلوب *")]
         [MaxLength(255, ErrorMessage = "لا يزيد عن 255 حرف *")]
@@ -35,10 +38,6 @@ namespace ITI.ElectroDev.Presentation.Models
         [Required]
         public int BrandId { get; set; }
 
-
-        [Display(Name = "Order")]
-        [Required]
-        public int OrderId { get; set; }
 
     }
 

@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "Cl5rLn1m3zxRBewt0NA/9jaXWTT1lAdrNGWFqMsKIXs=",
-=======
-  "Hash": "hPtSVaExlkG+9ac6WwuPTnKxqXDFzt8q72+LdwHQpuY=",
->>>>>>> main
+  "Hash": "Ye+7OBYUD2e9FHha/A4yT3WzdkjVVYsedbIlHf/E54Q=",
   "Source": "ITI.ElectroDev.Presentation",
   "BasePath": "_content/ITI.ElectroDev.Presentation",
   "Mode": "Default",
@@ -361,28 +357,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\slick.woff"
     },
     {
-<<<<<<< HEAD
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\053ea7e7-8fb4-4aaa-8334-4a26db902c92download.jpg",
-=======
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\uploadloader.gif",
-      "SourceId": "ITI.ElectroDev.Presentation",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
-      "BasePath": "_content/ITI.ElectroDev.Presentation",
-      "RelativePath": "Images/uploadloader.gif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\uploadloader.gif"
-    },
-    {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\hotdeal.png",
->>>>>>> main
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
@@ -450,6 +425,40 @@
       "OriginalItemSpec": "wwwroot\\Images\\10690af8-5b8d-4032-ae2b-5d65ee6f765ddownload.jpg"
     },
     {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\1409d133-5715-4a17-8831-98cddcb2ce6adownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/1409d133-5715-4a17-8831-98cddcb2ce6adownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1409d133-5715-4a17-8831-98cddcb2ce6adownload.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\1436d446-1ab5-448c-8d94-74a9820c03a4error.PNG",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/1436d446-1ab5-448c-8d94-74a9820c03a4error.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1436d446-1ab5-448c-8d94-74a9820c03a4error.PNG"
+    },
+    {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\164896e8-2c88-4a2a-828c-41f7c13ed3f6download.jpg",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
@@ -465,6 +474,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\164896e8-2c88-4a2a-828c-41f7c13ed3f6download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\1aa4c18c-2f58-43b1-b152-40426e0fcc97تنسيق حذيفة.PNG",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/1aa4c18c-2f58-43b1-b152-40426e0fcc97تنسيق حذيفة.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1aa4c18c-2f58-43b1-b152-40426e0fcc97تنسيق حذيفة.PNG"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\2989a85e-bf06-419b-ada2-228d698dd896download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/2989a85e-bf06-419b-ada2-228d698dd896download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\2989a85e-bf06-419b-ada2-228d698dd896download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\2a316062-15a5-4788-8e64-270d0e15ef63download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/2a316062-15a5-4788-8e64-270d0e15ef63download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\2a316062-15a5-4788-8e64-270d0e15ef63download.jpg"
     },
     {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\2cd9cacf-720f-4329-97da-9c53d1074435download.jpg",
@@ -501,6 +561,40 @@
       "OriginalItemSpec": "wwwroot\\Images\\3c88e198-184b-445b-a0a3-681f06b6de21download.jpg"
     },
     {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\3fc72942-0f9c-48ec-9329-1511d8201722OIP.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/3fc72942-0f9c-48ec-9329-1511d8201722OIP.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\3fc72942-0f9c-48ec-9329-1511d8201722OIP.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\41110b83-a977-4477-b707-ce9d28245864download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/41110b83-a977-4477-b707-ce9d28245864download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\41110b83-a977-4477-b707-ce9d28245864download.jpg"
+    },
+    {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\47acde33-732d-4dfa-a271-c7e0bfeec938download.jpg",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
@@ -535,6 +629,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\52bd03d5-16a3-4179-8670-5e30b148817eproblem1-en.png"
     },
     {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\62992114-94dd-4895-8da5-b13fcf6efacddownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/62992114-94dd-4895-8da5-b13fcf6efacddownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\62992114-94dd-4895-8da5-b13fcf6efacddownload.jpg"
+    },
+    {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\638a3345-23bf-4c7b-9222-8e9f62649b44download.jpg",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
@@ -550,6 +661,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\638a3345-23bf-4c7b-9222-8e9f62649b44download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\6ab4f2df-9c76-4b8e-9557-210fd2a2dedbdownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/6ab4f2df-9c76-4b8e-9557-210fd2a2dedbdownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\6ab4f2df-9c76-4b8e-9557-210fd2a2dedbdownload.jpg"
     },
     {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\6c0b1d26-8b78-4522-ad1c-4d61ce490f31download.jpg",
@@ -569,6 +697,57 @@
       "OriginalItemSpec": "wwwroot\\Images\\6c0b1d26-8b78-4522-ad1c-4d61ce490f31download.jpg"
     },
     {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\6d68fb1d-c17e-49e1-88fe-811bc87e95a6solution2-en.png",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/6d68fb1d-c17e-49e1-88fe-811bc87e95a6solution2-en.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\6d68fb1d-c17e-49e1-88fe-811bc87e95a6solution2-en.png"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\74501cf7-1bb7-4161-b9eb-2d69bdbac50adownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/74501cf7-1bb7-4161-b9eb-2d69bdbac50adownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\74501cf7-1bb7-4161-b9eb-2d69bdbac50adownload.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\781a50a8-5a84-4773-86fe-0baa71ca97c3download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/781a50a8-5a84-4773-86fe-0baa71ca97c3download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\781a50a8-5a84-4773-86fe-0baa71ca97c3download.jpg"
+    },
+    {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\7e15d2d3-3ea4-45da-99f2-72108f61287adownload.jpg",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
@@ -586,6 +765,40 @@
       "OriginalItemSpec": "wwwroot\\Images\\7e15d2d3-3ea4-45da-99f2-72108f61287adownload.jpg"
     },
     {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\7f7ee932-2e83-48fd-ad15-27e43e68079esolution2-en.png",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/7f7ee932-2e83-48fd-ad15-27e43e68079esolution2-en.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\7f7ee932-2e83-48fd-ad15-27e43e68079esolution2-en.png"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\83bcf398-06c8-40ad-a784-b8e4039c49f3download.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/83bcf398-06c8-40ad-a784-b8e4039c49f3download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\83bcf398-06c8-40ad-a784-b8e4039c49f3download.jpg"
+    },
+    {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\8f3816e0-7660-4acd-a92e-4e71e6b5b82adownload.jpg",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
@@ -601,6 +814,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\8f3816e0-7660-4acd-a92e-4e71e6b5b82adownload.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\8fcea3ba-16f6-4b37-b563-3424c6e45d35تنسيق حذيفة.PNG",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/8fcea3ba-16f6-4b37-b563-3424c6e45d35تنسيق حذيفة.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\8fcea3ba-16f6-4b37-b563-3424c6e45d35تنسيق حذيفة.PNG"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\98f8ea98-c678-48f2-94c3-f1aeb4ff5fd8problem1-en.png",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/98f8ea98-c678-48f2-94c3-f1aeb4ff5fd8problem1-en.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\98f8ea98-c678-48f2-94c3-f1aeb4ff5fd8problem1-en.png"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\a8306727-1a6a-4419-834f-0ce2759a3e2ddownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/a8306727-1a6a-4419-834f-0ce2759a3e2ddownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\a8306727-1a6a-4419-834f-0ce2759a3e2ddownload.jpg"
     },
     {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\b0aace9c-723e-46e4-ab56-73895199893ddownload.jpg",
@@ -671,6 +935,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\c6b6efd3-bb14-47c4-99b1-4fa82b00df51problem1-en.png"
     },
     {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\c95e3508-4264-4937-9733-8d09c15fd51e11.PNG",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/c95e3508-4264-4937-9733-8d09c15fd51e11.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c95e3508-4264-4937-9733-8d09c15fd51e11.PNG"
+    },
+    {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\d8056b8b-65a2-4696-a56f-2238595a289ddownload.jpg",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
@@ -739,6 +1020,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\e26e19e0-27bd-4ddc-a27f-bbeb19672e46download.jpg"
     },
     {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\e5b00c38-370f-4bb2-aa12-6ba4ceef31fadownload.jpg",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/e5b00c38-370f-4bb2-aa12-6ba4ceef31fadownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\e5b00c38-370f-4bb2-aa12-6ba4ceef31fadownload.jpg"
+    },
+    {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\f000e1f2-96c0-4c0e-b4d8-22bc10f7f574download.jpg",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
@@ -788,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\f707bf2c-6879-4184-8535-7b9fce8ecb39download.jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\uploadloader.gif",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/uploadloader.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\uploadloader.gif"
     },
     {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\img\\hotdeal.png",
@@ -2252,13 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
-      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Checkout.png",
-=======
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap.css",
       "AssetKind": "All",
@@ -2272,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2289,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2306,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2323,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2340,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2357,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2374,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2391,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2408,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2425,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2442,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2459,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2476,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2493,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2510,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2527,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2544,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2561,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2578,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2595,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2612,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2629,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2646,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2663,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2680,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2697,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2714,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2731,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2748,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2765,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2782,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2799,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2816,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2833,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2850,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2867,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2884,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2901,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2918,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2935,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/js/bootstrap.js",
       "AssetKind": "All",
@@ -2952,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.js.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.js.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2969,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.min.js",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.min.js",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2986,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.min.js.map",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.min.js.map",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3003,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_accordion.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_accordion.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_accordion.scss",
       "AssetKind": "All",
@@ -3020,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_alert.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_alert.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_alert.scss",
       "AssetKind": "All",
@@ -3037,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_alert.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_badge.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_badge.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_badge.scss",
       "AssetKind": "All",
@@ -3054,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_badge.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_breadcrumb.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_breadcrumb.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_breadcrumb.scss",
       "AssetKind": "All",
@@ -3071,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_button-group.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_button-group.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_button-group.scss",
       "AssetKind": "All",
@@ -3088,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_buttons.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_buttons.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_buttons.scss",
       "AssetKind": "All",
@@ -3105,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_card.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_card.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_card.scss",
       "AssetKind": "All",
@@ -3122,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_card.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_carousel.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_carousel.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_carousel.scss",
       "AssetKind": "All",
@@ -3139,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_close.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_close.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_close.scss",
       "AssetKind": "All",
@@ -3156,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_close.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_containers.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_containers.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_containers.scss",
       "AssetKind": "All",
@@ -3173,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_containers.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_dropdown.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_dropdown.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_dropdown.scss",
       "AssetKind": "All",
@@ -3190,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_forms.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_forms.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_forms.scss",
       "AssetKind": "All",
@@ -3207,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_forms.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_functions.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_functions.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_functions.scss",
       "AssetKind": "All",
@@ -3224,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_functions.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_grid.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_grid.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_grid.scss",
       "AssetKind": "All",
@@ -3241,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_grid.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_helpers.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_helpers.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_helpers.scss",
       "AssetKind": "All",
@@ -3258,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_images.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_images.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_images.scss",
       "AssetKind": "All",
@@ -3275,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_images.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_list-group.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_list-group.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_list-group.scss",
       "AssetKind": "All",
@@ -3292,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_maps.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_maps.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_maps.scss",
       "AssetKind": "All",
@@ -3309,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_maps.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_mixins.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_mixins.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_mixins.scss",
       "AssetKind": "All",
@@ -3326,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_modal.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_modal.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_modal.scss",
       "AssetKind": "All",
@@ -3343,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_modal.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_nav.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_nav.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_nav.scss",
       "AssetKind": "All",
@@ -3360,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_nav.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_navbar.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_navbar.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_navbar.scss",
       "AssetKind": "All",
@@ -3377,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_offcanvas.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_offcanvas.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_offcanvas.scss",
       "AssetKind": "All",
@@ -3394,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_pagination.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_pagination.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_pagination.scss",
       "AssetKind": "All",
@@ -3411,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_placeholders.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_placeholders.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_placeholders.scss",
       "AssetKind": "All",
@@ -3428,10 +3740,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_placeholders.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_popover.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_popover.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_popover.scss",
       "AssetKind": "All",
@@ -3445,10 +3757,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_popover.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_progress.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_progress.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_progress.scss",
       "AssetKind": "All",
@@ -3462,10 +3774,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_progress.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_reboot.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_reboot.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_reboot.scss",
       "AssetKind": "All",
@@ -3479,10 +3791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_root.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_root.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_root.scss",
       "AssetKind": "All",
@@ -3496,10 +3808,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_root.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_spinners.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_spinners.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_spinners.scss",
       "AssetKind": "All",
@@ -3513,10 +3825,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_tables.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_tables.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_tables.scss",
       "AssetKind": "All",
@@ -3530,10 +3842,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_tables.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_toasts.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_toasts.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_toasts.scss",
       "AssetKind": "All",
@@ -3547,10 +3859,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_tooltip.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_tooltip.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_tooltip.scss",
       "AssetKind": "All",
@@ -3564,10 +3876,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_transitions.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_transitions.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_transitions.scss",
       "AssetKind": "All",
@@ -3581,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_type.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_type.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_type.scss",
       "AssetKind": "All",
@@ -3598,10 +3910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_type.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_utilities.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_utilities.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_utilities.scss",
       "AssetKind": "All",
@@ -3615,10 +3927,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_variables.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\_variables.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/_variables.scss",
       "AssetKind": "All",
@@ -3632,10 +3944,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\_variables.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/bootstrap.scss",
       "AssetKind": "All",
@@ -3649,10 +3961,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-grid.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-grid.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/bootstrap-grid.scss",
       "AssetKind": "All",
@@ -3666,10 +3978,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-reboot.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-reboot.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/bootstrap-reboot.scss",
       "AssetKind": "All",
@@ -3683,10 +3995,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-utilities.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-utilities.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/bootstrap-utilities.scss",
       "AssetKind": "All",
@@ -3700,10 +4012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_floating-labels.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/forms/_floating-labels.scss",
       "AssetKind": "All",
@@ -3717,10 +4029,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-check.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-check.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/forms/_form-check.scss",
       "AssetKind": "All",
@@ -3734,10 +4046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-check.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-control.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-control.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/forms/_form-control.scss",
       "AssetKind": "All",
@@ -3751,10 +4063,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-range.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-range.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/forms/_form-range.scss",
       "AssetKind": "All",
@@ -3768,10 +4080,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-select.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-select.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/forms/_form-select.scss",
       "AssetKind": "All",
@@ -3785,10 +4097,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-text.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-text.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/forms/_form-text.scss",
       "AssetKind": "All",
@@ -3802,10 +4114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_input-group.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_input-group.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/forms/_input-group.scss",
       "AssetKind": "All",
@@ -3819,10 +4131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_labels.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_labels.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/forms/_labels.scss",
       "AssetKind": "All",
@@ -3836,10 +4148,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_validation.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_validation.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/forms/_validation.scss",
       "AssetKind": "All",
@@ -3853,10 +4165,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_clearfix.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/helpers/_clearfix.scss",
       "AssetKind": "All",
@@ -3870,10 +4182,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_color-bg.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_color-bg.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/helpers/_color-bg.scss",
       "AssetKind": "All",
@@ -3887,10 +4199,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_color-bg.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_colored-links.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/helpers/_colored-links.scss",
       "AssetKind": "All",
@@ -3904,10 +4216,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_position.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_position.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/helpers/_position.scss",
       "AssetKind": "All",
@@ -3921,10 +4233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_ratio.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_ratio.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/helpers/_ratio.scss",
       "AssetKind": "All",
@@ -3938,10 +4250,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_stacks.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_stacks.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/helpers/_stacks.scss",
       "AssetKind": "All",
@@ -3955,10 +4267,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_stacks.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_stretched-link.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/helpers/_stretched-link.scss",
       "AssetKind": "All",
@@ -3972,10 +4284,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_text-truncation.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/helpers/_text-truncation.scss",
       "AssetKind": "All",
@@ -3989,10 +4301,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/helpers/_visually-hidden.scss",
       "AssetKind": "All",
@@ -4006,10 +4318,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_vr.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_vr.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/helpers/_vr.scss",
       "AssetKind": "All",
@@ -4023,10 +4335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_vr.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_alert.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_alert.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_alert.scss",
       "AssetKind": "All",
@@ -4040,10 +4352,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_backdrop.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_backdrop.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_backdrop.scss",
       "AssetKind": "All",
@@ -4057,10 +4369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_backdrop.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_banner.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_banner.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_banner.scss",
       "AssetKind": "All",
@@ -4074,10 +4386,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_banner.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_border-radius.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_border-radius.scss",
       "AssetKind": "All",
@@ -4091,10 +4403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_box-shadow.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_box-shadow.scss",
       "AssetKind": "All",
@@ -4108,10 +4420,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_breakpoints.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_breakpoints.scss",
       "AssetKind": "All",
@@ -4125,10 +4437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_buttons.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_buttons.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_buttons.scss",
       "AssetKind": "All",
@@ -4142,10 +4454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_caret.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_caret.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_caret.scss",
       "AssetKind": "All",
@@ -4159,10 +4471,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_clearfix.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_clearfix.scss",
       "AssetKind": "All",
@@ -4176,10 +4488,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_color-scheme.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_color-scheme.scss",
       "AssetKind": "All",
@@ -4193,10 +4505,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_container.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_container.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_container.scss",
       "AssetKind": "All",
@@ -4210,10 +4522,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_deprecate.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_deprecate.scss",
       "AssetKind": "All",
@@ -4227,10 +4539,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_forms.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_forms.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_forms.scss",
       "AssetKind": "All",
@@ -4244,10 +4556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_gradients.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_gradients.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_gradients.scss",
       "AssetKind": "All",
@@ -4261,10 +4573,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_grid.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_grid.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_grid.scss",
       "AssetKind": "All",
@@ -4278,10 +4590,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_image.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_image.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_image.scss",
       "AssetKind": "All",
@@ -4295,10 +4607,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_list-group.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_list-group.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_list-group.scss",
       "AssetKind": "All",
@@ -4312,10 +4624,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_lists.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_lists.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_lists.scss",
       "AssetKind": "All",
@@ -4329,10 +4641,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_pagination.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_pagination.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_pagination.scss",
       "AssetKind": "All",
@@ -4346,10 +4658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_reset-text.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_reset-text.scss",
       "AssetKind": "All",
@@ -4363,10 +4675,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_resize.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_resize.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_resize.scss",
       "AssetKind": "All",
@@ -4380,10 +4692,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_table-variants.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_table-variants.scss",
       "AssetKind": "All",
@@ -4397,10 +4709,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_text-truncate.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_text-truncate.scss",
       "AssetKind": "All",
@@ -4414,10 +4726,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_transition.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_transition.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_transition.scss",
       "AssetKind": "All",
@@ -4431,10 +4743,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_utilities.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_utilities.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_utilities.scss",
       "AssetKind": "All",
@@ -4448,10 +4760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/mixins/_visually-hidden.scss",
       "AssetKind": "All",
@@ -4465,10 +4777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\utilities\\_api.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\utilities\\_api.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/utilities/_api.scss",
       "AssetKind": "All",
@@ -4482,10 +4794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss",
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "lib/twitter-bootstrap/scss/vendor/_rfs.scss",
       "AssetKind": "All",
@@ -4499,8 +4811,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Checkout.png",
->>>>>>> main
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Checkout.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",

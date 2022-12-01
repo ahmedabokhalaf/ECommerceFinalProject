@@ -114,15 +114,6 @@ namespace ITI.ElectroDev.Models.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-<<<<<<< HEAD
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserId1")
-                        .HasColumnType("nvarchar(450)");
-
-=======
->>>>>>> main
                     b.HasKey("Id");
 
                     b.HasIndex("OrderId");
@@ -189,34 +180,6 @@ namespace ITI.ElectroDev.Models.Migrations
                     b.ToTable("ProductImages", (string)null);
                 });
 
-<<<<<<< HEAD
-            modelBuilder.Entity("ITI.ElectroDev.Models.Rate", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("Comment")
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
-
-                    b.Property<int>("NumberOfStars")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Rate", (string)null);
-                });
-
-=======
->>>>>>> main
             modelBuilder.Entity("ITI.ElectroDev.Models.User", b =>
                 {
                     b.Property<string>("Id")
@@ -435,15 +398,10 @@ namespace ITI.ElectroDev.Models.Migrations
             modelBuilder.Entity("ITI.ElectroDev.Models.OrderDetails", b =>
                 {
                     b.HasOne("ITI.ElectroDev.Models.User", "User")
-<<<<<<< HEAD
-                        .WithMany()
-                        .HasForeignKey("UserId1");
-=======
                         .WithOne("OrderDetails")
                         .HasForeignKey("ITI.ElectroDev.Models.OrderDetails", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
->>>>>>> main
 
                     b.Navigation("User");
                 });
@@ -489,20 +447,6 @@ namespace ITI.ElectroDev.Models.Migrations
                     b.Navigation("Product");
                 });
 
-<<<<<<< HEAD
-            modelBuilder.Entity("ITI.ElectroDev.Models.Rate", b =>
-                {
-                    b.HasOne("ITI.ElectroDev.Models.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-                });
-
-=======
->>>>>>> main
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -571,9 +515,6 @@ namespace ITI.ElectroDev.Models.Migrations
 
             modelBuilder.Entity("ITI.ElectroDev.Models.Product", b =>
                 {
-<<<<<<< HEAD
-                    b.Navigation("ProductImages");
-=======
                     b.Navigation("OrderItems");
 
                     b.Navigation("ProductImages");
@@ -582,7 +523,6 @@ namespace ITI.ElectroDev.Models.Migrations
             modelBuilder.Entity("ITI.ElectroDev.Models.User", b =>
                 {
                     b.Navigation("OrderDetails");
->>>>>>> main
                 });
 #pragma warning restore 612, 618
         }
