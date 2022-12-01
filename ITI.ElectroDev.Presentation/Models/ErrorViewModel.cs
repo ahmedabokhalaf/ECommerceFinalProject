@@ -1,4 +1,4 @@
-namespace ITI.ElectroDev.Presentation.Models
+namespace ITI.ElectroDev.Presentation
 {
     public class ErrorViewModel
     {

@@ -1,5 +1,5 @@
 ﻿using ITI.ElectroDev.Models;
-using ITI.ElectroDev.Presentation.Models;
+using ITI.ElectroDev.Presentation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -7,7 +7,7 @@ using System.Data;
 using System.Dynamic;
 using X.PagedList;
 
-namespace ITI.ElectroDev.Presentation.Controllers
+namespace ITI.ElectroDev.Presentation
 {
     public class CategoryController : Controller
     {
@@ -20,7 +20,7 @@ namespace ITI.ElectroDev.Presentation.Controllers
         [HttpGet]
         public IActionResult Index(int pageIndex = 1, int pageSize = 2)
         {
-            ViewBag.Title = "Category  | Index";
+            ViewBag.Title = "Category List";
             var categories = db.Category.ToPagedList(pageIndex, pageSize);
             return View(categories);
         }
@@ -35,6 +35,7 @@ namespace ITI.ElectroDev.Presentation.Controllers
         [HttpGet]
         public IActionResult Add()
         {
+            ViewBag.Title = "Add New Category";
             return View();
         }
 
@@ -45,10 +46,29 @@ namespace ITI.ElectroDev.Presentation.Controllers
              db.SaveChanges();
             return View();
         }
+        [HttpGet]
+        public IActionResult Edit(int id, string name)
+        {
+            dynamic category = new ExpandoObject();
+            category.Name = name;
+            category.Id = id;
+            return View(category);
+        }
+        [HttpGet]
+        public IActionResult SaveEdit(int id,string name)
+        {
+            var category = db.Category.FirstOrDefault(i => i.Id == id);
+            category.Name = name;
+            category.Id = id;
+            db.Category.Update(category);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
 
         [HttpGet]
         public IActionResult ConfirmDelete(int id, string name)
         {
+            ViewBag.Title = "Delete Category";
             dynamic category = new ExpandoObject();
             category.Name = name;
             category.Id = id;
@@ -65,5 +85,6 @@ namespace ITI.ElectroDev.Presentation.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+       
     }
 }

@@ -1,0 +1,29 @@
+﻿@model LoginModel
+<br />
+<br />
+<br />
+<br />
+
+<form method="post" asp-action="SignIn" asp-controller="User">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div class="form-group">
+        <label asp-for="UserName"></label>
+        
+            <select asp-for="UserName" class="form-control" asp-items="@ViewBag.UserName">
+                <option></option>
+            </select>
+        
+        <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger" ></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="RememberMe"></label>
+        <input asp-for="RememberMe" />
+        <span asp-validation-for="RememberMe"></span>
+    </div>
+    <input class="btn btn-primary" value="Sign In" type="submit" />
+</form>
