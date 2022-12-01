@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddDbContext<Context>(options =>
 {
@@ -14,6 +13,12 @@ builder.Services.AddDbContext<Context>(options =>
 });
 builder.Services.AddIdentity<User, IdentityRole>
    ().AddEntityFrameworkStores<Context>();
+builder.Services.ConfigureApplicationCookie(options =>
+{   
+    //options.LoginPath = "/User/SignIn";
+    options.AccessDeniedPath = "/User/NotAuthorized";
+});
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
@@ -25,7 +30,7 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

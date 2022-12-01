@@ -10,10 +10,16 @@
 <br />
 
 <ul>
-    <li> <a asp-action="SignIn" asp-controller="User"> <i class="bi bi-person-fill"></i> To THe Admin Login Page </a> </li>
-    <li> <a asp-action="SignUp" asp-controller="User"> <i class="bi bi-person-plus-fill"></i> To Add Sub-Admin </a> </li>
+@*    <li> <a asp-action="SignIn" asp-controller="User"> <i class="bi bi-person-fill"></i> To THe Admin Login Page </a> </li>
+*@     <li> <a asp-action="SignUp" asp-controller="User"> <i class="bi bi-person-plus-fill"></i> To Add a User With Role Options </a> </li>
+    <li> <a asp-action="SignUpEditor" asp-controller="User"> <i class="bi bi-person-plus-fill"></i> To Add an Editor </a> </li>
+   
+   
+    <li> <a asp-action="SignUpCustomer" asp-controller="User"> <i class="bi bi-person-plus-fill"></i> To Add a Customer </a> </li>
+    <li> <a asp-action="Add" asp-controller="Role"><i class="bi bi-person-plus-fill"></i> To Add Role </a> </li>
+
     <li> <a asp-action="UsersDetails" asp-controller="User"> <i class="bi bi-info-circle"></i> To All Users Details </a> </li>
 
-@*    <p>@ViewBag.UserName</p>
-*@</ul>
+
+</ul>
 

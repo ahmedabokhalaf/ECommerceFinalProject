@@ -22,5 +22,8 @@ namespace ITI.ElectroDev.Presentation
         [Required, Compare("Password")]
         [Display(Name = "Confirm Password"), DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
+        [Required]
+        public string Role { get; set; }
+
     }
 }

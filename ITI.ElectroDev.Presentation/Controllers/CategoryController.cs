@@ -31,8 +31,9 @@ namespace ITI.ElectroDev.Presentation
             return PartialView("_PagedCategories", pagedCategories);
         }
 
-
         [HttpGet]
+        //[Authorize(Roles = "Editor,Administrator")]
+
         public IActionResult Add()
         {
             ViewBag.Title = "Add New Category";
@@ -40,6 +41,8 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpPost]
+        //[Authorize(Roles = "Editor,Administrator")]
+
         public IActionResult Add(CategoryCreateModel model)
         {
             db.Category.Add(new Category { Name = model.Name});
@@ -47,6 +50,8 @@ namespace ITI.ElectroDev.Presentation
             return View();
         }
         [HttpGet]
+        //[Authorize(Roles = "Editor,Administrator")]
+
         public IActionResult Edit(int id, string name)
         {
             dynamic category = new ExpandoObject();
@@ -55,6 +60,8 @@ namespace ITI.ElectroDev.Presentation
             return View(category);
         }
         [HttpGet]
+        //[Authorize(Roles = "Editor,Administrator")]
+
         public IActionResult SaveEdit(int id,string name)
         {
             var category = db.Category.FirstOrDefault(i => i.Id == id);
@@ -66,6 +73,8 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpGet]
+        //[Authorize(Roles = "Editor,Administrator")]
+
         public IActionResult ConfirmDelete(int id, string name)
         {
             ViewBag.Title = "Delete Category";
@@ -78,6 +87,8 @@ namespace ITI.ElectroDev.Presentation
 
 
         [HttpGet]
+        //[Authorize(Roles = "Editor,Administrator")]
+
         public IActionResult Delete(int id)
         {
             var category = db.Category.FirstOrDefault(i => i.Id == id);

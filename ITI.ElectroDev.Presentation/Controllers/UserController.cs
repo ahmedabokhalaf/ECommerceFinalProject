@@ -13,20 +13,127 @@ namespace ITI.ElectroDev.Presentation
         Context c;
         UserManager<User> UserManager;
         SignInManager<User> SignInManager;
-        public UserController(UserManager<User> usermanager, SignInManager<User> signInManager, Context _c)
+        RoleManager<IdentityRole> RoleManager;
+        public UserController(
+            UserManager<User> usermanager,
+            SignInManager<User> signInManager,
+            Context _c,
+            RoleManager<IdentityRole>roleManager
+            )
+
         {
             UserManager = usermanager;
             SignInManager = signInManager;
             this.c = _c;
+            RoleManager = roleManager;
         }
 
         [HttpGet]
         public IActionResult SignUp()
         {
             ViewBag.Title = "Sign Up";
-            return View();
+
+			ViewBag.Roles = RoleManager.Roles.Select(i => new SelectListItem(i.Name, i.Name));
+			return View();
         }
-        [HttpPost]
+		[HttpGet]
+		public IActionResult SignUpEditor()
+		{
+			ViewBag.Title = "Sign Up Editor";
+
+			ViewBag.Roles = RoleManager.Roles.Select(i => new SelectListItem(i.Name, i.Name));
+			return View();
+		}
+		[HttpGet]
+		public IActionResult SignUpCustomer()
+		{
+			ViewBag.Title = "Sign Up Customer";
+
+			ViewBag.Roles = RoleManager.Roles.Select(i => new SelectListItem(i.Name, i.Name));
+			return View();
+		}
+		[HttpPost]
+		public async Task<IActionResult> SignUpEditor(UserCreateModel model)
+		{
+			model.Role = "Editor";
+			if (ModelState.IsValid == false)
+			{
+
+				return View();
+				
+			}
+			else
+			{
+				User user = new User()
+				{
+					FirstName = model.FirstName,
+					LastName = model.LastName,
+					Email = model.Email,
+					UserName = model.UserName,
+
+				};
+				IdentityResult result = await UserManager.CreateAsync(user, model.Password);
+
+				if (result.Succeeded == false)
+				{
+					result.Errors.ToList().ForEach(i =>
+					{
+						ModelState.AddModelError("", i.Description);
+
+					});
+					return View();
+
+				}
+				else
+				{
+					await UserManager.AddToRoleAsync(user, model.Role);
+
+					return RedirectToAction("SignIn", "User");
+				}
+			}
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> SignUpCustomer(UserCreateModel model)
+		{
+            model.Role = "Viewer";
+			if (ModelState.IsValid == false)
+			{
+
+				return View();
+
+			}
+			else
+			{
+				User user = new User()
+				{
+					FirstName = model.FirstName,
+					LastName = model.LastName,
+					Email = model.Email,
+					UserName = model.UserName,
+
+				};
+				IdentityResult result = await UserManager.CreateAsync(user, model.Password);
+
+				if (result.Succeeded == false)
+				{
+					result.Errors.ToList().ForEach(i =>
+					{
+						ModelState.AddModelError("", i.Description);
+
+					});
+					return View();
+
+				}
+				else
+				{
+					await UserManager.AddToRoleAsync(user, model.Role);
+
+					return RedirectToAction("SignIn", "User");
+				}
+			}
+		}
+		[HttpPost]
         public async Task<IActionResult> SignUp(UserCreateModel model)
         {
 
@@ -59,15 +166,18 @@ namespace ITI.ElectroDev.Presentation
 
                 }
                 else
-                    return RedirectToAction("SignIn", "User");
+                {
+					await UserManager.AddToRoleAsync(user, model.Role);
 
+                    return RedirectToAction("SignIn", "User");
+                }
             }
         }
         [HttpGet]
-        public IActionResult SignIn()
+        public IActionResult SignIn(string ReturnUrl = null)
         {
             ViewBag.UserName = c.Users.Select(i => new SelectListItem(i.UserName,i.UserName));
-
+            ViewBag.ReturnUrl = ReturnUrl;
             ViewBag.Title = "Sign In";
             return View();
         }
@@ -95,7 +205,13 @@ namespace ITI.ElectroDev.Presentation
                 }
                 else
                 {
-                    return RedirectToAction("Index", "Home");
+                    if (!string.IsNullOrEmpty(model.ReturnUrl))
+                    {
+                        return LocalRedirect(model.ReturnUrl);
+                    }
+                    else {    
+                        return RedirectToAction("Index", "Home");
+                    }
                 }
 
             }
@@ -113,13 +229,24 @@ namespace ITI.ElectroDev.Presentation
             ViewBag.Title = "Control";
             return View();
         }
-
+        [HttpGet]
         public IActionResult UsersDetails()
         {
             ViewBag.Title = "All users";
             var users = c.Users.ToList();
 
             return View(users);
+        }
+
+        public IActionResult Delete()
+        {
+            return View();
+        }
+        
+        [HttpGet]
+        public IActionResult NotAuthorized()
+        {
+            return View();
         }
     }
 }
