@@ -42,9 +42,9 @@ namespace ITI.ElectroDev.Presentation
         [HttpPost]
         public IActionResult Add(CategoryCreateModel model)
         {
-            db.Category.Add(new Category { Name = model.Name});
+             db.Category.Add(new Category { Name = model.Name});
              db.SaveChanges();
-            return View();
+             return View();
         }
 
         [HttpGet]

@@ -8,57 +8,77 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ITI.ElectroDev.Presentation
 build_property.RootNamespace = ITI.ElectroDev.Presentation
-build_property.ProjectDir = D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\
+build_property.ProjectDir = E:\Matiral_iTi     (Full Stack .Net)\project\ECommerceProject\ITI.ElectroDev.Presentation\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation
+build_property.MSBuildProjectDirectory = E:\Matiral_iTi     (Full Stack .Net)\project\ECommerceProject\ITI.ElectroDev.Presentation
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Category/Add.cshtml]
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Brand/AddNewBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQWRkTmV3QnJhbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Brand/AllBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQWxsQnJhbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Brand/ConfirmDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQ29uZmlybURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Brand/Edite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcRWRpdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Brand/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Category/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Category/ConfirmDelete.cshtml]
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Category/ConfirmDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ29uZmlybURlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Category/Index.cshtml]
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Category/_PagedCategories.cshtml]
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Category/_PagedCategories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcX1BhZ2VkQ2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Home/Index.cshtml]
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Shared/Error.cshtml]
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/User/SignIn.cshtml]
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/User/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/User/SignUp.cshtml]
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/User/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/_ViewImports.cshtml]
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/_ViewStart.cshtml]
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Shared/_Layout.cshtml]
+[E:/Matiral_iTi     (Full Stack .Net)/project/ECommerceProject/ITI.ElectroDev.Presentation/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-cmsbfw1p7n

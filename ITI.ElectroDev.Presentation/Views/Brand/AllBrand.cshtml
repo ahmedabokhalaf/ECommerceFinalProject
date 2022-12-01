@@ -1,0 +1,113 @@
+﻿@using ITI.ElectroDev.Models
+@model List<Brand>
+<link rel="stylesheet" href="~/css/AllBrand.css" asp-append-version="true" />
+<!--For Page-->
+<!--For Row containing all card-->
+ <header>
+     <h5>All Brands</h5>
+ </header>
+
+<div class="card shadow border-0 mb-7">
+    @foreach (var item in Model)
+        {
+    <div class="col-lg-4 col-md-8 col-md-12 ">
+        <div class="card card-cascade card-ecommerce wider shadow mb-8 ">
+
+                <title>@ViewData["Title"] - testproject</title>
+                <!-- Core Style CSS -->
+                <link rel="stylesheet" href="https://therichpost.com/responsivestyle/index.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
+
+                <style>
+                    .logo {
+                        font-size: 3rem;
+                    }
+                </style>
+
+
+
+                <table>
+         
+            <!--Card Body-->
+                    <div class="card shadow border-0 mb-12">
+                  
+                <td>
+                <!--Card Title-->
+                <h4 class="card-title">
+                    <strong>
+                        @item.Name
+                </strong>
+            </h4>
+                    </td>
+                </table>
+          
+                <div class="d-sm-flex align-items-sm-start">
+                    <a   class="btn btn-danger js-delete bi bi-trash" asp-controller="Brand" asp-action="ConfirmDelete" asp-route-id="@item.Id" asp-route-Name="@item.Name">Delete</a>
+                <div class="col-lg-4">
+                  
+                        <a class="btn btn-primary text-uppercase" asp-action="Edite" asp-controller="Brand" asp-route-id="@item.Id">Edite</a>
+                       @* <a href="javascript:;" class="btn btn-danger js-delete" data-id="@item.Id">*@
+                        @*</a>*@
+                    </div>
+
+                </div>
+            </div>
+            <hr />
+                  
+            <!--Card footer-->
+         
+
+
+
+        </div>
+ 
+ 
+        }
+ </div>
+
+@*@section Scripts{
+    <script type="text/javascript"> $(document).ready(function () {
+            $('.js-delete').on('click', function () {
+                var btn = $(this);
+
+                bootbox.confirm({
+                    message: "Are you sure that you need to delete this movie?",
+                    buttons: {
+                        confirm: {
+                            label: 'Yes',
+                            className: 'btn-danger'
+                        },
+                        cancel: {
+                            label: 'No',
+                            className: 'btn-outline-secondary'
+                        }
+                    },
+                    callback: function (result) {
+                        if (result) {
+                            $.ajax({
+                                url: '/brand/delete/' + btn.data('id'),
+                                success: function () {
+                                    var movieContainer = btn.parents('.order ');
+                                    movieContainer.addClass('animate__animated animate__zoomOut');
+
+                                    setTimeout(function () {
+                                        movieContainer.remove();
+                                    }, 1000);
+
+                                    toastr.success('Movies deleted');
+                                },
+                                error: function () {
+                                    toastr.error('Something went wrong!');
+                                }
+                            });
+                        }
+                    }
+                });
+            });
+        });</script>
+        }*@
+<div style="margin-top:100px;">
+    <a class="btn btn-primary" asp-controller="Brand" asp-action="AddNewBrand">Add New Brand</a>
+</div>
+
+

@@ -1,0 +1,50 @@
+﻿ @model BrandModel
+
+ <h1>Add New Brand</h1>
+
+<div class="alert alert-success" role="alert" style="display:none;" id="Succses">
+    This is a success alert with <a href="/Home/Index" class="alert-link">Home</a>. Give it a click if you like.
+</div>
+
+<form data-ajax="true" data-ajax-complete="AlertDone" data-ajax-loading="#loader" method="post" asp-controller="Brand" asp-action="AddNewBrand" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+   
+
+    <div>
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" name="Name" class="form-control" />
+            <span asp-validation-for="Name" class="validation"></span>
+        </div>
+    </div>
+
+
+   
+  @*  <div class="form-group">
+        <label asp-for="Image"></label>
+        <input asp-for="Image" multiple class="form-zcontrol" />
+        <span asp-validation-for="Image" class="validation"></span>
+
+    </div>*@
+
+
+
+    <div>
+        <div class="form-group">
+            <label asp-for="CategoryId"></label>
+            <input asp-for="CategoryId" name="CategoryId" class="form-control" />
+            <span asp-validation-for="CategoryId" class="validation"></span>
+        </div>
+    </div>
+
+    <input type="submit" value="Add New Brand" class="btn btn-primary" />
+</form>
+<div>
+    <img id="loader" src="~/Content/Images/uploadloader.gif" style="display:none; width:100px" />
+</div>
+
+<script>
+    function AlertDone(event) {
+        document.getElementById("Succses").style.display = "block";
+    }</script>
