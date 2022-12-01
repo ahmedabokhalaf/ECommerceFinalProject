@@ -20,19 +20,19 @@
                 {
                     <tr>
                        @* <td><span class="h3 font-bold mb-0">@b.Id</span></td>*@
-                        <td><span class="h3 font-bold mb-0">@b.Name</span></td>
+                        <td><span class="h4 mb-0">@b.Name</span></td>
                         <td class="text-end">
                             <a class="btn d-inline-flex btn-sm btn-neutral border-base mx-1" asp-controller="Category" asp-action="Edit" asp-route-id="@b.Id" asp-route-Name="@b.Name">
-                                <span class="h3 font-bold pe-2"> <i class="bi bi-pencil h3 font-bold"></i> </span>
-                                <span class="h3 font-bold">Edit</span>
+                                <span class="h4  pe-2"> <i class="bi bi-pencil h4 font-bold"></i> </span>
+                                <span class="h4">Edit</span>
                             </a>
                           @*  <a class="btn btn-danger btn btn-sm btn-square  text-danger-hover h3 font-bold " asp-controller="Category" asp-action="ConfirmDelete" asp-route-id="@b.Id" asp-route-Name="@b.Name"> <i class="bi bi-trash h3 font-bold text-white"></i></a>
                             @Html.ActionLink("Delete", "Delete", new { id = @b.Id }
                             ,new { @class="btn btn-danger btn btn-sm btn-square  text-danger-hover h3 font-bold"
                             ,onclick="return confirm('Are you sure?');"})*@
 
-                            <a href="~/Category/Delete?id=@b.Id" id="deleteBtn" class="btn btn-danger btn btn-sm btn-square  text-danger-hover h3 font-bold" onclick="return confirm('Are you sure you want to delete : @b.Name');">
-                                <i class="bi bi-trash h3 font-bold text-white"></i>
+                            <a href="~/Category/Delete?id=@b.Id" id="deleteBtn" class="btn btn-danger btn btn-sm btn-square  text-danger-hover h4 font-bold" onclick="return confirm('Are you sure you want to delete : @b.Name');">
+                                <i class="bi bi-trash h4 text-white"></i>
                                 </a>
 
                            
