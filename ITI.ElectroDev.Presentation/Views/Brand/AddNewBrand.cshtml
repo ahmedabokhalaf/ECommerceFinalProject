@@ -5,7 +5,7 @@
 <div class="alert alert-success" role="alert" style="display:none;" id="Succses">
     This is a success alert with <a href="/Home/Index" class="alert-link">Home</a>. Give it a click if you like.
 </div>
-
+<p class="mb-0"><a asp-controller="Brand" asp-action="AllBrand">Back to Brands</a>.</p>
 <form data-ajax="true" data-ajax-complete="AlertDone" data-ajax-loading="#loader" method="post" asp-controller="Brand" asp-action="AddNewBrand" enctype="multipart/form-data">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
