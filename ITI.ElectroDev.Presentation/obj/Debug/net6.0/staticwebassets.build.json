@@ -1,6 +1,14 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "DbN4rqGJIxsbLDt32EGnN7FN/VDoz0XC2cF/EFo4psA=",
+=======
+<<<<<<< HEAD
+  "Hash": "CzOMJQlyvcvDf3aDuwJzus2O0QiPSSROSM2JI5mTrfA=",
+=======
+  "Hash": "ZOoeB3fuf+VMZhgy1tvDh30lOdhb9z1hJZkWjkyhMD4=",
+>>>>>>> a6fe2a4cef4042a9a75dec6130cfc4cf89e9f91a
+>>>>>>> Mariam
   "Source": "ITI.ElectroDev.Presentation",
   "BasePath": "_content/ITI.ElectroDev.Presentation",
   "Mode": "Default",
@@ -357,7 +365,14 @@
       "OriginalItemSpec": "wwwroot\\fonts\\slick.woff"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\uploadloader.gif",
+=======
+<<<<<<< HEAD
+      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\hotdeal.png",
+=======
+      "Identity": "C:\\Users\\Mariam Ayman\\Desktop\\Amazon\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\uploadloader.gif",
+>>>>>>> Mariam
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
@@ -374,6 +389,7 @@
       "OriginalItemSpec": "wwwroot\\Images\\uploadloader.gif"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\createLoader.gif",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
@@ -392,6 +408,10 @@
     },
     {
       "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\hotdeal.png",
+=======
+      "Identity": "C:\\Users\\Mariam Ayman\\Desktop\\Amazon\\ITI.ElectroDev.Presentation\\wwwroot\\img\\hotdeal.png",
+>>>>>>> a6fe2a4cef4042a9a75dec6130cfc4cf89e9f91a
+>>>>>>> Mariam
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
@@ -1751,7 +1771,14 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css",
+=======
+<<<<<<< HEAD
+      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Checkout.png",
+=======
+      "Identity": "C:\\Users\\Mariam Ayman\\Desktop\\Amazon\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css",
+>>>>>>> Mariam
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
@@ -3995,7 +4022,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Checkout.png",
+=======
+      "Identity": "C:\\Users\\Mariam Ayman\\Desktop\\Amazon\\ITI.ElectroDev.Presentation\\wwwroot\\screenshot\\Checkout.png",
+>>>>>>> a6fe2a4cef4042a9a75dec6130cfc4cf89e9f91a
+>>>>>>> Mariam
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",

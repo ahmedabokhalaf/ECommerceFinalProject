@@ -42,9 +42,23 @@ namespace ITI.ElectroDev.Presentation
         [HttpPost]
         public IActionResult Add(CategoryCreateModel model)
         {
-            db.Category.Add(new Category { Name = model.Name});
-             db.SaveChanges();
-            return View();
+
+            if (ModelState.IsValid == false)
+            {
+                //var errors =
+                //     ModelState.SelectMany(i => i.Value.Errors.Select(x => x.ErrorMessage));
+
+                //foreach (string err in errors)
+                //    ModelState.AddModelError("", err);
+
+                return View();
+            }
+            else
+            {
+                db.Category.Add(new Category { Name = model.Name });
+                db.SaveChanges();
+                return View();
+            }
         }
         [HttpGet]
         public IActionResult Edit(int id, string name)
