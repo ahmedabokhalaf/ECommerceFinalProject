@@ -8,16 +8,15 @@ using System.Threading.Tasks;
 
 namespace ITI.ElectroDev.Models
 {
-    public class RateConfig : IEntityTypeConfiguration<Rate>
+    public class OrderItemsConfig : IEntityTypeConfiguration<OrderItems>
     {
-        public void Configure(EntityTypeBuilder<Rate> builder)
+        public void Configure(EntityTypeBuilder<OrderItems> builder)
         {
-            builder.ToTable("Rate");
+            builder.ToTable("OrderItems");
             builder.HasKey(i => i.Id);
-            builder.Property(i => i.Id).ValueGeneratedOnAdd();
-            builder.Property(i => i.Comment).HasMaxLength(500);
+            builder.Property(i => i.Id).IsRequired().ValueGeneratedOnAdd();
             builder.Property(i => i.ProductId).IsRequired();
-            builder.Property(i => i.NumberOfStars).IsRequired();
+            builder.Property(i => i.CreatedAt).IsRequired();
         }
     }
 }
