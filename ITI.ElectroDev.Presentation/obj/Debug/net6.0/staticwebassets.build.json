@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hPtSVaExlkG+9ac6WwuPTnKxqXDFzt8q72+LdwHQpuY=",
+  "Hash": "DbN4rqGJIxsbLDt32EGnN7FN/VDoz0XC2cF/EFo4psA=",
   "Source": "ITI.ElectroDev.Presentation",
   "BasePath": "_content/ITI.ElectroDev.Presentation",
   "Mode": "Default",
@@ -372,6 +372,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\uploadloader.gif"
+    },
+    {
+      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\createLoader.gif",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "img/createLoader.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\createLoader.gif"
     },
     {
       "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\hotdeal.png",

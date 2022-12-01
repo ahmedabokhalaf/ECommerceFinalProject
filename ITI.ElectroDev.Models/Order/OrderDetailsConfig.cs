@@ -17,7 +17,6 @@ namespace ITI.ElectroDev.Models
             builder.Property(i => i.Id).IsRequired().ValueGeneratedOnAdd();
             builder.Property(i => i.UserId).IsRequired();
             builder.Property(i => i.TotalPrice).IsRequired();
-            builder.Property(i => i.Type).IsRequired().HasMaxLength(100);
             builder.Property(i => i.Type).IsRequired().HasMaxLength(200);
         }
     }
