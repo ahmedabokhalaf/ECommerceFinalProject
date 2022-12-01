@@ -23,12 +23,17 @@ namespace ITI.ElectroDev.Models
                 .HasOne(i => i.Product).WithMany(i => i.ProductImages).HasForeignKey(i => i.ProductId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            builder.Entity<Rate>()
-                .HasOne(i => i.Product).WithMany(i => i.Rates).HasForeignKey(i => i.ProductId)
+            builder.Entity<OrderItems>()
+                .HasOne(i => i.OrderDetails).WithMany(i => i.OrderItems).HasForeignKey(i => i.OrderId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            builder.Entity<User>()
+                .HasOne(i => i.OrderDetails).WithOne(i => i.User)
+                .HasForeignKey<OrderDetails>(i => i.UserId).OnDelete(DeleteBehavior.Cascade);
+
             builder.Entity<Product>()
-                .HasOne(i => i.Order).WithMany(i => i.Products).HasForeignKey(i => i.OrderId);
+                .HasOne(i => i.OrderItems).WithOne(i => i.Product)
+                .HasForeignKey<OrderItems>(i => i.ProductId).OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

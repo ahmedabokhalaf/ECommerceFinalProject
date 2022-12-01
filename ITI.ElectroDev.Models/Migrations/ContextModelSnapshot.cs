@@ -63,7 +63,38 @@ namespace ITI.ElectroDev.Models.Migrations
                     b.ToTable("Category", (string)null);
                 });
 
-            modelBuilder.Entity("ITI.ElectroDev.Models.Order", b =>
+            modelBuilder.Entity("ITI.ElectroDev.Models.OrderDetails", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("TotalPrice")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("OrderDetails", (string)null);
+                });
+
+            modelBuilder.Entity("ITI.ElectroDev.Models.OrderItems", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -74,24 +105,20 @@ namespace ITI.ElectroDev.Models.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("ModifiedAt")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserId1")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId1");
+                    b.HasIndex("OrderId");
 
-                    b.ToTable("Order");
+                    b.HasIndex("ProductId")
+                        .IsUnique();
+
+                    b.ToTable("OrderItems", (string)null);
                 });
 
             modelBuilder.Entity("ITI.ElectroDev.Models.Product", b =>
@@ -106,7 +133,6 @@ namespace ITI.ElectroDev.Models.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasMaxLength(1000)
                         .HasColumnType("nvarchar(1000)");
 
@@ -114,9 +140,6 @@ namespace ITI.ElectroDev.Models.Migrations
                         .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
-
-                    b.Property<int>("OrderId")
-                        .HasColumnType("int");
 
                     b.Property<int>("Price")
                         .HasColumnType("int");
@@ -127,8 +150,6 @@ namespace ITI.ElectroDev.Models.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("BrandId");
-
-                    b.HasIndex("OrderId");
 
                     b.ToTable("Product", (string)null);
                 });
@@ -156,32 +177,6 @@ namespace ITI.ElectroDev.Models.Migrations
                     b.ToTable("ProductImages", (string)null);
                 });
 
-            modelBuilder.Entity("ITI.ElectroDev.Models.Rate", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("Comment")
-                        .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
-
-                    b.Property<int>("NumberOfStars")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Rate", (string)null);
-                });
-
             modelBuilder.Entity("ITI.ElectroDev.Models.User", b =>
                 {
                     b.Property<string>("Id")
@@ -202,11 +197,9 @@ namespace ITI.ElectroDev.Models.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -399,15 +392,34 @@ namespace ITI.ElectroDev.Models.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("ITI.ElectroDev.Models.Order", b =>
+            modelBuilder.Entity("ITI.ElectroDev.Models.OrderDetails", b =>
                 {
                     b.HasOne("ITI.ElectroDev.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId1")
+                        .WithOne("OrderDetails")
+                        .HasForeignKey("ITI.ElectroDev.Models.OrderDetails", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ITI.ElectroDev.Models.OrderItems", b =>
+                {
+                    b.HasOne("ITI.ElectroDev.Models.OrderDetails", "OrderDetails")
+                        .WithMany("OrderItems")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ITI.ElectroDev.Models.Product", "Product")
+                        .WithOne("OrderItems")
+                        .HasForeignKey("ITI.ElectroDev.Models.OrderItems", "ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("OrderDetails");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("ITI.ElectroDev.Models.Product", b =>
@@ -418,32 +430,13 @@ namespace ITI.ElectroDev.Models.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ITI.ElectroDev.Models.Order", "Order")
-                        .WithMany("Products")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Brand");
-
-                    b.Navigation("Order");
                 });
 
             modelBuilder.Entity("ITI.ElectroDev.Models.ProductImages", b =>
                 {
                     b.HasOne("ITI.ElectroDev.Models.Product", "Product")
                         .WithMany("ProductImages")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("ITI.ElectroDev.Models.Rate", b =>
-                {
-                    b.HasOne("ITI.ElectroDev.Models.Product", "Product")
-                        .WithMany("Rates")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -512,16 +505,21 @@ namespace ITI.ElectroDev.Models.Migrations
                     b.Navigation("Brands");
                 });
 
-            modelBuilder.Entity("ITI.ElectroDev.Models.Order", b =>
+            modelBuilder.Entity("ITI.ElectroDev.Models.OrderDetails", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("OrderItems");
                 });
 
             modelBuilder.Entity("ITI.ElectroDev.Models.Product", b =>
                 {
-                    b.Navigation("ProductImages");
+                    b.Navigation("OrderItems");
 
-                    b.Navigation("Rates");
+                    b.Navigation("ProductImages");
+                });
+
+            modelBuilder.Entity("ITI.ElectroDev.Models.User", b =>
+                {
+                    b.Navigation("OrderDetails");
                 });
 #pragma warning restore 612, 618
         }

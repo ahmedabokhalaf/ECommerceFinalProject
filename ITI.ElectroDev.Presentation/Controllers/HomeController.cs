@@ -1,14 +1,14 @@
-﻿using ITI.ElectroDev.Presentation.Models;
+﻿using ITI.ElectroDev.Presentation;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ITI.ElectroDev.Presentation.Controllers
+namespace ITI.ElectroDev.Presentation
 {
     public class HomeController : Controller
     {
         public IActionResult Index()
         {
-            ViewBag.Title = "Home";
+            ViewBag.Title = "Admin Dashboard";
             return View();
         }
 

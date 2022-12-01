@@ -35,6 +35,7 @@
       "ITI.ElectroDev.Presentation/1.0.0": {
         "dependencies": {
           "ITI.ElectroDev.Models": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.0",
           "Microsoft.EntityFrameworkCore.Proxies": "6.0.0",
