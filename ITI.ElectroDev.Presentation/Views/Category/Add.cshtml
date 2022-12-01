@@ -1,24 +1,38 @@
-﻿@model CategoryCreateModel
+﻿
+@model CategoryCreateModel
 <h1>Add New Category</h1>
 
+<a asp-controller="Category" asp-action="Index">
+    <i class="bi bi-arrow-left " style="font-size:3rem"></i>
+</a>
 <div class="alert alert-success" role="alert" style="display:none;" id="Mgs">
     <h4 class="alert-heading">Well done!</h4>
     <p>you successfully Added New Category. </p>
     <hr>
-    <p class="mb-0"> <a asp-controller="Category" asp-action="Add">For More Details Press</a>.</p>
+    <p class="mb-0"><a asp-controller="Category" asp-action="Index">Back to Categories</a>.</p>
 </div>
-<form data-ajax="true" data-ajax-loading="#loader" data-ajax-complete="CategoryAdd" method="post" asp-controller="Category" asp-action="Add" enctype="multipart/form-data">
-    <div asp-validation-summary="ModelOnly"></div>
-    <div class="form-group">
-        <label asp-for="Name"></label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="validation"></span>
+<div class="col-10 mx-auto">
+    <div class="card shadow border-0">
+        <div class="card-body">
+            <div class="row">
+                <form data-ajax="true" data-ajax-loading="#loader" data-ajax-complete="CategoryAdd" method="post" asp-controller="Category" asp-action="Add" enctype="multipart/form-data">
+                    @*<div asp-validation-summary="ModelOnly"></div>*@
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name"></span>
+                    </div>
+                    <input type="submit" value="Add" class="btn btn-primary" />
+                    <div class="d-flex justify-content-center">
+                        <img class="w-20" id="loader" src="~/Images/uploadloader.gif" style="display:none;" />
+                    </div>
+                </form>
+            </div>      
+        </div>
     </div>
-    <input type="submit" value="Add" class="btn btn-primary" />
-   @* <div>
-        <img id="loader" src="~/Content/Images/uploadloader.gif" style="display:none;" />
-    </div>*@
-</form>
+</div>
+
+
 <script>
     function CategoryAdd(data) {
         document.getElementById("Mgs")

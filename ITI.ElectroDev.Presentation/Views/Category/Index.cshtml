@@ -1,35 +1,41 @@
 ﻿@using ITI.ElectroDev.Models
 @using X.PagedList
 @model IPagedList<Category>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - testproject</title>
-    <!-- Core Style CSS -->
-    <link rel="stylesheet" href="https://therichpost.com/responsivestyle/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
 
-    <style>
-        .logo {
-            font-size: 3rem;
-        }
-    </style>
-
-</head>
-<body>
-
-<div class="card shadow border-0 mb-7">
-    <div class="card-header">
-        <h5 class="mb-0">Categories</h5>
+<header class="bg-surface-primary border-bottom pt-6">
+    <div class="container-fluid">
+        <div class="mb-npx">
+            <div class="row align-items-center">
+                <div class="col-sm-6 col-12 mb-4 mb-sm-0">
+                    <!-- Title -->
+                    <h1 class="h3 mb-0 ls-tight">Categories</h1>
+                </div> <!-- Actions -->
+                <div class="col-sm-6 col-12 text-sm-end mb-4" >
+                    <div class="mx-n1">
+                        <a class="btn d-inline-flex btn-sm btn-primary mt-5 mx-1" asp-controller="Category" asp-action="Add">
+                            <span class=" pe-2"> <i class="bi bi-plus h4  text-white"></i> </span>
+                            <span class="h4 text-white">Add New Category</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-        <partial name="_PagedCategories" model="@Model"></partial>
-</div>
-<h1> The Index Page Of Category Controller</h1>
+</header>
+<main class="bg-surface-primary border-bottom pt-6 mt-5">
+    <div class="container-fluid mt-5 mb-5">
+        @if (Model.ToList<Category>().Count != 0)
+        {
+            <partial name="_PagedCategories" model="@Model"></partial>
+        }else{
+            <div class="alert alert-danger text-center" role="alert">
+                <i class="bi bi-exclamation-triangle"></i>
+                No , Categorty Found .
 
-<div style="margin-top:100px;">
-    <a class="btn btn-primary" asp-controller="Category" asp-action="Add">Add New Category</a> 
-</div>
-</body>
-</html>
+            </div>
+           
+        }
+            
+    </div>
+</main>
+       

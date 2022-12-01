@@ -41,9 +41,41 @@ namespace ITI.ElectroDev.Presentation.Controllers
         [HttpPost]
         public IActionResult Add(CategoryCreateModel model)
         {
-            db.Category.Add(new Category { Name = model.Name});
-             db.SaveChanges();
-            return View();
+
+            if (ModelState.IsValid == false)
+            {
+                //var errors =
+                //     ModelState.SelectMany(i => i.Value.Errors.Select(x => x.ErrorMessage));
+
+                //foreach (string err in errors)
+                //    ModelState.AddModelError("", err);
+
+                return View();
+            }
+            else
+            {
+                db.Category.Add(new Category { Name = model.Name });
+                db.SaveChanges();
+                return View();
+            }
+        }
+        [HttpGet]
+        public IActionResult Edit(int id, string name)
+        {
+            dynamic category = new ExpandoObject();
+            category.Name = name;
+            category.Id = id;
+            return View(category);
+        }
+        [HttpGet]
+        public IActionResult SaveEdit(int id,string name)
+        {
+            var category = db.Category.FirstOrDefault(i => i.Id == id);
+            category.Name = name;
+            category.Id = id;
+            db.Category.Update(category);
+            db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         [HttpGet]
@@ -65,5 +97,6 @@ namespace ITI.ElectroDev.Presentation.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+       
     }
 }

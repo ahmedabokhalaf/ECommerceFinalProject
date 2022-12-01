@@ -23,7 +23,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ29uZmlybURlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [D:/ITI3Months/ASP.NET/ElectroDev/ITI.ElectroDev.Presentation/Views/Category/Index.cshtml]
+=======
+[C:/Users/Mariam Ayman/Desktop/Amazon/ITI.ElectroDev.Presentation/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariam Ayman/Desktop/Amazon/ITI.ElectroDev.Presentation/Views/Category/Index.cshtml]
+>>>>>>> a6fe2a4cef4042a9a75dec6130cfc4cf89e9f91a
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
