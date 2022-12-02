@@ -5,7 +5,6 @@ namespace ITI.ElectroDev.Presentation
 {
     public class UserCreateModel
     {
-
         [Required, MaxLength(200), MinLength(3), Display(Name = "First Name")]
         public string FirstName { get; set; }
         [Required, MaxLength(200), MinLength(3), Display(Name = "Last Name")]

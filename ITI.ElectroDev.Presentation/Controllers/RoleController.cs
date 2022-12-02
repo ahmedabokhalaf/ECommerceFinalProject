@@ -5,8 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace ITI.ElectroDev.Presentation
 {
 
-	
-		public class RoleController : Controller
+
+    public class RoleController : Controller
 		{
 			RoleManager<IdentityRole> RoleManager;
 			public RoleController(RoleManager<IdentityRole> roleManager)
@@ -16,6 +16,7 @@ namespace ITI.ElectroDev.Presentation
 
 
 			[HttpGet]
+		[Authorize(Roles ="Admin,Editor")]
 			public IActionResult Add()
 			{
 

@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\fonts\\slick.woff"
     },
     {
+      "Id": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\wwwroot\\img\\createLoader.gif",
+      "PackagePath": "staticwebassets\\img\\createLoader.gif"
+    },
+    {
       "Id": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\wwwroot\\img\\hotdeal.png",
       "PackagePath": "staticwebassets\\img\\hotdeal.png"
     },

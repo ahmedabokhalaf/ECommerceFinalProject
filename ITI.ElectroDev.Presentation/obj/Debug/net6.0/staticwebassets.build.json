@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "7lJfoH+MC67KzywoA54kz2Q3fPwN+99tJtICZBwMG6s=",
-=======
-  "Hash": "DbN4rqGJIxsbLDt32EGnN7FN/VDoz0XC2cF/EFo4psA=",
->>>>>>> main
+  "Hash": "xR1plX46llnbUNQUXo6lR8amAxoIk/lMJVzso5Mv5ag=",
   "Source": "ITI.ElectroDev.Presentation",
   "BasePath": "_content/ITI.ElectroDev.Presentation",
   "Mode": "Default",
@@ -378,13 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\uploadloader.gif"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\wwwroot\\img\\hotdeal.png",
-=======
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\createLoader.gif",
+      "Identity": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\wwwroot\\img\\createLoader.gif",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\wwwroot\\",
       "BasePath": "_content/ITI.ElectroDev.Presentation",
       "RelativePath": "img/createLoader.gif",
       "AssetKind": "All",
@@ -398,8 +391,7 @@
       "OriginalItemSpec": "wwwroot\\img\\createLoader.gif"
     },
     {
-      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\img\\hotdeal.png",
->>>>>>> main
+      "Identity": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\wwwroot\\img\\hotdeal.png",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\wwwroot\\",

@@ -14,8 +14,8 @@ builder.Services.AddDbContext<Context>(options =>
 builder.Services.AddIdentity<User, IdentityRole>
    ().AddEntityFrameworkStores<Context>();
 builder.Services.ConfigureApplicationCookie(options =>
-{   
-    //options.LoginPath = "/User/SignIn";
+{
+    options.LoginPath = "/User/SignIn";
     options.AccessDeniedPath = "/User/NotAuthorized";
 });
 builder.Services.AddControllersWithViews();
@@ -28,13 +28,12 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
 }
 app.UseStaticFiles();
-
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+ pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

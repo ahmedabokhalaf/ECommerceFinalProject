@@ -9,6 +9,7 @@ using X.PagedList;
 
 namespace ITI.ElectroDev.Presentation
 {
+
     public class CategoryController : Controller
     {
         private Context db;
@@ -32,7 +33,7 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpGet]
-        //[Authorize(Roles = "Editor,Administrator")]
+        [Authorize(Roles = "Admin,Editor")]
 
         public IActionResult Add()
         {
@@ -41,7 +42,6 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpPost]
-        //[Authorize(Roles = "Editor,Administrator")]
 
         public IActionResult Add(CategoryCreateModel model)
         {
@@ -50,7 +50,7 @@ namespace ITI.ElectroDev.Presentation
             return View();
         }
         [HttpGet]
-        //[Authorize(Roles = "Editor,Administrator")]
+        [Authorize(Roles = "Admin,Editor")]
 
         public IActionResult Edit(int id, string name)
         {
@@ -60,7 +60,6 @@ namespace ITI.ElectroDev.Presentation
             return View(category);
         }
         [HttpGet]
-        //[Authorize(Roles = "Editor,Administrator")]
 
         public IActionResult SaveEdit(int id,string name)
         {
@@ -73,7 +72,7 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpGet]
-        //[Authorize(Roles = "Editor,Administrator")]
+        [Authorize(Roles = "Admin,Editor")]
 
         public IActionResult ConfirmDelete(int id, string name)
         {
@@ -87,7 +86,7 @@ namespace ITI.ElectroDev.Presentation
 
 
         [HttpGet]
-        //[Authorize(Roles = "Editor,Administrator")]
+        [Authorize(Roles = "Admin,Editor")]
 
         public IActionResult Delete(int id)
         {

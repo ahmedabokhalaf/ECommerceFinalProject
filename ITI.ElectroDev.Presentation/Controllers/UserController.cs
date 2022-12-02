@@ -1,13 +1,15 @@
 ﻿using ITI.ElectroDev.Models;
 using ITI.ElectroDev.Presentation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Dynamic;
+using System.Xml.Linq;
 
 namespace ITI.ElectroDev.Presentation
 {
 
-    
     public class UserController : Controller
     {
         Context c;
@@ -29,6 +31,7 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpGet]
+        //[Authorize(Roles ="Admin")]
         public IActionResult SignUp()
         {
             ViewBag.Title = "Sign Up";
@@ -37,7 +40,9 @@ namespace ITI.ElectroDev.Presentation
 			return View();
         }
 		[HttpGet]
-		public IActionResult SignUpEditor()
+        [Authorize(Roles ="Admin")]
+
+        public IActionResult SignUpEditor()
 		{
 			ViewBag.Title = "Sign Up Editor";
 
@@ -45,7 +50,9 @@ namespace ITI.ElectroDev.Presentation
 			return View();
 		}
 		[HttpGet]
-		public IActionResult SignUpCustomer()
+        [Authorize(Roles ="Admin")]
+
+        public IActionResult SignUpCustomer()
 		{
 			ViewBag.Title = "Sign Up Customer";
 
@@ -220,16 +227,21 @@ namespace ITI.ElectroDev.Presentation
         public new async Task<IActionResult> SignOut()
         {
             await SignInManager.SignOutAsync();
+            TempData["AlertMessage"] = "You Signed Out Successfully";
             return RedirectToAction("SignIn", "User");
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin")]
+
         public IActionResult Control()
         {
             ViewBag.Title = "Control";
             return View();
         }
         [HttpGet]
+        [Authorize(Roles = "Admin")]
+
         public IActionResult UsersDetails()
         {
             ViewBag.Title = "All users";
@@ -237,12 +249,91 @@ namespace ITI.ElectroDev.Presentation
 
             return View(users);
         }
-
-        public IActionResult Delete()
+        [Authorize(Roles ="Admin")]
+        public async Task <IActionResult> Delete(string id)
         {
-            return View();
+            var user = await UserManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                TempData["AlertMessage"] = "User Not Found";
+                return View("Error");
+
+            }
+            else
+            {
+                TempData["AlertMessage"] = "User Deleted Successfully";
+               var result =  await UserManager.DeleteAsync(user);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("UsersDetails");
+                }
+                foreach (var err in result.Errors)
+                {
+                    ModelState.AddModelError("", err.Description);
+                }
+                            return View("UsersDetails");
+
+            }
         }
-        
+        [HttpGet]
+        [Authorize(Roles = "Admin")]
+
+        public async Task <IActionResult> Edit(string id)
+        {
+            var user = await UserManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                TempData["AlertMessage"] = "User Not Found";
+                return View("Error");
+
+            }
+            //var userRoles = await UserManager.GetRolesAsync(user);
+            //var userClaims = await UserManager.GetClaimsAsync(user);
+
+            var model = new EditUserViewModel
+            {
+                Id = user.Id,
+                //FirstName = user.FirstName,
+                //LastName = user.LastName,
+                Email = user.Email,
+                UserName = user.UserName,
+                //Roles = userRoles,
+                //Claims = userClaims.Select(i => i.Value).ToList()
+
+            };
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(EditUserViewModel model)
+        {
+            var user = await UserManager.FindByIdAsync(model.Email);
+            if (user == null)
+            {
+                TempData["AlertMessage"] = "User Not Found";
+                return View("Error");
+
+            }
+            else
+            {
+
+                user.Email = model.Email;
+                user.UserName = model.UserName;
+
+                var result = await UserManager.UpdateAsync(user);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("UsersDetails");
+                }
+                foreach (var err in result.Errors)
+                {
+                    ModelState.AddModelError("", err.Description);
+                }
+                return View(model);
+            }
+            
+        }
+
         [HttpGet]
         public IActionResult NotAuthorized()
         {
