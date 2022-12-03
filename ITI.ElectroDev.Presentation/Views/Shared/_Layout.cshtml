@@ -48,8 +48,9 @@
                     <ul class="navbar-nav">
                        @if (User.Identity.IsAuthenticated)
                         {
-                             <li class="nav-item"> <a class="nav-link" href="#"> <i class="bi bi-person-square"></i> Account </a> </li>
-                        <li class="nav-item"> <a asp-controller="User" asp-action="SignOut" class="nav-link"> <i class="bi bi-box-arrow-left"></i> Logout </a> </li>
+                             <li class="nav-item"> <a class="nav-link" href="#"> <i class="bi bi-person-square"></i> @User.Identity.Name </a> </li>
+                        <li class="nav-item"> <a asp-controller="User" asp-action="SignOut" class="nav-link" id="logout"> <i class="bi bi-box-arrow-left"></i> Logout </a> </li>
+                            
                         }
                        
                     </ul>

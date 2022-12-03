@@ -1,9 +1,11 @@
 ﻿using ITI.ElectroDev.Models;
 using ITI.ElectroDev.Presentation;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Session;
 using System.Dynamic;
 using System.Xml.Linq;
 
@@ -176,7 +178,7 @@ namespace ITI.ElectroDev.Presentation
                 {
 					await UserManager.AddToRoleAsync(user, model.Role);
 
-                    return RedirectToAction("SignIn", "User");
+                    return RedirectToAction("Index", "Home");
                 }
             }
         }
@@ -229,6 +231,7 @@ namespace ITI.ElectroDev.Presentation
             await SignInManager.SignOutAsync();
             TempData["AlertMessage"] = "You Signed Out Successfully";
             return RedirectToAction("SignIn", "User");
+
         }
 
         [HttpGet]
@@ -293,8 +296,8 @@ namespace ITI.ElectroDev.Presentation
             var model = new EditUserViewModel
             {
                 Id = user.Id,
-                //FirstName = user.FirstName,
-                //LastName = user.LastName,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
                 Email = user.Email,
                 UserName = user.UserName,
                 //Roles = userRoles,
@@ -307,7 +310,7 @@ namespace ITI.ElectroDev.Presentation
         [HttpPost]
         public async Task<IActionResult> Edit(EditUserViewModel model)
         {
-            var user = await UserManager.FindByIdAsync(model.Email);
+            var user = await UserManager.FindByIdAsync(model.Id);
             if (user == null)
             {
                 TempData["AlertMessage"] = "User Not Found";
