@@ -3,6 +3,7 @@ using ITI.ElectroDev.Presentation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Extensions.Localization;
 using System.Data;
 using System.Dynamic;
 using X.PagedList;
@@ -14,8 +15,7 @@ namespace ITI.ElectroDev.Presentation
         private Context db;
         public CategoryController(Context _db)
         {
-            db = _db;
-            
+            db = _db; 
         }
         [HttpGet]
         public IActionResult Index(int pageIndex = 1, int pageSize = 2)
@@ -35,7 +35,7 @@ namespace ITI.ElectroDev.Presentation
         [HttpGet]
         public IActionResult Add()
         {
-            ViewBag.Title = "Add New Category";
+            
             return View();
         }
 
@@ -63,6 +63,7 @@ namespace ITI.ElectroDev.Presentation
         [HttpGet]
         public IActionResult Edit(int id, string name)
         {
+            
             dynamic category = new ExpandoObject();
             category.Name = name;
             category.Id = id;
