@@ -7,7 +7,7 @@ namespace ITI.ElectroDev.Presentation
     {
         public int Id { get; set; }
         [Display(Name = "Category Name")]
-        [Required(ErrorMessage = "حقل العنوان مطلوب")]
+        [Required(ErrorMessage = "This Field is Required")]
         [MaxLength(200, ErrorMessage = "لا يزيد عن 200")]
         [MinLength(4, ErrorMessage = "Must Be More Than Or Equals 4 Chars.")]
         public string Name { get; set; }

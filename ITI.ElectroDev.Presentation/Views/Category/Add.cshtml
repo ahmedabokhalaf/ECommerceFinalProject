@@ -1,15 +1,15 @@
 ﻿
 @model CategoryCreateModel
-<h1>Add New Category</h1>
+<h2>@localizer["Add New Category"]</h2>
 
 <a asp-controller="Category" asp-action="Index">
-    <i class="bi bi-arrow-left " style="font-size:3rem"></i>
+    <i class="bi bi-arrow-left " style="font-size:2rem"></i>
 </a>
 <div class="alert alert-success" role="alert" style="display:none;" id="Mgs">
-    <h4 class="alert-heading">Well done!</h4>
-    <p>you successfully Added New Category. </p>
+    <h4 class="alert-heading">@localizer["Well done"]</h4>
+    <p>@localizer["sucAlertAdd"] </p>
     <hr>
-    <p class="mb-0"><a asp-controller="Category" asp-action="Index">Back to Categories</a>.</p>
+    <p class="mb-0"><a asp-controller="Category" asp-action="Index">@localizer["BackToCatIndex"]</a>.</p>
 </div>
 <div class="col-10 mx-auto">
     <div class="card shadow border-0">
@@ -22,7 +22,7 @@
                         <input asp-for="Name" class="form-control" />
                         <span asp-validation-for="Name"></span>
                     </div>
-                    <input type="submit" value="Add" class="btn btn-primary" />
+                    <input type="submit" value="@localizer["Add"]" class="btn btn-primary" />
                     <div class="d-flex justify-content-center">
                         <img class="w-20" id="loader" src="~/Images/uploadloader.gif" style="display:none;" />
                     </div>
