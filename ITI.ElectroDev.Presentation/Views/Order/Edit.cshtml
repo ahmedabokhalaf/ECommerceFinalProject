@@ -1,15 +1,17 @@
 ﻿@model OrderViewModel
 <div class="alert alert-success" role="alert" style="display:none" id="alert">
-    <h4 class="alert-heading">Well done!</h4>
-    <p>Aww yeah, you successfully created new order.</p>
+    <h4 class="alert-heading">@localizer["Well done"]</h4>
+    <p>@localizer["alertOrder"].</p>
     <hr>
     <p class="mb-0">
-        <a asp-action="Index" asp-controller="Order">Click Here</a>
-        for Details
+        <a asp-action="Index" asp-controller="Order">@localizer["Click Here"]</a>
+        @localizer["for Details"]
     </p>
 </div>
-<div class="row">
-    <div class="col-md-8">
+<div class="col-10 mx-auto">
+    <div class="card shadow border-0">
+        <div class="card-body">
+            <div class="row">
         <form method="post" asp-controller="Order" asp-action="Edit" asp-route-id="@Model.Id" enctype="multipart/form-data"
               data-ajax="true" data-ajax-complete="OrderAdded" data-ajax-loading="#loader">
             <div class="form-group">
@@ -65,6 +67,8 @@
                 <a asp-controller="Order" asp-action="Index" class="btn btn-outline-info">Back to List</a>
             </div>
         </form>
+    </div>
+    </div>
     </div>
     <div class="col-md-4" style="text-align:center; padding:100px">
         <img src="~/img/createLoader.gif" id="loader" style="width:200px;height:200px;display:none" />
