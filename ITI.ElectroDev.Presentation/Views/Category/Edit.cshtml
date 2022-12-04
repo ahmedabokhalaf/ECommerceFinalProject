@@ -1,14 +1,16 @@
-﻿
-<h1> Edit Category</h1>
+﻿@using System.Globalization
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer localizer﻿
+<h2>@localizer["Edite"]</h2>
 
 <a asp-controller="Category" asp-action="Index">
-    <i class="bi bi-arrow-left " style="font-size:3rem"></i>
+    <i class="bi bi-arrow-left " style="font-size:2rem"></i>
 </a>
 <div class="alert alert-success" role="alert" style="display:none;" id="Mgs">
-    <h4 class="alert-heading">Well done!</h4>
-    <p>you successfully Edit. </p>
+    <h4 class="alert-heading">@localizer["Well done"]</h4>
+    <p>  @localizer["sucAlertEdit"]</p>
     <hr>
-    <p class="mb-0"><a asp-controller="Category" asp-action="Index">Back to Categories</a>.</p>
+    <p class="mb-0"><a asp-controller="Category" asp-action="Index">@localizer["BackToCatIndex"]</a>.</p>
 </div>
 <div class="col-10 mx-auto">
     <div class="card shadow border-0">
@@ -16,17 +18,17 @@
             <div class="row">
                 <form data-ajax="true" data-ajax-loading="#loader" data-ajax-complete="CategoryAdd" method="GET" action="/Category/SaveEdit">
                     <div asp-validation-summary="ModelOnly"></div>
-                    <div class="form-group">
-                        <label>CategoryID</label>
-                        <input name="Id" value="@Model.Id" class="form-control" readonly />
+                    <div class="form-group" hidden>
+                        <label >CategoryID</label>
+                        <input name="Id" value="@Model.Id" class="form-control"/>
                     </div>
                     <div class="form-group">
-                        <label>Name</label>
+                        <label>@localizer["Category Name"]</label>
                         <input name="Name" value="@Model.Name" class="form-control" />
                     </div>
-                    <input class="col-1 btn  col-1 btn btn-primary" type="submit" value="Edit">
+                    <input class="btn btn-primary" type="submit" value="@localizer["EditBtn"]">
                     <div class="d-flex justify-content-center">
-                        <img class="img-thumbnail" id="loader" src="~/Images/uploadloader.gif" style="display:none;" />
+                        <img class="w-20" id="loader" src="~/Images/uploadloader.gif" style="display:none;" />
                     </div>
                 </form>
             </div>

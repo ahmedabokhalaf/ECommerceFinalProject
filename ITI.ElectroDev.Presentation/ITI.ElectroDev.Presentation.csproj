@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\Content\css\_Layout.css" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,11 +17,16 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="X.PagedList.Mvc.Core" Version="8.4.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ITI.ElectroDev.Models\ITI.ElectroDev.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Home\" />
   </ItemGroup>
 
 </Project>
