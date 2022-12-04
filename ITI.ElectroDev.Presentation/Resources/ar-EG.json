@@ -1,0 +1,26 @@
+{
+  "Categories": "الاقسام",
+  "Brands": "العلامات التجارية",
+  "Products": "منتجات",
+  "Orders": "طلبات",
+  "Users": "المستخدمين",
+  "Account": "الحساب",
+  "Logout": "تسجيل الخروج",
+  "cat": "الاقسام",
+  "notCatAdded": "لم يتم اضافه اقسام حتى الان",
+  "addCat": "اضافه قسم",
+  "Add": "اضافه",
+  "Well done": "احسنت",
+  "BackToCatIndex": "صفحه الاقسام",
+  "sucAlertAdd": "تم اضافه هذا القسم بنجاح",
+  "Add New Category": "اضافه قسم جديد",
+  "Category Name": "اسم القسم",
+  "This Field is Required": "حقل العنوان مطلوب",
+  "Edite": "تعديل اسم القسم",
+  "EditBtn": "تعديل",
+  "sucAlertEdit": "تم التعديل بنجاح ",
+  "deleteMsg": "هل تريد حذف قسم",
+  "welcome": "مرحبا {0}, كيف حالك؟",
+  "firstname": "الاسم الاول"
+
+}

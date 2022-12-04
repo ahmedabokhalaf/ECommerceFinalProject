@@ -5,7 +5,6 @@ namespace ITI.ElectroDev.Presentation
 {
     public class UserCreateModel
     {
-
         [Required, MaxLength(200), MinLength(3), Display(Name = "First Name")]
         public string FirstName { get; set; }
         [Required, MaxLength(200), MinLength(3), Display(Name = "Last Name")]
@@ -22,5 +21,8 @@ namespace ITI.ElectroDev.Presentation
         [Required, Compare("Password")]
         [Display(Name = "Confirm Password"), DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
+        [Required]
+        public string Role { get; set; }
+
     }
 }

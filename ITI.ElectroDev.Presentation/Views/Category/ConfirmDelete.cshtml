@@ -1,12 +1,18 @@
-﻿
+<<<<<<< HEAD
+﻿@using System.Globalization
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer localizer﻿
 <div class="col-10 mx-auto mt-5">
+=======
+﻿<div class="col-10 mx-auto mt-5">
+>>>>>>> yusufhasan
     <div class="card shadow border-0">
         <div class="card-body">
             <div class="row">
                 <h1>Confirm Delete</h1>
-                <h1>Are You Sure To Delete This Category :@Model.Name</h1>
-                <a class="col-1 btn  btn-danger" asp-controller="Category" asp-action="Delete" asp-route-id="@Model.Id">Yes</a>
-                <a class="col-1 btn btn-primary" asp-controller="Category" asp-action="Index">Cancel</a>
+                <h1>Are You Sure To Delete This Category </h1>
+                <a class="col-1 btn  btn-danger" asp-controller="User" asp-action="Delete" asp-route-id="">Yes</a>
+                <a class="col-1 btn btn-primary" asp-controller="User" asp-action="UserDetails">Cancel</a>
             </div>
         </div>
     </div>
