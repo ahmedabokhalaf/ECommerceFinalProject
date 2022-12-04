@@ -196,10 +196,10 @@ ul.sidebar-menu li a.active i {
 /*main content*/
 #main-content {
     margin-left:240px;
-    -webkit-transition:all .3s ease-in-out;
-    -moz-transition:all .3s ease-in-out;
-    -o-transition:all .3s ease-in-out;
-    transition:all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 .footer {
     background: #d19a98;
@@ -233,10 +233,11 @@ ul.sidebar-menu li a.active i {
     box-shadow:1px 0 3px rgba(0,0,0,.15);
 }
 .wrapper {
-    display:inline-block;
-    margin-top:80px;
-    padding:15px;
-    width:100%;
+    display: inline-block;
+    margin-top: 80px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
 }
 .brand {
     background:#8b5c7e;

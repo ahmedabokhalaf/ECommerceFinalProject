@@ -1,39 +1,24 @@
-﻿@using ITI.ElectroDev.Models
-@using X.PagedList
-@using X.PagedList.Mvc.Core
-@using X.PagedList.Web.Common
-
-<div id="PagedCategories">
-    @model IPagedList<Category>
-
-    <div class="table-responsive">
+﻿    <div class="table-responsive">
         <table class="table table-hover table-nowrap text-center">
             <thead class="thead-light">
                 <tr>
-                    @*<th scope="col">ID Category</th>*@
                     <th scope="col">@localizer["Category Name"]</th>
                     <th></th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (var b in Model.ToList<Category>())
+            @foreach (Category item in Model)
                 {
                     <tr>
-                       @* <td><span class="h3 font-bold mb-0">@b.Id</span></td>*@
-                        <td><span class="h4 mb-0">@b.Name</span></td>
+                    <td><span class="h4 mb-0">@item.Name</span></td>
                         <td class="col-sm-6 col-12 text-sm-end">
-                            <a class="btn d-inline-flex btn-sm btn-neutral border-base mx-1" asp-controller="Category" asp-action="Edit" asp-route-id="@b.Id" asp-route-Name="@b.Name">
+                        <a class="btn d-inline-flex btn-sm btn-neutral border-base mx-1" asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id" asp-route-Name="@item.Name">
                                 <div class="d-flex justify-content-center">
                                      <i class="bi bi-pencil h5"></i>
                                     <span class="pe-0">@localizer["EditBtn"]</span>
                                 </div> 
                             </a>
-                          @*  <a class="btn btn-danger btn btn-sm btn-square  text-danger-hover h3 font-bold " asp-controller="Category" asp-action="ConfirmDelete" asp-route-id="@b.Id" asp-route-Name="@b.Name"> <i class="bi bi-trash h3 font-bold text-white"></i></a>
-                            @Html.ActionLink("Delete", "Delete", new { id = @b.Id }
-                            ,new { @class="btn btn-danger btn btn-sm btn-square  text-danger-hover h3 font-bold"
-                            ,onclick="return confirm('Are you sure?');"})*@
-
-                            <a href="~/Category/Delete?id=@b.Id" id="deleteBtn" class="btn btn-danger btn-sm btn-square  text-danger-hover " onclick="return confirm('@localizer["deleteMsg"] : @b.Name');">
+                        <a href="~/Category/Delete?id=@item.Id" id="deleteBtn" class="btn btn-danger btn-sm btn-square  text-danger-hover " onclick="return confirm('@localizer["deleteMsg"] : @item.Name');">
                                 <i class="bi bi-trash h5 text-white mx-auto"></i>
                             </a>
 
@@ -46,26 +31,5 @@
             </tbody>
         </table>
     </div>
-
-    <div class="d-flex justify-content-center">
-        @Html.PagedListPager(Model, pageIndex => Url.Action("PartialCategory", new { pageIndex}),
-        PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(
-        new PagedListRenderOptions()
-        {
-        MaximumPageNumbersToDisplay=3
-        },
-        new AjaxOptions()
-        {
-        HttpMethod ="GET",
-        UpdateTargetId="PagedCategories"
-
-        }
-        ))
-    </div>
-    
-
-</div>
-
-
 
 

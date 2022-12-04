@@ -15,6 +15,9 @@
 	<!-- Custom CSS -->
 	<link href="~/Content/css/style.css" rel='stylesheet' type='text/css' />
 	<link href="~/Content/css/style-responsive.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://therichpost.com/responsivestyle/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
+    
 	<!-- font CSS -->
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<!-- font-awesome icons -->
@@ -34,7 +37,10 @@
 	@if (isRTL)
 	{
 	 <link href="~/Content/css/StyleSheet.css" rel='stylesheet' type='text/css' />
-	<link href="~/Content/css/style-responsiv-rtl.css" rel='stylesheet' type='text/css' />
+	 <link href="~/Content/css/style-responsiv-rtl.css" rel='stylesheet' type='text/css' />
+     <link rel="stylesheet" href="https://therichpost.com/responsivestyle/index.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
+
 	}
 </head>
 <body>
@@ -54,75 +60,6 @@
 			<div class="nav notify-row" id="top_menu">
 				<!--  notification start -->
 				<ul class="nav top-menu">
-					<!-- settings start -->
-					<li class="dropdown">
-						<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-							<i class="fa fa-tasks"></i>
-							<span class="badge bg-success">8</span>
-						</a>
-						<ul class="dropdown-menu extended tasks-bar">
-							<li>
-								<p class="">You have 8 pending tasks</p>
-							</li>
-							<li>
-								<a href="#">
-									<div class="task-info clearfix">
-										<div class="desc pull-left">
-											<h5>Target Sell</h5>
-											<p>25% , Deadline  12 June’13</p>
-										</div>
-										<span class="notification-pie-chart pull-right" data-percent="45">
-											<span class="percent"></span>
-										</span>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<div class="task-info clearfix">
-										<div class="desc pull-left">
-											<h5>Product Delivery</h5>
-											<p>45% , Deadline  12 June’13</p>
-										</div>
-										<span class="notification-pie-chart pull-right" data-percent="78">
-											<span class="percent"></span>
-										</span>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<div class="task-info clearfix">
-										<div class="desc pull-left">
-											<h5>Payment collection</h5>
-											<p>87% , Deadline  12 June’13</p>
-										</div>
-										<span class="notification-pie-chart pull-right" data-percent="60">
-											<span class="percent"></span>
-										</span>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<div class="task-info clearfix">
-										<div class="desc pull-left">
-											<h5>Target Sell</h5>
-											<p>33% , Deadline  12 June’13</p>
-										</div>
-										<span class="notification-pie-chart pull-right" data-percent="90">
-											<span class="percent"></span>
-										</span>
-									</div>
-								</a>
-							</li>
-
-							<li class="external">
-								<a href="#">See All Tasks</a>
-							</li>
-						</ul>
-					</li>
-					<!-- settings end -->
 					<!-- inbox dropdown start-->
 					<li id="header_inbox_bar" class="dropdown">
 						<a data-toggle="dropdown" class="dropdown-toggle" href="#">
@@ -234,25 +171,10 @@
 				<ul class="nav top-menu">
 					<li>
 						@*<input type="text" class="form-control search" placeholder=" Search">*@
-						<div class="form-control">
+						<div>
 							<partial name="_SelectLanguage" />
 						</div>
 					</li>
-					<!-- user login dropdown start-->
-					<li class="dropdown">
-						<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-							<img alt="" src="~/Content/images/2.png">
-							<span class="username">John Doe</span>
-							<b class="caret"></b>
-						</a>
-						<ul class="dropdown-menu extended logout">
-							<li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
-							<li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
-							<li><a href="login.html"><i class="fa fa-key"></i> Log Out</a></li>
-						</ul>
-					</li>
-					<!-- user login dropdown end -->
-					
 				</ul>
 				<!--search & user info end-->
 			</div>
@@ -273,7 +195,7 @@
 
 						<li>
 							<a class="active" asp-action="Index" asp-controller="Category" >
-								<i class="fa fa-dashboard"></i>
+								<i class="fa fa-align-justify"></i>
 								<span>@localizer["Categories"]</span>
 							</a>
 						</li>
@@ -297,7 +219,7 @@
 						</li>
 						<li>
 							<a class="active" asp-action="Control" asp-controller="User">
-								<i class="fa fa-dashboard"></i>
+								<i class="bi bi-people-fill"></i>
 								<span>@localizer["Users"]</span>
 							</a>
 						</li>
@@ -315,18 +237,12 @@
 		<!--sidebar end-->
 		
 		<!--main content start-->
-		<section id="main-content">
+		<section id="main-content" style="height: 100vh">
 			<section class="wrapper">
 				<!-- //market-->
 				@RenderBody()
 			</section>
-			
-			<!-- footer -->
-			<div class="footer">
-				<div class="wthree-copyright">
-					<p>© 2017 Admin Dashoard.</p>
-				</div>
-			</div>
+		
 			<!-- / footer -->
 		</section>
 		<!--main content end-->

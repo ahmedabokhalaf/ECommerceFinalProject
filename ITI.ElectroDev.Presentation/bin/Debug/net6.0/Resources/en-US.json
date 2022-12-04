@@ -21,5 +21,6 @@
   "sucAlertEdit": "you successfully Edit.",
   "deleteMsg": "Are you sure you want to delete",
   "welcome": "Welcome {0}, How are you?",
-  "home": "Home"
+  "home": "Home",
+  "firstname": "First Name"
 }
