@@ -8029,11 +8029,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\ItI\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+      "projectUniqueName": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
       "projectName": "ITI.ElectroDev.Presentation",
-      "projectPath": "I:\\ItI\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+      "projectPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
       "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-      "outputPath": "I:\\ItI\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\obj\\",
+      "outputPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8050,8 +8050,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "I:\\ItI\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
-              "projectPath": "I:\\ItI\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
+            "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+              "projectPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
             }
           }
         }

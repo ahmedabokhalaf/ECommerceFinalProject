@@ -8,105 +8,105 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ITI.ElectroDev.Presentation
 build_property.RootNamespace = ITI.ElectroDev.Presentation
-build_property.ProjectDir = I:\ItI\Final Project -Dashboard- ITI\ITI.ElectroDev.Presentation\
+build_property.ProjectDir = I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Presentation\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = I:\ItI\Final Project -Dashboard- ITI\ITI.ElectroDev.Presentation
+build_property.MSBuildProjectDirectory = I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Presentation
 build_property._RazorSourceGeneratorDebug = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Category/Add.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Category/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Category/ConfirmDelete.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Category/ConfirmDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ29uZmlybURlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Category/Edit.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Category/Index.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Category/_PagedCategories.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Category/_PagedCategories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcX1BhZ2VkQ2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Home/Index.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Order/Add.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Order/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Order/Delete.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Order/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Order/Edit.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Order/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Order/Index.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Order/OrderInfo.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Order/OrderInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJJbmZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Product/ConfirmDelete.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Product/ConfirmDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDb25maXJtRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Product/Create.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Product/Details.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Product/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Product/Edit.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Product/Index.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Shared/Error.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Shared/_ValidationScriptsPartial.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/Control.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/Control.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb250cm9sLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/SignIn.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/SignUp.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/_ViewImports.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/_ViewStart.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Shared/_Layout.cshtml]
+[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-cmsbfw1p7n

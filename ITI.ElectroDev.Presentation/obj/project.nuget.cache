@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6EtBj7n8H/o4+7FjoOq+3HIyMj24onA0sLV5RuDKr73zJ0cp9P6ygQZoyRj1OswCIFbPa1XqV1+fK4wF5oGKmw==",
+  "dgSpecHash": "O3VgViWKBhmr9EeDhsD1Y86LQhabih80capSvN7TF9Vba8FWK4ek3n7hRRDhciSPk1wivl/CxjaRkkzoF66ZIw==",
   "success": true,
-  "projectFilePath": "I:\\ItI\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+  "projectFilePath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\A\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
