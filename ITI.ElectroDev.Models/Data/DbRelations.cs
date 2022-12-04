@@ -16,7 +16,7 @@ namespace ITI.ElectroDev.Models
                 .OnDelete(DeleteBehavior.Cascade);
 
             builder.Entity<Brand>()
-                .HasOne(i => i.Category).WithMany(i => i.Brands).HasForeignKey(i => i.CategoryId)
+                .HasOne(i => i.Category).WithMany(i => i.Brands).HasForeignKey(i => i.Cat_Id)
                 .OnDelete(DeleteBehavior.Cascade);
 
             builder.Entity<ProductImages>()

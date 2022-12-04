@@ -34,52 +34,56 @@ namespace ITI.ElectroDev.Presentation
         {
             //string image;
 
-            //if (ModelState.IsValid == false)
-            //{
-            //    var errors =
-            //        ModelState.SelectMany(i => i.Value.Errors.Select(x => x.ErrorMessage));
+            if (ModelState.IsValid == false)
+            {
+                var errors =
+                    ModelState.SelectMany(i => i.Value.Errors.Select(x => x.ErrorMessage));
 
-            //    foreach (string err in errors)
-            //        ModelState.AddModelError("", err);
+                foreach (string err in errors)
+                    ModelState.AddModelError("", err);
 
-            //    ViewBag.Success = false;
-            //    return View();
+                ViewBag.Success = false;
+                return View();
 
-            //}
-            //else
-            //{
-            //    ViewBag.Sucess = true;
+            }
+            else
+            {
+                ViewBag.Sucess = true;
 
-            //}
+            }
 
-                //IFormFile file = brand.Image as IFormFile;
+            //IFormFile file = brand.Image as IFormFile;
 
-                //string BinaryPath = Guid.NewGuid().ToString() + file.FileName;
-                //image = BinaryPath;
+            //string BinaryPath = Guid.NewGuid().ToString() + file.FileName;
+            //image = BinaryPath;
 
-                //FileStream fs = new FileStream(
-                //    Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "BrandImages", BinaryPath)
-                //    , FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            //FileStream fs = new FileStream(
+            //    Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "BrandImages", BinaryPath)
+            //    , FileMode.OpenOrCreate, FileAccess.ReadWrite);
 
-                //file.CopyTo(fs);
-                //fs.Position = 0;
-
-
-                var Brand = new Brand();
-                Brand.Name = brand.Name;
-                Brand.CategoryId = brand.CategoryId;
-                
-                    //Name = brand.Name,
-
-                    //CategoryId = brand.CategoryId,
-
-                
-                dbcontext.Brands.Add(Brand);
-                dbcontext.SaveChanges();
-
-              
+            //file.CopyTo(fs);
+            //fs.Position = 0;
 
 
+
+
+
+
+            var Brand = new Brand();
+            Brand.Name = brand.Name;
+            Brand.Cat_Id = brand.Cat_Id;
+
+            //Name = brand.Name,
+
+            //CategoryId = brand.CategoryId,
+
+
+            dbcontext.Brands.Add(Brand);
+            dbcontext.SaveChanges();
+
+
+
+        
             
            
             return View();
@@ -116,7 +120,7 @@ namespace ITI.ElectroDev.Presentation
             dynamic brand = new ExpandoObject();
             brand.Id = id;
             brand.Name = name;
-            brand.CategoryId = categoryId;
+            brand.Cat_Id = categoryId;
             return View(brand);
         }
 
@@ -127,7 +131,7 @@ namespace ITI.ElectroDev.Presentation
             var brand = dbcontext.Brands.FirstOrDefault(i => i.Id == id);
             brand.Id = id;
             brand.Name = name;
-            //brand.CategoryId = categoryId;
+            //brand.Cat_Id = categoryId;
             dbcontext.Brands.Update(brand);
             dbcontext.SaveChanges();
             return RedirectToAction("AllBrand");

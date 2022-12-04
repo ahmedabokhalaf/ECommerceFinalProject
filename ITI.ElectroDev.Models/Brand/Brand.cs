@@ -12,7 +12,7 @@ namespace ITI.ElectroDev.Models
         public string Name { get; set; }
       
         public virtual ICollection<Product> Products { get; set; }
-        public int CategoryId { get; set; }
+        public int Cat_Id { get; set; }
         public virtual Category Category { get; set; }
 
     }

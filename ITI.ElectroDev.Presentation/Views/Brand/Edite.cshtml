@@ -13,22 +13,20 @@
     <div class="card shadow border-0">
         <div class="card-body">
             <div class="row">
-                <form data-ajax="true" data-ajax-loading="#loader" data-ajax-complete="BrandUpdated" method="GET" action="/Brand/ConfirmEdite">
+                <form data-ajax="true" data-ajax-loading="#loader"   method="GET" action="/Brand/ConfirmEdite">
                     <div asp-validation-summary="ModelOnly"></div>
-
-                  @*   <div class="form-group">
-                        <label>ID</label>
-                          <input name="Id" value="@Model.Id" class="form-control" readonly />
-                    </div>*@
-
+                    <div class="form-group" >
+                        <label >CategoryID</label>
+                        <input name="Id" value="@Model.Id" class="form-control" readonly/>
+                    </div>
                     <div class="form-group">
-                        <label>Name</label>
+                         <label> Name</label>
                         <input name="Name" value="@Model.Name" class="form-control" />
                     </div>
-
-                    
-                    <input class="col-4 btn  col-1 btn btn-primary" type="submit" value="Update">
-                    
+                    <input class="col-4 btn btn-primary" type="submit"  value="update" />
+                    @*<div class="d-flex justify-content-center">
+                        <img class="w-20" id="loader" src="~/Images/uploadloader.gif" style="display:none;" />
+                    </div>*@
                 </form>
             </div>
         </div>

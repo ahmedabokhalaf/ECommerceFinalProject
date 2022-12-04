@@ -13,6 +13,6 @@ namespace ITI.ElectroDev.Presentation
         //public IFormFile Image { get; set; }
 
         [Required(ErrorMessage = "Must Enter CategoryID")]
-        public int CategoryId { get; set; }
+        public int Cat_Id { get; set; }
     }
 }

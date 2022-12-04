@@ -16,7 +16,7 @@ namespace ITI.ElectroDev.Models
             builder.HasKey(i => i.Id);
             builder.Property(i => i.Id).ValueGeneratedOnAdd();
             builder.Property(i => i.Name).IsRequired().HasMaxLength(200);
-            builder.Property(i => i.CategoryId).IsRequired();
+            builder.Property(i => i.Cat_Id).IsRequired();
         }
     }
 }

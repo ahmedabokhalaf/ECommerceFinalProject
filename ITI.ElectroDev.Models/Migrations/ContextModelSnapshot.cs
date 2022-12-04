@@ -30,7 +30,7 @@ namespace ITI.ElectroDev.Models.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("CategoryId")
+                    b.Property<int>("Cat_Id")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -40,7 +40,7 @@ namespace ITI.ElectroDev.Models.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CategoryId");
+                    b.HasIndex("Cat_Id");
 
                     b.ToTable("Brand", (string)null);
                 });
@@ -387,7 +387,7 @@ namespace ITI.ElectroDev.Models.Migrations
                 {
                     b.HasOne("ITI.ElectroDev.Models.Category", "Category")
                         .WithMany("Brands")
-                        .HasForeignKey("CategoryId")
+                        .HasForeignKey("Cat_Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

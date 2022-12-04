@@ -1,17 +1,9 @@
 ﻿@using ITI.ElectroDev.Models
 @model List<Brand>
 <header>
-     <h7>All Brands</h7>
+     <h5>All Brands</h5>
  </header>
-<link rel="stylesheet" href="~/css/AllBrand.css" asp-append-version="true" />
-<form method="get" asp-action="Search" asp-controller="Product">
-    <div class="input-group">
-        <input class="form-control" type="search" name="ProductName" />
-        <button class=" btn btn-outline-success my2-sm-0" type="submit">Search</button>
-
-    </div>
-
-</form>
+ 
 <!--For Page-->
 <!--For Row containing all card-->
  
@@ -53,12 +45,16 @@
             </td>
          
             <td>
-            @Html.ActionLink("Delete", "Delete", new { id = item.Id },
-            new { onclick = "return confirm('Are sure wants to delete?');" })
+           @* @Html.ActionLink("Delete", "Delete", new { id = item.Id },
+            new { onclick = "return confirm('Are sure wants to delete?');" })*@
+
+            <a href="~/Brand/Delete?id=@item.Id" id="deleteBtn" class="btn btn-danger btn-sm btn-square  text-danger-hover " onclick="return confirm(' Are sure wants to delete? : @item.Name');">
+                                <i class="bi bi-trash h5 text-white mx-auto"></i>
+                            </a>
                   
             </td>
             <td>
-                    <a class="btn d-inline-flex btn-sm btn-neutral border-base mx-1" asp-action="Edite" asp-controller="Brand" asp-route-Name="@item.Name">
+                    <a class="btn d-inline-flex btn-sm btn-neutral border-base mx-1" asp-action="Edite" asp-controller="Brand" asp-route-ID="@item.Id" asp-route-Name="@item.Name"  >
                     <span class="h5 font-bold pe-2"> <i class="bi bi-pencil h5 font-bold"></i> </span>
                     <span class="h5 font-bold">Edit</span>
                 </a>
