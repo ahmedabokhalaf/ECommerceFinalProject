@@ -2,7 +2,9 @@
 @using X.PagedList
 @using X.PagedList.Mvc.Core
 @using X.PagedList.Web.Common
-
+@using System.Globalization
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer localizer﻿
 <div id="PagedCategories">
     @model IPagedList<Category>
 

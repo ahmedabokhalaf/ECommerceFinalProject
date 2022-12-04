@@ -12,10 +12,10 @@
     var cultures = options.Value.SupportedUICultures
         .Select(c => new SelectListItem { Value = c.Name, Text = c.NativeName })
         .ToList();
-    var returnUrl = string.IsNullOrEmpty(Context.Request.Path) ? "~/" : $"~{Context.Request.Path.Value}";
+    var returnUrl = string.IsNullOrEmpty(Context.Request.Path) ? "/" : $"{Context.Request.Path.Value}";
 }
 
-<div class="col-3">
+<div>
     <form method="post" asp-controller="Home" asp-action="SetLanguage" asp-route-returnUrl="@returnUrl">
         <select class="form-select" name="culture"
                 asp-for="@requestCulture.RequestCulture.UICulture.Name"

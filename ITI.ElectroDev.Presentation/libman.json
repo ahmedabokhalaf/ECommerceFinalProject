@@ -7,7 +7,6 @@
       "destination": "wwwroot/lib/jquery-ajax-unobtrusive/"
     },
     {
-<<<<<<< HEAD
       "library": "bootstrap-icons@1.10.2",
       "destination": "wwwroot/lib/bootstrap/bootstrap-icons/",
       "files": [
@@ -18,10 +17,10 @@
         "font/bootstrap-icons.json",
         "font/bootstrap-icons.min.css"
       ]
-=======
+    },
+    {
       "library": "twitter-bootstrap@5.2.3",
       "destination": "wwwroot/lib/twitter-bootstrap/"
->>>>>>> main
     }
   ]
 }

@@ -4,12 +4,9 @@ using JsonBasedLocalization.Web.Middlewares;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
-<<<<<<< HEAD
 using Microsoft.Extensions.FileProviders;
-=======
 using Microsoft.Extensions.Localization;
 using System.Globalization;
->>>>>>> Mariam
 
 var builder = WebApplication.CreateBuilder(args);
 
