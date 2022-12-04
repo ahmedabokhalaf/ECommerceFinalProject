@@ -53,7 +53,6 @@ body a:hover {
 /*sidebar navigation*/
 #sidebar {
     width: 240px;
-    height: 100%;
     position: fixed;
     background: rgba(52, 48, 48, 0.78);
     -webkit-transition: all .3s ease-in-out;
@@ -215,7 +214,7 @@ ul.sidebar-menu li a {
 
     ul.sidebar-menu li a i {
         font-size: 15px;
-        padding-left: 6px;
+        padding-right: 6px;
     }
 
     ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i {
@@ -463,7 +462,7 @@ ul.top-menu {
 
 .dropdown-menu.tasks-bar .task-info .percent {
     width: 20%;
-    float: left;
+    float: right;
     font-size: 13px;
     font-weight: 600;
     padding-right: 10px;
@@ -484,7 +483,7 @@ ul.top-menu {
     -webkit-border-radius: 2px 2px 2px 2px;
     float: right;
     height: 40px;
-    margin-left: 10px;
+    margin-right: 10px;
     width: 40px;
 }
 
@@ -502,7 +501,7 @@ ul.top-menu {
         font-style: italic;
         font-weight: bold;
         position: absolute;
-        left: 20px;
+        right: 20px;
     }
 
 .dropdown-menu.inbox li a .message {
@@ -547,8 +546,8 @@ ul.top-menu {
 
     .top-nav li.dropdown .dropdown-menu {
         float: right;
-        left: 0;
-        right: auto;
+        left:auto;
+        right:0;
     }
 
 .dropdown-menu.extended.logout > li {
@@ -713,7 +712,8 @@ ul.top-menu {
     width: 32px;
     height: 32px;
     position: absolute;
-    right: -15px;
+    left: -15px;
+
 }
 
     .sidebar-toggle-box .fa-bars {
@@ -729,7 +729,7 @@ ul.top-menu {
     }
 
 .hide-left-bar {
-    margin-right: -240px !important;
+    margin-left: -240px ;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -745,11 +745,11 @@ ul.top-menu {
 }
 
 .merge-left {
-    margin-right: 0px !important;
+    margin-left: 0px !important;
 }
 
 .hide-right-bar {
-    margin-left: -240px !important;
+    margin-right: -240px !important;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;

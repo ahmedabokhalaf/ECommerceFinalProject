@@ -1,12 +1,6 @@
 ﻿using ITI.ElectroDev.Models;
-using ITI.ElectroDev.Presentation;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.Extensions.Localization;
-using System.Data;
 using System.Dynamic;
-using X.PagedList;
 
 namespace ITI.ElectroDev.Presentation
 {
@@ -20,18 +14,10 @@ namespace ITI.ElectroDev.Presentation
         [HttpGet]
         public IActionResult Index(int pageIndex = 1, int pageSize = 2)
         {
-            ViewBag.Title = "Category List";
-            var categories = db.Category.ToPagedList(pageIndex, pageSize);
+            var categories = db.Category.ToList();
             return View(categories);
         }
-        [HttpGet]
-        public IActionResult PartialCategory(int pageIndex = 1, int pageSize = 2)
-        {
-            var pagedCategories = db.Category.ToPagedList(pageIndex, pageSize);
-            return PartialView("_PagedCategories", pagedCategories);
-        }
-
-
+        
         [HttpGet]
         public IActionResult Add()
         {
@@ -45,11 +31,11 @@ namespace ITI.ElectroDev.Presentation
 
             if (ModelState.IsValid == false)
             {
-                //var errors =
-                //     ModelState.SelectMany(i => i.Value.Errors.Select(x => x.ErrorMessage));
+                var errors =
+                     ModelState.SelectMany(i => i.Value.Errors.Select(x => x.ErrorMessage));
 
-                //foreach (string err in errors)
-                //    ModelState.AddModelError("", err);
+                foreach (string err in errors)
+                    ModelState.AddModelError("", err);
 
                 return View();
             }

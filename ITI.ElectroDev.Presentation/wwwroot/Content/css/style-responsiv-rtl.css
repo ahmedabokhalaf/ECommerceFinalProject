@@ -71,6 +71,8 @@
     }
 
     #main-content {
+            height: 100vh;
+
         margin-right: 0px;
     }
     /*calendar*/
@@ -172,7 +174,7 @@
     }
     /*-*/
     .prd-row .action {
-        left: 25px;
+        right: 25px;
     }
 
     .lock-wrapper {
