@@ -1,49 +1,36 @@
-<<<<<<< HEAD
-﻿@using ITI.ElectroDev.Models
-@using X.PagedList
-@using X.PagedList.Mvc.Core
-@using X.PagedList.Web.Common
 @using System.Globalization
 @using Microsoft.AspNetCore.Mvc.Localization
 @inject IViewLocalizer localizer﻿
-<div id="PagedCategories">
-    @model IPagedList<Category>
-
-    <div class="table-responsive">
-=======
-﻿    <div class="table-responsive">
->>>>>>> Mariam
-        <table class="table table-hover table-nowrap text-center">
-            <thead class="thead-light">
-                <tr>
-                    <th scope="col">@localizer["Category Name"]</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
+<div class="table-responsive">
+    <table class="table table-hover table-nowrap text-center">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">@localizer["Category Name"]</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
             @foreach (Category item in Model)
-                {
-                    <tr>
+            {
+                <tr>
                     <td><span class="h4 mb-0">@item.Name</span></td>
-                        <td class="col-sm-6 col-12 text-sm-end">
+                    <td class="col-sm-6 col-12 text-sm-end">
                         <a class="btn d-inline-flex btn-sm btn-neutral border-base mx-1" asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id" asp-route-Name="@item.Name">
-                                <div class="d-flex justify-content-center">
-                                     <i class="bi bi-pencil h5"></i>
-                                    <span class="pe-0">@localizer["EditBtn"]</span>
-                                </div> 
-                            </a>
+                            <div class="d-flex justify-content-center">
+                                <i class="bi bi-pencil h5"></i>
+                                <span class="pe-0">@localizer["EditBtn"]</span>
+                            </div>
+                        </a>
                         <a href="~/Category/Delete?id=@item.Id" id="deleteBtn" class="btn btn-danger btn-sm btn-square  text-danger-hover " onclick="return confirm('@localizer["deleteMsg"] : @item.Name');">
-                                <i class="bi bi-trash h5 text-white mx-auto"></i>
-                            </a>
-
-                           
-                        </td>
-                    </tr>
-
-                }
-                
-            </tbody>
-        </table>
-    </div>
+                            <i class="bi bi-trash h5 text-white mx-auto"></i>
+                        </a>
 
 
+                    </td>
+                </tr>
+
+            }
+
+        </tbody>
+    </table>
+</div>

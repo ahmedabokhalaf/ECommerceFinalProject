@@ -12,7 +12,7 @@ namespace ITI.ElectroDev.Presentation
             db = _db; 
         }
         [HttpGet]
-        public IActionResult Index(int pageIndex = 1, int pageSize = 2)
+        public IActionResult Index()
         {
             var categories = db.Category.ToList();
             return View(categories);
