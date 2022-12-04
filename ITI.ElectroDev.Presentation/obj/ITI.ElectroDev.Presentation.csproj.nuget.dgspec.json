@@ -71,6 +71,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.4.3, )"
             }
           },
           "imports": [
@@ -150,6 +154,10 @@
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
             },
             "X.PagedList.Mvc.Core": {
               "target": "Package",

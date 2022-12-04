@@ -11,15 +11,15 @@ namespace ITI.ElectroDev.Presentation.Models
         public int id { set; get;  }
 
         [StringLength(250)]
-        [Required(ErrorMessage = "هذا الحقل مطلوب *")]
-        [MaxLength(255, ErrorMessage = "لا يزيد عن 255 حرف *")]
-        [MinLength(6, ErrorMessage = "لا يقل عن 4 حروف *")]
+        [Required(ErrorMessage = "هذا الحقل مطلوب")]
+        [MaxLength(255, ErrorMessage = "لا يزيد عن 255 حرف")]
+        [MinLength(6, ErrorMessage = "لا يقل عن 4 حروف")]
         [Display(Name = "Name")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "هذا الحقل مطلوب *")]
-        [MaxLength(500, ErrorMessage = "لا يزيد عن 255 حرف *")]
-        [ MinLength(10, ErrorMessage = "لا يقل عن 4 حروف *")]
+        [Required(ErrorMessage = "هذا الحقل مطلوب")]
+        [MaxLength(500, ErrorMessage = "لا يزيد عن 255 حرف")]
+        [ MinLength(10, ErrorMessage = "لا يقل عن 4 حروف")]
         [Display(Name = "Description")]
         public string Description { get; set; }
 
