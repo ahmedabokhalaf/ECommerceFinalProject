@@ -1,5 +1,6 @@
-D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\appsettings.Development.json
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\appsettings.json
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Resources\ar-EG.json
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Resources\en-US.json
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\libman.json
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\ITI.ElectroDev.Presentation.staticwebassets.runtime.json
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\ITI.ElectroDev.Presentation.exe
@@ -320,6 +321,7 @@ D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Mi
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
@@ -380,9 +382,7 @@ D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\obj\Debug\net6.0\IT
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\obj\Debug\net6.0\ITI.ElectroDev.Presentation.RazorAssemblyInfo.cs
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\obj\Debug\net6.0\staticwebassets.build.json
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\obj\Debug\net6.0\staticwebassets.development.json
-D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\obj\Debug\net6.0\scopedcss\bundle\ITI.ElectroDev.Presentation.styles.css
-D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\obj\Debug\net6.0\scopedcss\projectbundle\ITI.ElectroDev.Presentation.bundle.scp.css
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\obj\Debug\net6.0\ITI.ElectroDev.Presentation.csproj.CopyComplete
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\obj\Debug\net6.0\ITI.ElectroDev.Presentation.dll
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\obj\Debug\net6.0\refint\ITI.ElectroDev.Presentation.dll
