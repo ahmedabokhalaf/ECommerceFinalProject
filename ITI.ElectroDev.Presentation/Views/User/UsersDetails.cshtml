@@ -1,6 +1,9 @@
-﻿@model List<User>
+﻿@using System.Globalization
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer localizer﻿
+@model List<User>
 
-<h3 style="text-align:center;color:black; margin-top:10px;">All Users Dtails In The Dashboard</h3>
+<h3 style="text-align:center;color:black; margin-top:10px;">@localizer["All Users Dtails In The Dashboard"]</h3>
 <br />
 <br />
 <br />
@@ -8,19 +11,20 @@
 @if (TempData["AlertMessage"]!=null)
 {
     <div class="alert alert-success">
-    <strong>Success !</strong>@TempData["AlertMessage"]
+       
+    <strong>Success !</strong>@TempData["AlertMessage"] 
 </div>
 }
 
 <table class="table">
   <thead>
     <tr>
-            <td scope="col" class="table-dark">User Name</td>
-            <td scope="col" class="table-dark">First Name</td>
-            <td scope="col" class="table-dark">Last Name</td>
-            <td scope="col" class="table-dark">Email</td>
-            <td scope="col" class="table-dark">Edit</td>
-            <td scope="col" class="table-dark">Delete</td>
+            <td scope="col" class="table-dark">@localizer["User Name"]</td>
+            <td scope="col" class="table-dark">@localizer["First Name"]</td>
+            <td scope="col" class="table-dark">@localizer["Last Name"]</td>
+            <td scope="col" class="table-dark">@localizer["Email"]</td>
+            <td scope="col" class="table-dark">@localizer["Edit"]</td>
+            <td scope="col" class="table-dark">@localizer["Delete"]</td>
 
     </tr>
   </thead>
@@ -35,8 +39,8 @@
 
                 @if (User.IsInRole("Editor") || User.IsInRole("Admin"))
                 {
-                    <td class="table-secondary"><a class="btn btn-info" asp-controller="User" asp-action="Edit" asp-route-id="@u.Id">Edit</a></td>
-                    <td class="table-secondary"><a class="btn btn-danger" asp-controller="User" asp-action="Delete" asp-route-id="@u.Id" onclick="return confirm('Are you sure you want to delete this user: @u.UserName')">Delete</a></td>
+                    <td class="table-secondary"><a class="btn btn-info" asp-controller="User" asp-action="Edit" asp-route-id="@u.Id">@localizer["Edit"]</a></td>
+                    <td class="table-secondary"><a class="btn btn-danger" asp-controller="User" asp-action="Delete" asp-route-id="@u.Id" onclick="return confirm('Are you sure you want to delete this user: @u.UserName')">@localizer["Delete"]</a></td>
 
                 }else{
                     <td class="table-secondary"><button class="btn btn-info" disabled asp-controller="User" asp-route-id="@u.Id" asp-action="Edit">Edit</button></td>

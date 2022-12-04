@@ -1,6 +1,9 @@
-﻿@model UserCreateModel
+﻿@using System.Globalization
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer localizer﻿
+@model UserCreateModel
 
-<h3 style="text-align:center;color:black; margin:10px;">Registratio Page For an Editor</h3>
+<h3 style="text-align:center;color:black; margin:10px;">@localizer["Welcome to Page For an Editor"]</h3>
 <form method="post" asp-controller="User" asp-action="SignUpEditor">
     <div asp-validation-summary="All"></div>
     <div class="form-group">

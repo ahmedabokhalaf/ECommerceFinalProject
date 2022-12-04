@@ -326,6 +326,8 @@ namespace ITI.ElectroDev.Presentation
                 var result = await UserManager.UpdateAsync(user);
                 if (result.Succeeded)
                 {
+                    TempData["AlertMessage"] = "User Informations updated successfully";
+
                     return RedirectToAction("UsersDetails");
                 }
                 foreach (var err in result.Errors)

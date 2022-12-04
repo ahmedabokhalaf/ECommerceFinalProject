@@ -1,7 +1,7 @@
 ﻿using ITI.ElectroDev.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace ITI.ElectroDev.Presentation.Models
+namespace ITI.ElectroDev.Presentation
 {
     public class ProductCreateModel
     {

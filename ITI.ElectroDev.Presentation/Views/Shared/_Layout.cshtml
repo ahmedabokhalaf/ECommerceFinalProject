@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-﻿
-=======
+
 @using System.Globalization
 @using Microsoft.AspNetCore.Mvc.Localization
 @inject IViewLocalizer localizer﻿
@@ -228,12 +226,33 @@
 								<span>@localizer["Users"]</span>
 							</a>
 						</li>
-						<li>
-							<a href="login.html">
-								<i class="fa fa-user"></i>
-								<span>Login Page</span>
+						@{if (User.Identity.IsAuthenticated)
+						{
+							<li>
+							<a class="active" asp-action="Index" asp-controller="Home">
+										<i class="bi bi-person-circle"></i>
+										<span>@localizer["Account"] - @User.Identity.Name</span>
 							</a>
 						</li>
+
+							<li>
+							<a class="active" asp-action="SignOut" asp-controller="User">
+								<i class="bi bi-box-arrow-left"></i>
+								<span>@localizer["Logout"]</span>
+							</a>
+						</li>
+						}else
+							{
+								<li>
+							<a class="active" asp-action="SignIn" asp-controller="User">
+								<i class="bi bi-door-open"></i>
+								<span>@localizer["Login"]</span>
+							</a>
+						</li>
+							}
+						}
+						
+						
 					</ul>
 				</div>
 				<!-- sidebar menu end-->

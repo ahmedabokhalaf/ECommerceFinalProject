@@ -1,12 +1,11 @@
 ﻿using ITI.ElectroDev.Models;
-using ITI.ElectroDev.Presentation.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyModel;
 using System.Dynamic;
 using Microsoft.AspNetCore.Hosting;
-namespace ITI.ElectroDev.Presentation.Controllers
+namespace ITI.ElectroDev.Presentation
 {
     public class ProductController : Controller
     {

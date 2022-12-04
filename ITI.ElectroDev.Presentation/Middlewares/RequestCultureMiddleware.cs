@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Localization;
 using System.Globalization;
 
-namespace JsonBasedLocalization.Web.Middlewares
+namespace JsonBasedLocalization.Web
 {
     public class RequestCultureMiddleware
     {
