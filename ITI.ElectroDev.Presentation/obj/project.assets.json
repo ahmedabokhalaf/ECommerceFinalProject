@@ -8068,19 +8068,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ALL IN ONE\\.nuget\\packages\\": {}
+    "C:\\Users\\Fedodbdb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
       "projectName": "ITI.ElectroDev.Presentation",
-      "projectPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
-      "packagesPath": "C:\\Users\\ALL IN ONE\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\obj\\",
+      "projectPath": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+      "packagesPath": "C:\\Users\\Fedodbdb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ALL IN ONE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Fedodbdb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8088,14 +8088,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
-              "projectPath": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
+            "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+              "projectPath": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
             }
           }
         }
@@ -8156,7 +8157,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

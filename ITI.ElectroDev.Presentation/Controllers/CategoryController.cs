@@ -4,6 +4,7 @@ using System.Dynamic;
 
 namespace ITI.ElectroDev.Presentation
 {
+
     public class CategoryController : Controller
     {
         private Context db;
@@ -17,8 +18,20 @@ namespace ITI.ElectroDev.Presentation
             var categories = db.Category.ToList();
             return View(categories);
         }
+<<<<<<< HEAD
         
+=======
         [HttpGet]
+        public IActionResult PartialCategory(int pageIndex = 1, int pageSize = 2)
+        {
+            var pagedCategories = db.Category.ToPagedList(pageIndex, pageSize);
+            return PartialView("_PagedCategories", pagedCategories);
+        }
+
+>>>>>>> yusufhasan
+        [HttpGet]
+        [Authorize(Roles = "Admin,Editor")]
+
         public IActionResult Add()
         {
             
@@ -26,6 +39,7 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpPost]
+
         public IActionResult Add(CategoryCreateModel model)
         {
 
@@ -47,6 +61,8 @@ namespace ITI.ElectroDev.Presentation
             }
         }
         [HttpGet]
+        [Authorize(Roles = "Admin,Editor")]
+
         public IActionResult Edit(int id, string name)
         {
             
@@ -56,6 +72,7 @@ namespace ITI.ElectroDev.Presentation
             return View(category);
         }
         [HttpGet]
+
         public IActionResult SaveEdit(int id,string name)
         {
             var category = db.Category.FirstOrDefault(i => i.Id == id);
@@ -67,6 +84,8 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin,Editor")]
+
         public IActionResult ConfirmDelete(int id, string name)
         {
             ViewBag.Title = "Delete Category";
@@ -79,6 +98,8 @@ namespace ITI.ElectroDev.Presentation
 
 
         [HttpGet]
+        [Authorize(Roles = "Admin,Editor")]
+
         public IActionResult Delete(int id)
         {
             var category = db.Category.FirstOrDefault(i => i.Id == id);

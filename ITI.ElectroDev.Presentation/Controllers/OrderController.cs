@@ -1,10 +1,12 @@
 ﻿using ITI.ElectroDev.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using X.PagedList;
 
-namespace ITI.ElectroDev.Presentation.Controllers
+namespace ITI.ElectroDev.Presentation
 {
+
     public class OrderController : Controller
     {
         Context context;
@@ -21,6 +23,8 @@ namespace ITI.ElectroDev.Presentation.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin,Editor")]
+
         public IActionResult OrderInfo(int id)
         {
             ViewBag.Title = "Order Information";
@@ -29,6 +33,8 @@ namespace ITI.ElectroDev.Presentation.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin,Editor")]
+
         public IActionResult Add()
         {
             ViewBag.Title = "Add New Order";
@@ -71,6 +77,8 @@ namespace ITI.ElectroDev.Presentation.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin,Editor")]
+
         public IActionResult Edit(int id)
         {
             ViewBag.Title = "Edit";
@@ -103,6 +111,8 @@ namespace ITI.ElectroDev.Presentation.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin,Editor")]
+
         public IActionResult Delete(int id)
         {
             var order = context.OrderDetails.FirstOrDefault(o => o.Id == id);

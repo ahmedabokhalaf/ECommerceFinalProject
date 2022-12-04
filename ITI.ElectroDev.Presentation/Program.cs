@@ -11,7 +11,6 @@ using System.Globalization;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddDbContext<Context>(options =>
 {
@@ -20,6 +19,12 @@ builder.Services.AddDbContext<Context>(options =>
 });
 builder.Services.AddIdentity<User, IdentityRole>
    ().AddEntityFrameworkStores<Context>();
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/User/SignIn";
+    options.AccessDeniedPath = "/User/NotAuthorized";
+});
+builder.Services.AddControllersWithViews();
 
 
 //AddLocalization
@@ -66,8 +71,8 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
-
 app.UseRouting();
+<<<<<<< HEAD
 
 var supportedCultures = new[] { "en-US", "ar-EG"};
 var localizationOptions = new RequestLocalizationOptions()
@@ -78,12 +83,15 @@ var localizationOptions = new RequestLocalizationOptions()
 app.UseRequestLocalization(localizationOptions);
 
 
+=======
+app.UseAuthentication();
+>>>>>>> yusufhasan
 app.UseAuthorization();
 
 app.UseRequestCulture();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+ pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
