@@ -52,26 +52,10 @@ namespace ITI.ElectroDev.Presentation
 
             }
 
-            //IFormFile file = brand.Image as IFormFile;
-
-            //string BinaryPath = Guid.NewGuid().ToString() + file.FileName;
-            //image = BinaryPath;
-
-            //FileStream fs = new FileStream(
-            //    Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "BrandImages", BinaryPath)
-            //    , FileMode.OpenOrCreate, FileAccess.ReadWrite);
-
-            //file.CopyTo(fs);
-            //fs.Position = 0;
-
-
-
-
-
-
+         
             var Brand = new Brand();
             Brand.Name = brand.Name;
-            Brand.Cat_Id = brand.Cat_Id;
+            Brand.CategoryId = brand.CategoryId;
 
             //Name = brand.Name,
 
