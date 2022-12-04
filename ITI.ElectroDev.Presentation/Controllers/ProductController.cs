@@ -34,7 +34,7 @@ namespace ITI.ElectroDev.Presentation.Controllers
         [HttpGet]
         public  IActionResult Create()
         {
-            //ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
+            ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
             return View();
         }
 
@@ -52,7 +52,7 @@ namespace ITI.ElectroDev.Presentation.Controllers
                     ModelState.AddModelError("", err);
 
 
-                //ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
+                ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
 
                 return View();
             }
@@ -126,6 +126,7 @@ namespace ITI.ElectroDev.Presentation.Controllers
                 
 
             };
+            ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
 
             return View(viewModel);
         }
@@ -144,7 +145,7 @@ namespace ITI.ElectroDev.Presentation.Controllers
                     ModelState.AddModelError("", err);
 
 
-                //ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
+                ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
 
                 return View();
             }
