@@ -72,8 +72,6 @@ app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 app.UseRouting();
-<<<<<<< HEAD
-
 var supportedCultures = new[] { "en-US", "ar-EG"};
 var localizationOptions = new RequestLocalizationOptions()
     //.SetDefaultCulture(supportedCultures[0])
@@ -83,9 +81,8 @@ var localizationOptions = new RequestLocalizationOptions()
 app.UseRequestLocalization(localizationOptions);
 
 
-=======
+
 app.UseAuthentication();
->>>>>>> yusufhasan
 app.UseAuthorization();
 
 app.UseRequestCulture();

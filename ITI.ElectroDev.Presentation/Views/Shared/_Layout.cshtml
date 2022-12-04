@@ -20,8 +20,8 @@
 	<link href="~/Content/css/style-responsive.css" rel="stylesheet" />
 	<link href="~/Content/css/_Layout.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://therichpost.com/responsivestyle/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
-    	<!-- font CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
+	<!-- font CSS -->
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<!-- font-awesome icons -->
 	<link rel="stylesheet" href="~/Content/css/font.css" type="text/css" />
@@ -30,24 +30,22 @@
 	<!-- calendar -->
 	<link rel="stylesheet" href="~/Content/css/monthly.css">
 	<!-- //calendar -->
-	
-
 	<!-- //font-awesome icons -->
-@*    <link rel="stylesheet" href="~/Content/lib/twitter-bootstrap/css/bootstrap.min.css" />
-*@	<script src="~/Content/js/jquery2.0.3.min.js"></script>
+	@*    <link rel="stylesheet" href="~/Content/lib/twitter-bootstrap/css/bootstrap.min.css" />
+	*@
+	<script src="~/Content/js/jquery2.0.3.min.js"></script>
 	<script src="~/Content/js/raphael-min.js"></script>
 	<script src="~/Content/js/morris.js"></script>
 	@if (isRTL)
 	{
-	 <link href="~/Content/css/StyleSheet.css" rel='stylesheet' type='text/css' />
-	 <link href="~/Content/css/style-responsiv-rtl.css" rel='stylesheet' type='text/css' />
-     <link rel="stylesheet" href="https://therichpost.com/responsivestyle/index.css">
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
+		<link href="~/Content/css/StyleSheet.css" rel='stylesheet' type='text/css' />
+		<link href="~/Content/css/style-responsiv-rtl.css" rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="https://therichpost.com/responsivestyle/index.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
 
 	}
 </head>
 <body>
-<<<<<<< HEAD
 	<section id="container">
 		<!--header start-->
 		<header class="header fixed-top clearfix">
@@ -198,7 +196,7 @@
 						</li>
 
 						<li>
-							<a class="active" asp-action="Index" asp-controller="Category" >
+							<a class="active" asp-action="Index" asp-controller="Category">
 								<i class="fa fa-align-justify"></i>
 								<span>@localizer["Categories"]</span>
 							</a>
@@ -239,14 +237,13 @@
 			</div>
 		</aside>
 		<!--sidebar end-->
-		
 		<!--main content start-->
 		<section id="main-content" style="height: 100vh">
 			<section class="wrapper">
 				<!-- //market-->
 				@RenderBody()
 			</section>
-		
+
 			<!-- / footer -->
 		</section>
 		<!--main content end-->
@@ -264,12 +261,10 @@
 				jQuery(this).closest('.small-graph-box').fadeOut(200);
 				return false;
 			});
-
 			//CHARTS
 			function gd(year, day, month) {
 				return new Date(year, month - 1, day).getTime();
 			}
-
 			graphArea2 = Morris.Area({
 				element: 'hero-area',
 				padding: 10,
@@ -292,7 +287,6 @@
 					{ period: '2016 Q3', iphone: 4830, ipad: 3805, itouch: 1598 },
 					{ period: '2016 Q4', iphone: 15083, ipad: 8977, itouch: 5185 },
 					{ period: '2017 Q1', iphone: 10697, ipad: 4470, itouch: 2038 },
-
 				],
 				lineColors: ['#eb6f6f', '#926383', '#eb6f6f'],
 				xkey: 'period',
@@ -303,20 +297,15 @@
 				hideHover: 'auto',
 				resize: true
 			});
-
-
 		});
 	</script>
 	<!-- calendar -->
 	<script type="text/javascript" src="~/Content/js/monthly.js"></script>
 	<script type="text/javascript">
 		$(window).load(function () {
-
 			$('#mycalendar').monthly({
 				mode: 'event',
-
 			});
-
 			$('#mycalendar2').monthly({
 				mode: 'picker',
 				target: '#mytarget',
@@ -326,7 +315,6 @@
 				stylePast: true,
 				disablePast: true
 			});
-
 			switch (window.location.protocol) {
 				case 'http:':
 				case 'https:':
@@ -335,75 +323,11 @@
 				case 'file:':
 					alert('Just a heads-up, events will not work when run locally.');
 			}
-
 		});
 	</script>
 	<!-- //calendar -->
 	<!-- jQuery Plugins -->
-=======
-    <!-- Dashboard -->
-    <div class="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary">
-        <!-- Vertical Navbar -->
-        <nav class="navbar show navbar-vertical h-lg-screen navbar-expand-lg px-0 py-3 navbar-light bg-white border-bottom border-bottom-lg-0 border-end-lg" id="navbarVertical">
-            <div class="container-fluid">
-                <!-- Toggler --> <button class="navbar-toggler ms-n2" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarCollapse" aria-controls="sidebarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <!-- Brand --> <a class="navbar-brand py-lg-2 mb-lg-5 px-lg-3 me-0 logo" href="#"> ElectroDev </a> <!-- User menu (mobile) -->
-                <div class="navbar-user d-lg-none">
-                    <!-- Dropdown -->
-                    <div class="dropdown">
-                        <!-- Toggle --> <a href="#" id="sidebarAvatar" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <div class="avatar-parent-child"> <img alt="Image Placeholder" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" class="avatar avatar- rounded-circle"> <span class="avatar-child avatar-badge bg-success"></span> </div>
-                        </a> <!-- Menu -->
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="sidebarAvatar">
-                            <a href="#" class="dropdown-item">Profile</a> <a href="#" class="dropdown-item">Settings</a> <a href="#" class="dropdown-item">Billing</a>
-                            <hr class="dropdown-divider"> <a href="#" class="dropdown-item">Logout</a>
-                        </div>
-                    </div>
-                </div> <!-- Collapse -->
-                <div class="collapse navbar-collapse" id="sidebarCollapse">
-                    <!-- Navigation -->
-                    <ul class="navbar-nav">
-                        <li class="nav-item"> <a class="nav-link" asp-action="Index" asp-controller="Category"> <i class="bi bi-house"></i> Categories </a> </li>
-                        <li class="nav-item"> <a class="nav-link" asp-action="Index" asp-controller="Brand"> <i class="bi bi-bar-chart"></i> Brands </a> </li>
-                        <li class="nav-item"> <a class="nav-link" asp-action="Index" asp-controller="Product"> <i class="bi bi-chat"></i> Products </a> </li>
-                        <li class="nav-item"> <a class="nav-link" asp-action="Index" asp-controller="Order"> <i class="bi bi-bookmarks"></i> Orders </a> </li>
-                        <li class="nav-item"> <a class="nav-link" asp-action="Control" asp-controller="User"> <i class="bi bi-people"></i> Users </a> </li>
-                    </ul> <!-- Divider -->
-                    <hr class="navbar-divider my-5 opacity-20"> <!-- Navigation -->
-                    <!-- Push content down -->
-                    <div class="mt-auto"></div> <!-- User (md) -->
-                    <ul class="navbar-nav">
-                       @if (User.Identity.IsAuthenticated)
-                        {
-                             <li class="nav-item"> <a class="nav-link" href="#"> <i class="bi bi-person-square"></i> @User.Identity.Name </a> </li>
-                        <li class="nav-item"> <a asp-controller="User" asp-action="SignOut" class="nav-link" id="logout"> <i class="bi bi-box-arrow-left"></i> Logout </a> </li>
-                            
-                        }
-                       
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-        </div>
-        <div class="h-screen flex-grow-1 overflow-y-lg-auto">
-            <main class="py-6 bg-surface-secondary">
-                <div class="container-fluid">
-                    @RenderBody()
-                </div>
-            </main>
-        </div>
-    </div>
-    <!-- jQuery Plugins -->
-    <script src="~/js/jquery.min.js"></script>
-    <script src="~/js/bootstrap.min.js"></script>
-    <script src="~/js/slick.min.js"></script>
-    <script src="~/js/nouislider.min.js"></script>
-    <script src="~/js/jquery.zoom.min.js"></script>
->>>>>>> yusufhasan
-    <script src="~/js/main.js"></script>
+	<script src="~/js/main.js"></script>
 	<script src="~/Content/js/bootstrap.js"></script>
 	<script src="~/Content/js/jquery.dcjqaccordion.2.7.js"></script>
 	<script src="~/Content/js/scripts.js"></script>
@@ -411,10 +335,10 @@
 	<script src="~/Content/js/jquery.nicescroll.js"></script>
 	<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/flot-chart/excanvas.min.js"></script><![endif]-->
 	<script src="~/Content/js/jquery.scrollTo.js"></script>
-    @*<script src="~/lib/jquery/jquery.min.js"></script>
-    <script src="~/lib/jquery-validate/jquery.validate.min.js"></script>
-    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
-    <script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>*@
-    @await RenderSectionAsync("Scripts", required: false)
+	@*<script src="~/lib/jquery/jquery.min.js"></script>
+	<script src="~/lib/jquery-validate/jquery.validate.min.js"></script>
+	<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+	<script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>*@
+	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

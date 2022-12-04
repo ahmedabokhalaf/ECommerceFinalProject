@@ -1,9 +1,6 @@
 ﻿using ITI.ElectroDev.Presentation;
-<<<<<<< HEAD
 using Microsoft.AspNetCore.Localization;
-=======
 using Microsoft.AspNetCore.Authorization;
->>>>>>> yusufhasan
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 using System.Diagnostics;

@@ -1,4 +1,5 @@
 ﻿using ITI.ElectroDev.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Dynamic;
 
@@ -18,17 +19,7 @@ namespace ITI.ElectroDev.Presentation
             var categories = db.Category.ToList();
             return View(categories);
         }
-<<<<<<< HEAD
-        
-=======
-        [HttpGet]
-        public IActionResult PartialCategory(int pageIndex = 1, int pageSize = 2)
-        {
-            var pagedCategories = db.Category.ToPagedList(pageIndex, pageSize);
-            return PartialView("_PagedCategories", pagedCategories);
-        }
 
->>>>>>> yusufhasan
         [HttpGet]
         [Authorize(Roles = "Admin,Editor")]
 
