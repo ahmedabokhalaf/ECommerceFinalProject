@@ -1,7 +1,7 @@
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\appsettings.json
+D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\libman.json
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Resources\ar-EG.json
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\Resources\en-US.json
-D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\libman.json
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\ITI.ElectroDev.Presentation.staticwebassets.runtime.json
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\ITI.ElectroDev.Presentation.exe
 D:\ITI3Months\ASP.NET\ElectroDev\ITI.ElectroDev.Presentation\bin\Debug\net6.0\ITI.ElectroDev.Presentation.deps.json

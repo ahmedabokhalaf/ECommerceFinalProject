@@ -2610,7 +2610,8 @@
           "Microsoft.EntityFrameworkCore": "6.0.0",
           "Microsoft.EntityFrameworkCore.Proxies": "6.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
+          "X.PagedList.Mvc.Core": "8.4.3"
         },
         "compile": {
           "bin/placeholder/ITI.ElectroDev.Models.dll": {}

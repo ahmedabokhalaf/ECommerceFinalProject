@@ -1,6 +1,6 @@
 ﻿ @model BrandModel
 
- <h1>Add New Brand</h1>
+ <h1>@localizer["Add Brand"]</h1>
 
 <div class="alert alert-success" role="alert" style="display:none;" id="Succses">
     This is a success alert with <a asp-controller="Brand" asp-action="Index" class="alert-link">Brands</a>. Give it a click if you like.
@@ -22,7 +22,7 @@
         <span asp-validation-for="CategoryId"></span>
     </div>
 
-    <input type="submit" value="Add New Brand" class="btn btn-success" />
+    <input type="submit" value="@localizer["Add Brand"]" class="btn btn-success" />
 </form>
  
 
