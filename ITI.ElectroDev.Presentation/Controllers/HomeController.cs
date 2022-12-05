@@ -7,7 +7,7 @@ using System.Diagnostics;
 
 namespace ITI.ElectroDev.Presentation
 {
-	[Authorize(Roles="Admin,Editor,Viewer")]
+	[Authorize(Roles="Admin,Editor")]
 
 	public class HomeController : Controller
     {

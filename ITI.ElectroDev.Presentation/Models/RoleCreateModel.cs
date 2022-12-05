@@ -4,7 +4,7 @@ namespace ITI.ElectroDev.Presentation
 {
 	public class RoleCreateModel
 	{
-		public int Id { get; set; }
+		public string Id { get; set; }
 
 		[Required,MaxLength(15),MinLength(3)]
 		public string Name { get; set; }
