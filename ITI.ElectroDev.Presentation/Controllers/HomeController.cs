@@ -7,8 +7,9 @@ using System.Diagnostics;
 
 namespace ITI.ElectroDev.Presentation
 {
+	[Authorize(Roles="Admin,Editor,Viewer")]
 
-    public class HomeController : Controller
+	public class HomeController : Controller
     {
        
         private readonly IStringLocalizer<HomeController> _localizer;
@@ -18,7 +19,7 @@ namespace ITI.ElectroDev.Presentation
             _localizer = localizer;
         }
 
-        public IActionResult Index()
+		public IActionResult Index()
         {
             ViewBag.WelcomeMessage = string.Format(_localizer["welcome"], "Mariam");
             return View();

@@ -5,8 +5,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyModel;
 using System.Dynamic;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
+
 namespace ITI.ElectroDev.Presentation
 {
+    [Authorize(Roles = "Admin,Editor")]
+
     public class ProductController : Controller
     {
         private IWebHostEnvironment Environment;

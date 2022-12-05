@@ -33,7 +33,7 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpGet]
-        //[Authorize(Roles ="Admin")]
+        [Authorize(Roles ="Admin")]
         public IActionResult SignUp()
         {
             ViewBag.Title = "Sign Up";
@@ -194,6 +194,7 @@ namespace ITI.ElectroDev.Presentation
         [HttpPost]
         public async Task <IActionResult> SignIn(LoginModel model)
         {
+           
             if (ModelState.IsValid==false)
             {
                 return View();
@@ -230,7 +231,8 @@ namespace ITI.ElectroDev.Presentation
         {
             await SignInManager.SignOutAsync();
             TempData["AlertMessage"] = "You Signed Out Successfully";
-            return RedirectToAction("SignIn", "User");
+			
+			return RedirectToAction("SignIn", "User");
 
         }
 

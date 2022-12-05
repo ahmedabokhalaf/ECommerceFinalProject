@@ -1,5 +1,6 @@
 ﻿using ITI.ElectroDev.Models;
 using ITI.ElectroDev.Presentation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
@@ -10,6 +11,7 @@ using X.PagedList;
 
 namespace ITI.ElectroDev.Presentation
 {
+    [Authorize(Roles ="Admin,Editor")]
     public class BrandController : Controller
     {
         Context dbcontext;

@@ -6,6 +6,7 @@ using X.PagedList;
 
 namespace ITI.ElectroDev.Presentation
 {
+    [Authorize(Roles = "Admin,Editor")]
 
     public class OrderController : Controller
     {

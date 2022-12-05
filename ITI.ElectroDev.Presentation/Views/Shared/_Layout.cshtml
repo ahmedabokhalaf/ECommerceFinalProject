@@ -1,4 +1,3 @@
-
 @using System.Globalization
 @using Microsoft.AspNetCore.Mvc.Localization
 @inject IViewLocalizer localizer﻿
@@ -45,8 +44,10 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css">
 
 	}
+	
 </head>
 <body>
+	
 	<section id="container">
 		<!--header start-->
 		<header class="header fixed-top clearfix">
@@ -184,9 +185,13 @@
 		</header>
 		<!--header end-->
 		<!--sidebar start-->
+			@{
+		if (User.Identity.IsAuthenticated)
+		     {
 		<aside>
 			<div id="sidebar" class="nav-collapse">
 				<!-- sidebar menu start-->
+			
 				<div class="leftside-navigation">
 					<ul class="sidebar-menu" id="nav-accordion">
 						<li>
@@ -226,38 +231,31 @@
 								<span>@localizer["Users"]</span>
 							</a>
 						</li>
-						@{if (User.Identity.IsAuthenticated)
-						{
-							<li>
-							<a class="active" asp-action="Index" asp-controller="Home">
+						
+								<li>
+									<a class="active" asp-action="Index" asp-controller="Home">
 										<i class="bi bi-person-circle"></i>
 										<span>@localizer["Account"] - @User.Identity.Name</span>
-							</a>
-						</li>
+									</a>
+								</li>
 
-							<li>
-							<a class="active" asp-action="SignOut" asp-controller="User">
-								<i class="bi bi-box-arrow-left"></i>
-								<span>@localizer["Logout"]</span>
-							</a>
-						</li>
-						}else
-							{
 								<li>
-							<a class="active" asp-action="SignIn" asp-controller="User">
-								<i class="bi bi-door-open"></i>
-								<span>@localizer["Login"]</span>
-							</a>
-						</li>
-							}
-						}
+									<a class="active" asp-action="SignOut" asp-controller="User">
+										<i class="bi bi-box-arrow-left"></i>
+										<span>@localizer["Logout"]</span>
+									</a>
+								</li>
 						
+								
 						
 					</ul>
 				</div>
 				<!-- sidebar menu end-->
 			</div>
 		</aside>
+					}
+								
+								}
 		<!--sidebar end-->
 		<!--main content start-->
 		<section id="main-content" style="height: 100vh">
@@ -361,7 +359,11 @@
 	<script src="~/lib/jquery-validate/jquery.validate.min.js"></script>
 	<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 	<script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>*@
-	@await RenderSectionAsync("Scripts", required: false)
+			@await RenderSectionAsync("Scripts", required: false)
+
+
+
+
+		
 </body>
 </html>
->>>>>>> 5c76fd45340fd47c68a5f0208ac5397363e8447e

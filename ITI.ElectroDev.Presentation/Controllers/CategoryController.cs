@@ -5,6 +5,7 @@ using System.Dynamic;
 
 namespace ITI.ElectroDev.Presentation
 {
+    [Authorize(Roles = "Admin,Editor")]
 
     public class CategoryController : Controller
     {

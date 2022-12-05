@@ -50,7 +50,9 @@
   "Welcome to Add Role Page": "مرحبا بك فى صفحة اضافة دور",
   "Name": "الاسم",
   "The Name field is required.": "حقل الاسم مطلوب",
-  "Welcome to Edit user Page": "مرحبا بك فى صفحة تعديل بيانات المستخدم"
+  "Welcome to Edit user Page": "مرحبا بك فى صفحة تعديل بيانات المستخدم",
+  "Success !User Informations updated successfully": "تم التحديث بنجاح! تهانينا"
+
 
 
 }

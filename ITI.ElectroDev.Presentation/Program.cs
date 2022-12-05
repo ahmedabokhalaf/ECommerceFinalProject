@@ -21,8 +21,11 @@ builder.Services.AddIdentity<User, IdentityRole>
    ().AddEntityFrameworkStores<Context>();
 builder.Services.ConfigureApplicationCookie(options =>
 {
+   
     options.LoginPath = "/User/SignIn";
     options.AccessDeniedPath = "/User/NotAuthorized";
+    
+
 });
 builder.Services.AddControllersWithViews();
 
@@ -89,6 +92,6 @@ app.UseRequestCulture();
 
 app.MapControllerRoute(
     name: "default",
- pattern: "{controller=Home}/{action=Index}/{id?}");
+ pattern: "{controller=User}/{action=SignIn}/{id?}");
 
 app.Run();
