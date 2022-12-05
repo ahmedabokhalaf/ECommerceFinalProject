@@ -27,7 +27,6 @@
   "welcome": "Welcome {0}, How are you?",
   "home": "Home",
   "firstname": "First Name",
-<<<<<<< HEAD
   "First Name": "First Name",
   "Last Name": "Last Name",
   "Email Address": "Email Address",
@@ -37,8 +36,6 @@
   "This Field Is Required": "This Field Is Required",
   "UserName": "User Name",
   "Login": "Log In",
-  "Edit": "Edit",
-  "Delete": "Delete",
   "Email": "Email",
   "Id": "Id",
   "Cancel": "Cancel",
@@ -57,9 +54,7 @@
   "Name": "Name",
   "The Name field is required.": "The Name field is required.",
   "Welcome to Edit user Page": "Welcome to Edit user Page",
-  "Success !User Informations updated successfully": "Success !User Informations updated successfully"
-
-=======
+  "Success !User Informations updated successfully": "Success !User Informations updated successfully",
   "Product Name": "Product Name",
   "Product Description": "Product Description",
   "Product Price": "Product Price",
@@ -96,13 +91,10 @@
   "Type Of Order:": "Type Of Order:",
   "Status Of Order:": "Status Of Order:",
   "Date:": "Date:",
-  "Name": "Name",
-  "Details": "Details",
   "Delete": "Delete",
   "Confirm Delete": "Are you sure about Delete?",
   "Back": "Back",
   "No , Products Found .": "No , Products Found .",
-
   "Please Enter The Brand": "Please Enter The Brand",
   "Must be less than 500 Chars": "Must be less than 500 Chars",
   "Must Choose Category": "Must Choose Category",
@@ -115,5 +107,4 @@
   "No Brands": "No Brands Found",
   "Back To List": "Back To List",
   "Successfully Edit": "Successfully Edit"
->>>>>>> main
 }

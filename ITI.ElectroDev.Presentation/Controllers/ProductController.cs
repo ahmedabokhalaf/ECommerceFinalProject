@@ -1,24 +1,16 @@
 ﻿using ITI.ElectroDev.Models;
-<<<<<<< HEAD
-=======
 using ITI.ElectroDev.Presentation;
->>>>>>> main
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyModel;
 using System.Dynamic;
 using Microsoft.AspNetCore.Hosting;
-<<<<<<< HEAD
 using Microsoft.AspNetCore.Authorization;
 using System.Data;
-
-namespace ITI.ElectroDev.Presentation
-=======
 using X.PagedList;
 
-namespace ITI.ElectroDev.Presentation.Controllers
->>>>>>> main
+namespace ITI.ElectroDev.Presentation
 {
     [Authorize(Roles = "Admin,Editor")]
 
@@ -222,4 +214,4 @@ namespace ITI.ElectroDev.Presentation.Controllers
 
 
     }
-    }
+}

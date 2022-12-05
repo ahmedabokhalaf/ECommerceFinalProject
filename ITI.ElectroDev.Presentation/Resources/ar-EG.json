@@ -26,7 +26,6 @@
   "deleteMsg": "هل تريد حذف قسم",
   "welcome": "مرحبا {0}, كيف حالك؟",
   "firstname": "الاسم الاول",
-<<<<<<< HEAD
   "First Name": "الاسم الاول",
   "Last Name": "الاسم الاخير",
   "Email Address": "البريد الالكترونى",
@@ -36,7 +35,6 @@
   "The field is required .": "هذا الحقل مطلوب",
   "UserName": "اسم المستخدم",
   "Login": "تسجيل الدخول",
-  "Edit": "تعديل",
   "Delete": "حذف",
   "Email": "البريد الالكترونى",
   "Id": "الرقم التعريفى",
@@ -56,10 +54,7 @@
   "Name": "الاسم",
   "The Name field is required.": "حقل الاسم مطلوب",
   "Welcome to Edit user Page": "مرحبا بك فى صفحة تعديل بيانات المستخدم",
-  "Success !User Informations updated successfully": "تم التحديث بنجاح! تهانينا"
-
-
-=======
+  "Success !User Informations updated successfully": "تم التحديث بنجاح! تهانينا",
   "Product Name": "اسم المنتج",
   "Product Description": "الوصف",
   "Product Price": "سعر المنتج",
@@ -96,15 +91,12 @@
   "Type Of Order:": "نوع الطلب",
   "Status Of Order:": "حاله الطلب",
   "Date:": "التاريخ",
-  "Name": "الأسم",
   "This Fieled Required": "هذا الحقل مطلوب",
   "This Fieled Take at most 255 Letters": "لا يزيد عن 255 حرف",
   "This Fieled Take at Least 4 Letters": "لا يقل عن 4 حروف",
   "Confirm Delete": "هل متأكد من الحذف؟",
   "Back": "رجوع",
   "No , Products Found .": "لا يوجد منتجات لعرضها ",
->>>>>>> main
-
   "Please Enter The Brand": "برجاء ادخال العلامة التجارية",
   "Must be less than 500 Chars": "يجب ان يكون اقل من 500 حرف",
   "Must Choose Category": "يجب اختيار القسم",
