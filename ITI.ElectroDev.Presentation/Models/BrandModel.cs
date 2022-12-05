@@ -12,7 +12,7 @@ namespace ITI.ElectroDev.Presentation
         //[Required(ErrorMessage = "Must Enter images")]
         //public IFormFile Image { get; set; }
 
-        [Required(ErrorMessage = "Must Enter CategoryID")]
+        [Required(ErrorMessage = "Must Choose Category")]
         [Display(Name="Category")]
         public int CategoryId { get; set; }
     }

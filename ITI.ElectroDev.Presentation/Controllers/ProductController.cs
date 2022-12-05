@@ -1,11 +1,13 @@
 ﻿using ITI.ElectroDev.Models;
-using ITI.ElectroDev.Presentation.Models;
+using ITI.ElectroDev.Presentation;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyModel;
 using System.Dynamic;
 using Microsoft.AspNetCore.Hosting;
+using X.PagedList;
+
 namespace ITI.ElectroDev.Presentation.Controllers
 {
     public class ProductController : Controller
@@ -22,9 +24,9 @@ namespace ITI.ElectroDev.Presentation.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public  IActionResult Index(int PageIndex = 1, int PageSize = 2)
         {
-            var product = await context.Product.ToListAsync();
+            var product =  context.Product.ToPagedList(PageIndex, PageSize);
             // ViewBag.ImagesPath = con.GetSection("ImagesPath").Value.ToString();
             string wwwPath = this.Environment.WebRootPath;
             ViewBag.contentPath = this.Environment.ContentRootPath;
@@ -34,7 +36,7 @@ namespace ITI.ElectroDev.Presentation.Controllers
         [HttpGet]
         public  IActionResult Create()
         {
-            //ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
+            ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
             return View();
         }
 
@@ -52,7 +54,7 @@ namespace ITI.ElectroDev.Presentation.Controllers
                     ModelState.AddModelError("", err);
 
 
-                //ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
+                ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
 
                 return View();
             }
@@ -126,6 +128,7 @@ namespace ITI.ElectroDev.Presentation.Controllers
                 
 
             };
+            ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
 
             return View(viewModel);
         }
@@ -144,7 +147,7 @@ namespace ITI.ElectroDev.Presentation.Controllers
                     ModelState.AddModelError("", err);
 
 
-                //ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
+                ViewBag.brands = context.Brands.Select(i => new SelectListItem(i.Name, i.Id.ToString()));
 
                 return View();
             }
@@ -196,6 +199,15 @@ namespace ITI.ElectroDev.Presentation.Controllers
             context.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        [HttpPost]
+        public IActionResult Search(string term, int PageIndex = 1, int PageSize = 2)
+        {
+            var resulte = context.Product.Where(p => p.Name.Contains(term) || p.Description.Contains(term)).ToPagedList(PageIndex, PageSize);
+            
+            return View("Index" , resulte);
+        }
+
 
     }
     }

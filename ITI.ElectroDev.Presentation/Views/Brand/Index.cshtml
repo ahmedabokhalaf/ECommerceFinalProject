@@ -1,13 +1,12 @@
-﻿@using ITI.ElectroDev.Models
-@model List<Brand>
-<h1>Brands</h1>
-<a asp-action="AddNewBrand" asp-controller="Brand" class="btn btn-primary">Add New Brand</a>
-<table class="table">
-    <thead>
+﻿@model List<Brand>
+<h1>@localizer["Brands"]</h1>
+<a asp-action="AddNewBrand" asp-controller="Brand" class="btn btn-primary">@localizer["Add Brand"]</a>
+<div class="table-responsive">
+<table class="table table-hover table-nowrap text-center">
+    <thead class="thead-light">
         <tr>
-            <th scope="col">#</th>
-            <th scope="col">Brand Name</th>
-            <th scope="col">Brand Category</th>
+            <th scope="col">@localizer["Brand"]</th>
+            <th scope="col">@localizer["Category"]</th>
             <th scope="col"></th>
         </tr>
     </thead>
@@ -15,16 +14,15 @@
         @foreach (Brand item in Model)
         {
             <tr>
-                <th scope="row">@item.Id</th>
                 <td>@item.Name</td>
                 <td>@item.Category.Name</td>
                 <td class="text-end">
                     <a class="btn d-inline-flex btn-sm btn-neutral border-base mx-1" asp-controller="Brand" asp-action="Details" asp-route-id="@item.Id">
-                        <span class="h3 font-bold">Details</span>
+                        <span class="h3 font-bold">@localizer["Brand Details"]</span>
                     </a>
                     <a class="btn d-inline-flex btn-sm btn-neutral border-base mx-1" asp-controller="Brand" asp-action="Edit" asp-route-id="@item.Id">
                         <span class="h3 font-bold pe-2"> <i class="bi bi-pencil h3 font-bold"></i> </span>
-                        <span class="h3 font-bold">Edit</span>
+                        <span class="h3 font-bold">@localizer["Edit Brand"]</span>
                     </a>
                     <a class="btn btn-danger btn btn-sm btn-square  text-danger-hover h3 font-bold " asp-controller="Brand" asp-action="Delete" asp-route-id="@item.Id"> <i class="bi bi-trash h3 font-bold text-white"></i></a>
                 </td>
@@ -32,3 +30,4 @@
         }
     </tbody>
 </table>
+</div>

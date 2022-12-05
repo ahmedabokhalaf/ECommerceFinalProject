@@ -1,10 +1,14 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "bMZNBei6xyrFoCdYvt+emKKIZVApROpqtf+ylpyHvNjlsbwddlDT1LMMEPdOIhfoHvVThKjjMNNs75yF319Qfg==",
 =======
   "dgSpecHash": "pTCd23+LN2Y+/rMfOX3MHQnR1dt05NYPd1rAjpeHNbzdxShSZ/GLNZmZZ59pg3d+fjCx0WAAEKcql6Qr7tc3nQ==",
 >>>>>>> 5c76fd45340fd47c68a5f0208ac5397363e8447e
+=======
+  "dgSpecHash": "0C5qBoajqWYdlnMeDPF199wuhq0LDweNVZfo6IqObTawgsgv49RXMpwXDA57lEQq4I0KBsEdG8qepyptY0o8iw==",
+>>>>>>> c5e2136139c5ac0b525552be223e59144af4251f
   "success": true,
   "projectFilePath": "C:\\Users\\Fedodbdb\\Desktop\\New folder\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
   "expectedPackageFiles": [

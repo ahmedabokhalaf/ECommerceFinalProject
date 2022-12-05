@@ -1,5 +1,4 @@
-﻿@model ProductCreateModel;
-
+@model ProductCreateModel
 @{
     ViewData["Title"] = "Edit Product";
 }
@@ -7,20 +6,16 @@
 
 <h2 class="mt-5">
     <i class="bi bi-bag-check-fill"></i>
-    Edit Product
+    @localizer["Edit Product"]
 </h2>
 <hr />
-
-
 
 <section class="row">
     <div class="col-md-4">
 
         <form method="post" asp-controller="Product" asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly"></div>
-
               <input type="hidden" asp-for="id" class="form-control" />
-
             <div class="form-group">
                 <label asp-for="Name"></label>
                 <input asp-for="Name" class="form-control" />
@@ -53,34 +48,22 @@
 
             <div class="form-group">
                 <label asp-for="BrandId"></label>
-                @*<select class="form-control" asp-for="BrandId" asp-items="@ViewBag.brands">
-                </select>*@
-                <input type="number" class="form-control" asp-for="BrandId" />
+                <select class="form-control" asp-for="BrandId" aria-label="Default select example" asp-items="@ViewBag.brands">
+                    <option selected>--Select Brand--</option>
+                </select>
+                @*<input type="number" class="form-control" asp-for="BrandId" />*@
                 <span asp-validation-for="BrandId" class="validation  text-danger"></span>
-
             </div>
-
-
-
-
-
-
             <div>
-
                 <button type="submit" class="btn btn-primary mt-4">
                     <i class="bi bi-check"></i>
-                    Add
+                    @localizer["Edit"]
                 </button>
                 <a asp-action="Index" class="btn btn-outline-secondary mt-4">
                     <i class="bi bi-x"></i>
-                    Close
+                    @localizer["Close"]
                 </a>
             </div>
-
         </form>
     </div>
-@*    <div class="col-md-4">
-        <img src="~/Images/@Model.ProductImages.FirstOrDefault()?.Path" alt="@Model.Name" class="img-fluid rounded-start" alt="image" class="img-thumbnail" />*@
-        @*"~/Images/@Model.ProductImages.FirstOrDefault()?.Path" alt="@Model.Name" class="img-fluid rounded-start"*@
-
 </section>

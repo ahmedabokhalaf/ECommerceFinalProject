@@ -6,6 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Views\Order\Add.cshtml" />
+    <None Include="Views\Order\Delete.cshtml" />
+    <None Include="Views\Order\Edit.cshtml" />
+    <None Include="Views\Order\Index.cshtml" />
+    <None Include="Views\Order\OrderInfo.cshtml" />
+    <None Include="Views\Product\ConfirmDelete.cshtml" />
+    <None Include="Views\Product\Create.cshtml" />
+    <None Include="Views\Product\Details.cshtml" />
+    <None Include="Views\Product\Edit.cshtml" />
+    <None Include="Views\Product\Index.cshtml" />
     <None Include="wwwroot\Content\css\_Layout.css" />
   </ItemGroup>
 
@@ -25,8 +35,10 @@
     <ProjectReference Include="..\ITI.ElectroDev.Models\ITI.ElectroDev.Models.csproj" />
   </ItemGroup>
 
+
   <ItemGroup>
     <Folder Include="Views\Home\" />
   </ItemGroup>
+
 
 </Project>
