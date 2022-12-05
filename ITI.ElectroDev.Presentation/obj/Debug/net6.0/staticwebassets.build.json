@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q5UsXbrV2Pr7fg8juCt9LM4E3yisEWQbJgkZgSSV8rc=",
+  "Hash": "fXbidolXiH/KSHDBYmRTy1RVyBDFcVjgRtMquOgcmdI=",
   "Source": "ITI.ElectroDev.Presentation",
   "BasePath": "_content/ITI.ElectroDev.Presentation",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\fa93b826-d308-43e4-9991-04d1900f8896Screenshot (65).png",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/fa93b826-d308-43e4-9991-04d1900f8896Screenshot (65).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\fa93b826-d308-43e4-9991-04d1900f8896Screenshot (65).png"
     },
     {
       "Identity": "D:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\bootstrap-icons\\bootstrap-icons.svg",

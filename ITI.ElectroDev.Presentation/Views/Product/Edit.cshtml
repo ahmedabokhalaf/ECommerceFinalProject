@@ -1,5 +1,8 @@
-﻿@model ProductCreateModel;
-
+﻿@model ProductCreateModel
+@using System.Globalization
+@using ITI.ElectroDev.Presentation
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer localizer﻿
 @{
     ViewData["Title"] = "Edit Product";
 }
@@ -7,7 +10,7 @@
 
 <h2 class="mt-5">
     <i class="bi bi-bag-check-fill"></i>
-    Edit Product
+    @localizer["Edit Product"]
 </h2>
 <hr />
 
@@ -53,11 +56,10 @@
 
             <div class="form-group">
                 <label asp-for="BrandId"></label>
-                @*<select class="form-control" asp-for="BrandId" asp-items="@ViewBag.brands">
-                </select>*@
-                <input type="number" class="form-control" asp-for="BrandId" />
-                <span asp-validation-for="BrandId" class="validation  text-danger"></span>
-
+                <select asp-for="BrandId" class="form-select" aria-label="Default select example" asp-items="@ViewBag.Brands">
+                    <option selected>--Select Brand--</option>
+                </select>
+                <span asp-validation-for="BrandId"></span>
             </div>
 
 
@@ -69,11 +71,11 @@
 
                 <button type="submit" class="btn btn-primary mt-4">
                     <i class="bi bi-check"></i>
-                    Add
+                    @localizer["Edit"]
                 </button>
                 <a asp-action="Index" class="btn btn-outline-secondary mt-4">
                     <i class="bi bi-x"></i>
-                    Close
+                    @localizer["Close"]
                 </a>
             </div>
 
