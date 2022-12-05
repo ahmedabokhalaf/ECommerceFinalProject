@@ -29,6 +29,8 @@
 	<link rel="stylesheet" href="~/Content/css/morris.css" type="text/css" />
 	<!-- calendar -->
 	<link rel="stylesheet" href="~/Content/css/monthly.css">
+
+	@RenderSection("style" , false) ;
 	<!-- //calendar -->
 	<!-- //font-awesome icons -->
 	@*    <link rel="stylesheet" href="~/Content/lib/twitter-bootstrap/css/bootstrap.min.css" />
@@ -179,6 +181,11 @@
 					</li>
 				</ul>
 				<!--search & user info end-->
+
+		 <form class="d-flex" asp-action="Search" asp-controller="Product" >
+        <input class="form-control me-2" type="search" name="term" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
 			</div>
 		</header>
 		<!--header end-->

@@ -27,6 +27,7 @@
   "welcome": "Welcome {0}, How are you?",
   "home": "Home",
   "firstname": "First Name",
+<<<<<<< HEAD
   "Product Name": "Product Name",
   "Product Description": "Product Description",
   "Product Price": "Product Price",
@@ -63,4 +64,20 @@
   "Type Of Order:": "Type Of Order:",
   "Status Of Order:": "Status Of Order:",
   "Date:": "Date:"
+=======
+  "Name": "Name",
+  "Description": "Description",
+  "Price": "Price",
+  "Quantity": "Quantity",
+  "Please Upload Some Images": "Please Upload Some Images",
+  "Brand": "Brand",
+  "Edit": "Edit",
+  "Close": "Close",
+  "Details": "Details",
+  "Delete": "Delete",
+  "Confirm Delete": "Confirm Delete",
+  "Back": "Back",
+  "Add Product": "Add Product",
+  "No , Products Found ." : "No , Products Found ."
+>>>>>>> yousef27
 }

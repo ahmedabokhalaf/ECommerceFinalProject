@@ -1,11 +1,17 @@
+<<<<<<< HEAD
 ﻿@model IEnumerable<Product>;
 @using System.Globalization
 @using Microsoft.AspNetCore.Mvc.Localization
 @inject IViewLocalizer localizer﻿
+=======
+﻿@model IPagedList<Product>;
+>>>>>>> yousef27
     @{
     ViewData["Title"] = "Products";
     }
-
+    @section style{
+        <link rel="stylesheet" href="~/Content/PagedList.css" />
+    }
 
     <h2 class="mt-5">
         <i class="bi bi-bag-check-fill"></i>
@@ -31,7 +37,7 @@
         else
         {
         <div class="row">
-            @foreach (var product in Model)
+            @foreach (var product in Model.ToList<Product>())
             {
             <div class="col-12">
                 <div class="card mb-3">
@@ -69,10 +75,19 @@
                                     @localizer["Edit Product"]
                                 </a>
 
-                                        <a asp-action="ConfirmDelete" asp-route-id="@product.Id"
+                                     @*   <a asp-action="ConfirmDelete" asp-route-id="@product.Id"
                                         asp-route-Title="@product.Name" class="btn btn btn-danger">
                                         <i class="bi bi-trash"></i>
+<<<<<<< HEAD
                                         @localizer["Delete Product"]
+=======
+                                        Delete
+                                    </a>*@
+
+                                        <a href="~/Product/Delete?id=@product.Id" id="deletebtn" onclick="return confirm('Do you Want to delete Product :@product.Name ')" class="btn btn btn-danger" class="alert alert-danger">
+                                        <i class="bi bi-trash"></i>
+                                        Delete
+>>>>>>> yousef27
                                     </a>
                                         
                                     </div>
@@ -86,4 +101,7 @@
 
             </div>
             }
+    @Html.PagedListPager( Model, PageIndex => Url.Action("Index", new { PageIndex }) ) ;
             </div>
+
+
