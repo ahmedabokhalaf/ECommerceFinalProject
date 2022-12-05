@@ -1,73 +1,66 @@
-<<<<<<< HEAD
-﻿@model IEnumerable<Product>;
-@using System.Globalization
-@using Microsoft.AspNetCore.Mvc.Localization
-@inject IViewLocalizer localizer﻿
-=======
-﻿@model IPagedList<Product>;
->>>>>>> yousef27
-    @{
-    ViewData["Title"] = "Products";
+@model IPagedList<Product>
+@{
+ViewData["Title"] = "Products";
+}
+@section style{
+    <link rel="stylesheet" href="~/Content/PagedList.css" />
+}
+
+<h2 class="mt-5">
+    <i class="bi bi-bag-check-fill"></i>
+    @localizer["Products"]
+</h2>
+<hr />
+
+<a class="btn btn-primary" asp-controller="Product" asp-action="Create">
+    <i class="bi bi-plus-lg"></i>
+    @localizer["Add Product"]
+</a>
+
+<div class="mt-4">
+
+
+    @if (!Model.Any())
+    {
+    <div class="alert alert-danger" role="alert">
+        <i class="bi bi-exclamation-triangle"></i>
+        @localizer["No Products"]
+    </div>
     }
-    @section style{
-        <link rel="stylesheet" href="~/Content/PagedList.css" />
-    }
-
-    <h2 class="mt-5">
-        <i class="bi bi-bag-check-fill"></i>
-        @localizer["Products"]
-    </h2>
-    <hr />
-
-    <a class="btn btn-primary" asp-controller="Product" asp-action="Create">
-        <i class="bi bi-plus-lg"></i>
-        @localizer["Add Product"]
-    </a>
-
-    <div class="mt-4">
-
-
-        @if (!Model.Any())
+    else
+    {
+    <div class="row">
+        @foreach (var product in Model.ToList<Product>())
         {
-        <div class="alert alert-danger" role="alert">
-            <i class="bi bi-exclamation-triangle"></i>
-            @localizer["No Products"]
-        </div>
-        }
-        else
-        {
-        <div class="row">
-            @foreach (var product in Model.ToList<Product>())
-            {
-            <div class="col-12">
-                <div class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-2" >
-                                @*style="background-image:url(data/image\/*;base64,@Convert.ToByte(product.ProductImages)"*@
+        <div class="col-12">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-2" >
+                            @*style="background-image:url(data/image\/*;base64,@Convert.ToByte(product.ProductImages)"*@
 
-                           @if (product.ProductImages == null || product.ProductImages.Count == 0)
-                            {
-                            <h1>@localizer["No Images"]</h1>
-                            }
-                            else
-                            {
-                                    <img src="~/Images/@product.ProductImages.FirstOrDefault()?.Path" height="auto"
-                             class="mt-10 img-fluid rounded-start" class="img" alt="@product.Name" />
+                        @if (product.ProductImages == null || product.ProductImages.Count == 0)
+                        {
+                        <h1>@localizer["No Images"]</h1>
+                        }
+                        else
+                        {
+                                <img src="~/Images/@product.ProductImages.FirstOrDefault()?.Path" height="auto"
+                            class="mt-10 img-fluid rounded-start" class="img" alt="@product.Name" />
                                           
-                            }
-                        </div>
-                        <div class="col-md-10 d-flex flex-column justify-content-between h-100">
-                            <div class="card-body">
-                                <h3 class="card-title">@product.Name</h3>
+                        }
+                    </div>
+                    <div class="col-md-10 d-flex flex-column justify-content-between h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">@product.Name</h3>
                                 
-                                <span class="card-text text-justfy">@product.Description</span>
-                               <br>
-                                <span class="card-text"> Quantity : <span style="font-weight:bold">@product.Quantity</span></span>
+                            <span class="card-text text-justfy">@product.Description</span>
+                            <br>
+                            <span class="card-text"> Quantity : <span style="font-weight:bold">@product.Quantity</span></span>
                            
-                             <div>
-                                    <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-outline-secondary">
-                                <i class="bi bi-camera-reels"></i>
-                                @localizer["Product Details"]
+                            <div>
+                                <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-outline-secondary">
+                                    <i class="bi bi-camera-reels"></i>
+                                    @localizer["Product Details"]
                                 </a>
 
                                 <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-outline-primary">
@@ -75,33 +68,22 @@
                                     @localizer["Edit Product"]
                                 </a>
 
-                                     @*   <a asp-action="ConfirmDelete" asp-route-id="@product.Id"
-                                        asp-route-Title="@product.Name" class="btn btn btn-danger">
-                                        <i class="bi bi-trash"></i>
-<<<<<<< HEAD
-                                        @localizer["Delete Product"]
-=======
-                                        Delete
-                                    </a>*@
 
-                                        <a href="~/Product/Delete?id=@product.Id" id="deletebtn" onclick="return confirm('Do you Want to delete Product :@product.Name ')" class="btn btn btn-danger" class="alert alert-danger">
-                                        <i class="bi bi-trash"></i>
-                                        Delete
->>>>>>> yousef27
-                                    </a>
+                                <a href="~/Product/Delete?id=@product.Id" id="deletebtn" onclick="return confirm('Do you Want to delete Product :@product.Name ')" class="btn btn btn-danger" class="alert alert-danger">
+                                <i class="bi bi-trash"></i>
+                                    @localizer["Delete Product"]
+                                </a>
                                         
-                                    </div>
-                              </div>
-                        </div>
+                            </div>
+                            </div>
                     </div>
                 </div>
-                </div>
-
-                }
-
             </div>
+            </div>
+
             }
-    @Html.PagedListPager( Model, PageIndex => Url.Action("Index", new { PageIndex }) ) ;
-            </div>
 
-
+        </div>
+        }
+@Html.PagedListPager( Model, PageIndex => Url.Action("Index", new { PageIndex }) ) ;
+</div>

@@ -1,5 +1,5 @@
 ﻿using ITI.ElectroDev.Models;
-using ITI.ElectroDev.Presentation.Models;
+using ITI.ElectroDev.Presentation;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;

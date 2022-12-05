@@ -1,7 +1,4 @@
 ﻿@model List<OrderDetails>
-@using System.Globalization
-@using Microsoft.AspNetCore.Mvc.Localization
-@inject IViewLocalizer localizer﻿
 <h1>@localizer["Orders"]</h1>
 <a asp-action="Add" asp-controller="Order" class="btn btn-primary">@localizer["Add New Order"]</a>
 <main class="bg-surface-primary border-bottom pt-6 mt-5">

@@ -27,7 +27,6 @@
   "welcome": "Welcome {0}, How are you?",
   "home": "Home",
   "firstname": "First Name",
-<<<<<<< HEAD
   "Product Name": "Product Name",
   "Product Description": "Product Description",
   "Product Price": "Product Price",
@@ -63,21 +62,24 @@
   "Total Price:": "Total Price:",
   "Type Of Order:": "Type Of Order:",
   "Status Of Order:": "Status Of Order:",
-  "Date:": "Date:"
-=======
+  "Date:": "Date:",
   "Name": "Name",
-  "Description": "Description",
-  "Price": "Price",
-  "Quantity": "Quantity",
-  "Please Upload Some Images": "Please Upload Some Images",
-  "Brand": "Brand",
-  "Edit": "Edit",
-  "Close": "Close",
   "Details": "Details",
   "Delete": "Delete",
-  "Confirm Delete": "Confirm Delete",
+  "Confirm Delete": "Are you sure about Delete?",
   "Back": "Back",
-  "Add Product": "Add Product",
-  "No , Products Found ." : "No , Products Found ."
->>>>>>> yousef27
+  "No , Products Found .": "No , Products Found .",
+
+  "Please Enter The Brand": "Please Enter The Brand",
+  "Must be less than 500 Chars": "Must be less than 500 Chars",
+  "Must Choose Category": "Must Choose Category",
+  "Category": "Category",
+  "Brand": "Brand",
+  "Add Brand": "Add New Brand",
+  "Edit Brand": "Edit",
+  "Delete Brand": "Delete",
+  "Brand Details": "Details",
+  "No Brands": "No Brands Found",
+  "Back To List": "Back To List",
+  "Successfully Edit": "Successfully Edit"
 }

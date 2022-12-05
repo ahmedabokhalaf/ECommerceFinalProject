@@ -26,13 +26,12 @@
   "deleteMsg": "هل تريد حذف قسم",
   "welcome": "مرحبا {0}, كيف حالك؟",
   "firstname": "الاسم الاول",
-<<<<<<< HEAD
   "Product Name": "اسم المنتج",
   "Product Description": "الوصف",
   "Product Price": "سعر المنتج",
   "Product Quantity": "الكمية",
   "Product Images": "صور المنتج",
-  "Product Brand": "الماركة",
+  "Product Brand": "العلامة التجارية",
   "Add Product": "أضف منتج جديد",
   "Edit Product": "تعديل",
   "Product Details": "تفاصيل",
@@ -62,28 +61,25 @@
   "Total Price:": "السعر الكلى",
   "Type Of Order:": "نوع الطلب",
   "Status Of Order:": "حاله الطلب",
-  "Date:": "التاريخ"
-=======
+  "Date:": "التاريخ",
   "Name": "الأسم",
   "This Fieled Required": "هذا الحقل مطلوب",
   "This Fieled Take at most 255 Letters": "لا يزيد عن 255 حرف",
   "This Fieled Take at Least 4 Letters": "لا يقل عن 4 حروف",
-  "Description": "الوصف",
-  "Price": "السعر",
-  "Quantity": "الكمية",
-  "Please Upload Some Images": "أدخل الصورة",
-  "Brand": "إختر العلامة التجارية",
-  "Edit": "تعديل",
-  "Close": "رجوع",
-  "Details": "تفاصيل",
-  "Delete": "حذف",
-  "Confirm Delete": "تأكيد الحذف",
+  "Confirm Delete": "هل متأكد من الحذف؟",
   "Back": "رجوع",
-  "Add Product": "إضافة منتجات",
-  "No , Products Found ." : "لا يوجد منتجات لعرضها "
+  "No , Products Found .": "لا يوجد منتجات لعرضها ",
 
-
-
-
->>>>>>> yousef27
+  "Please Enter The Brand": "برجاء ادخال العلامة التجارية",
+  "Must be less than 500 Chars": "يجب ان يكون اقل من 500 حرف",
+  "Must Choose Category": "يجب اختيار القسم",
+  "Category": "القسم",
+  "Brand": "العلامة التجارية",
+  "Add Brand": "اضف علامة تجارية جديدة",
+  "Edit Brand": "تعديل",
+  "Delete Brand": "حذف",
+  "Brand Details": "تفاصيل",
+  "No Brands": "لا توجد علامات تجارية",
+  "Back To List": "الرجوع للقائمة",
+  "Successfully Edit": "تم التعديل بنجاح"
 }

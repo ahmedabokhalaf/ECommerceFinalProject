@@ -1,14 +1,14 @@
 ﻿@model BrandModel
-<h1> Edit Brands</h1>
+<h1>@localizer["Edit Brand"]</h1>
 
 <a asp-controller="Brand" asp-action="Index">
     <i class="bi bi-arrow-left " style="font-size:3rem"></i>
 </a>
 <div class="alert alert-success" role="alert" style="display:none;" id="Mgs">
     <h4 class="alert-heading">Well done!</h4>
-    <p>you successfully Edit. </p>
+    <p>@localizer["Successfully Edit"]</p>
     <hr>
-    <p class="mb-0"><a asp-controller="Brand" asp-action="Index">Back to Brands</a>.</p>
+    <p class="mb-0"><a asp-controller="Brand" asp-action="Index">@localizer["Back To List"]</a>.</p>
 </div>
 <div class="col-10 mx-auto">
     <div class="card shadow border-0">
@@ -34,7 +34,7 @@
                         </select>
                         <span asp-validation-for="CategoryId"></span>
                     </div>
-                    <input class="col-4 btn btn-primary" type="submit"  value="Edit" />
+                    <input class="col-4 btn btn-primary" type="submit"  value="@localizer["Edit Brand"]" />
                 </form>
             </div>
         </div>
