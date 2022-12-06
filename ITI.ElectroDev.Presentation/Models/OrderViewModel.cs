@@ -18,7 +18,7 @@ namespace ITI.ElectroDev.Presentation
         public string Type { get; set; }
         [Display(Name = "Status Of Order: ")]
         public string Status { get; set; }
-        [Display(Name = "Date:")]
+        [Display(Name = "Date: ")]
         public DateTime CreatedAt { get; set; }
     }
 }
