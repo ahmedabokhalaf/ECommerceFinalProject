@@ -92,6 +92,7 @@ app.UseRequestCulture();
 
 app.MapControllerRoute(
     name: "default",
- pattern: "{controller=User}/{action=SignIn}/{id?}");
+  //pattern: "{controller=User}/{action=SignIn}/{id?}");
+  pattern: "{controller}/{action}/{id?}");
 
 app.Run();

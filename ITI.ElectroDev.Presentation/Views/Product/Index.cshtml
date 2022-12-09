@@ -29,15 +29,48 @@ ViewData["Title"] = "Products";
     }
     else
     {
-    <div class="row">
+        <table class="table" style="color:black;font-weight:bold;font-size:120%"
+           border="5" bordercolor="black" align="center" >
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Image</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @{int index = 1 ;}
+                @foreach (var product in Model.ToList<Product>())
+                {
+                    <tr class="mt-5" style="color:blue">
+                    <th  scope="row">@index</th>
+                    <td>@product.Name</td>
+                    <td>@product.Quantity</td>
+                    <td>@product.Price</td>
+                    <td>
+                    <img src="~/Images/@product.ProductImages.FirstOrDefault()?.Path" 
+                     class="img-fluid rounded-start" class="img" alt="@product.Name"
+                         border=3 height=100 width=100 />
+                        </td>
+                        @{
+                            ++index;
+                        }
+                </tr>
+                   
+                }
+            </tbody>
+        </table>
+    }
+@*    <div class="row">
         @foreach (var product in Model.ToList<Product>())
         {
         <div class="col-12">
-            <div class="card mb-3">
+           <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-2" >
-                            @*style="background-image:url(data/image\/*;base64,@Convert.ToByte(product.ProductImages)"*@
-
                         @if (product.ProductImages == null || product.ProductImages.Count == 0)
                         {
                         <h1>@localizer["No Images"]</h1>
@@ -84,6 +117,6 @@ ViewData["Title"] = "Products";
             }
 
         </div>
-        }
+        *@
 @Html.PagedListPager( Model, PageIndex => Url.Action("Index", new { PageIndex }) ) ;
 </div>
