@@ -38,6 +38,9 @@ ViewData["Title"] = "Products";
                     <th scope="col">Quantity</th>
                     <th scope="col">Price</th>
                     <th scope="col">Image</th>
+                    <th scope="col">Details</th>
+                    <th scope="col">Delete</th>
+                    <th scope="col">Edit</th>
 
                 </tr>
             </thead>
@@ -55,6 +58,27 @@ ViewData["Title"] = "Products";
                      class="img-fluid rounded-start" class="img" alt="@product.Name"
                          border=3 height=100 width=100 />
                         </td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-outline-secondary">
+                                <i class="bi bi-camera-reels"></i>
+                                @localizer["Product Details"]
+                            </a>
+                          </td>
+                          <td>
+                          <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-outline-primary">
+                                <i class="bi bi-pencil"></i>
+                                @localizer["Edit Product"]
+                            </a>
+                        </td>
+                        <td>
+
+                            <a href="~/Product/Delete?id=@product.Id" id="deletebtn" onclick="return confirm('Do you Want to delete Product :@product.Name ')" class="btn btn btn-danger" class="alert alert-danger">
+                                <i class="bi bi-trash"></i>
+                                @localizer["Delete Product"]
+                            </a>
+                            </td>
+
+                       
                         @{
                             ++index;
                         }
