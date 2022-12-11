@@ -17,7 +17,7 @@ ViewData["Title"] = "Products";
     @localizer["Add Product"]
 </a>
 
-<div class="mt-4">
+<div class="mt-4 Product">
 
 
     @if (!Model.Any())
@@ -30,7 +30,7 @@ ViewData["Title"] = "Products";
     else
     {
         <table class="table" style="color:black;font-weight:bold;font-size:120%"
-           border="5" bordercolor="black" align="center" >
+           border="5" bordercolor="black" align="center" id="table">
             <thead>
                 <tr>
                     <th scope="col">#</th>
