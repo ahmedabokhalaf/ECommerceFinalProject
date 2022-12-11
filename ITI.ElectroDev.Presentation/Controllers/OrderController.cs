@@ -33,49 +33,49 @@ namespace ITI.ElectroDev.Presentation
             return View(order);
         }
 
-        [HttpGet]
-        [Authorize(Roles = "Admin,Editor")]
+        //[HttpGet]
+        //[Authorize(Roles = "Admin,Editor")]
 
-        public IActionResult Add()
-        {
-            ViewBag.Title = "Add New Order";
-            ViewBag.Products = context.Product
-                .Select(p => new SelectListItem(p.Name, p.Id.ToString()));
-            ViewBag.Users = context.Users
-                .Select(u => new SelectListItem(u.FirstName + u.LastName, u.Id)); //Id of user is string
-            return View();
-        }
+        //public IActionResult Add()
+        //{
+        //    ViewBag.Title = "Add New Order";
+        //    ViewBag.Products = context.Product
+        //        .Select(p => new SelectListItem(p.Name, p.Id.ToString()));
+        //    ViewBag.Users = context.Users
+        //        .Select(u => new SelectListItem(u.FirstName + u.LastName, u.Id)); //Id of user is string
+        //    return View();
+        //}
 
-        [HttpPost]
-        public IActionResult Add(OrderViewModel model)
-        {
-            if (!ModelState.IsValid)
-            {
-                ViewBag.Products = context.Product
-                .Select(p => new SelectListItem(p.Name, p.Id.ToString()));
-                ViewBag.Users = context.Users
-                    .Select(u => new SelectListItem(u.FirstName + u.LastName, u.Id)); //Id of user is string
-                return View();
-            }
-            else
-            {
-                context.OrderDetails.Add(new OrderDetails
-                {
-                    UserId = model.UserId,
-                    Status = model.Status,
-                    Type = model.Type,
-                    TotalPrice = model.TotalPrice
-                });
-                context.SaveChanges();
-                context.OrderItems.Add(new OrderItems
-                {
-                    ProductId= model.ProductId,
-                    CreatedAt= model.CreatedAt
-                });
-                context.SaveChanges();
-                return RedirectToAction("Index");
-            }
-        }
+        //[HttpPost]
+        //public IActionResult Add(OrderViewModel model)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        ViewBag.Products = context.Product
+        //        .Select(p => new SelectListItem(p.Name, p.Id.ToString()));
+        //        ViewBag.Users = context.Users
+        //            .Select(u => new SelectListItem(u.FirstName + u.LastName, u.Id)); //Id of user is string
+        //        return View();
+        //    }
+        //    else
+        //    {
+        //        context.OrderDetails.Add(new OrderDetails
+        //        {
+        //            UserId = model.UserId,
+        //            Status = model.Status,
+        //            Type = model.Type,
+        //            TotalPrice = model.TotalPrice
+        //        });
+        //        context.SaveChanges();
+        //        context.OrderItems.Add(new OrderItems
+        //        {
+        //            ProductId= model.ProductId,
+        //            CreatedAt= model.CreatedAt
+        //        });
+        //        context.SaveChanges();
+        //        return RedirectToAction("Index");
+        //    }
+        //}
 
         [HttpGet]
         [Authorize(Roles = "Admin,Editor")]
@@ -90,9 +90,6 @@ namespace ITI.ElectroDev.Presentation
             OrderDetails order = context.OrderDetails.FirstOrDefault(o => o.Id == id);
             OrderViewModel orderModel = new OrderViewModel
             {
-                Id = order.Id,
-                UserId = order.UserId,
-                TotalPrice = order.TotalPrice,
                 Status = order.Status,
                 Type = order.Type
             };
@@ -102,27 +99,9 @@ namespace ITI.ElectroDev.Presentation
         public IActionResult Edit(OrderViewModel model)
         {
             OrderDetails order = context.OrderDetails.FirstOrDefault(o => o.Id == model.Id);
-            order.UserId = model.UserId;
-            order.TotalPrice = model.TotalPrice;
             order.Status = model.Status;
             order.Type = model.Type;
             context.OrderDetails.Update(order);
-            context.SaveChanges();
-            return RedirectToAction("Index");
-        }
-
-        [HttpGet]
-        [Authorize(Roles = "Admin,Editor")]
-
-        public IActionResult Delete(int id)
-        {
-            var order = context.OrderDetails.FirstOrDefault(o => o.Id == id);
-            return View(order);
-        }
-        [HttpPost]
-        public IActionResult Delete(OrderDetails order)
-        {
-            context.OrderDetails.Remove(order);
             context.SaveChanges();
             return RedirectToAction("Index");
         }

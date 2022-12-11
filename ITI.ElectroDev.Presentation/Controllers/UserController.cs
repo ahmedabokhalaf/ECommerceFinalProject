@@ -41,6 +41,7 @@ namespace ITI.ElectroDev.Presentation
 			ViewBag.Roles = RoleManager.Roles.Select(i => new SelectListItem(i.Name, i.Name));
 			return View();
         }
+<<<<<<< HEAD
 
         //[HttpGet]
         //      [Authorize(Roles ="Admin")]
@@ -143,6 +144,8 @@ namespace ITI.ElectroDev.Presentation
 			}
 		}
 
+=======
+>>>>>>> 5a4227ac04052c75ba031d8f2c36ed57acb94fe6
 		
 		[HttpPost]
         public async Task<IActionResult> SignUp(UserCreateModel model)

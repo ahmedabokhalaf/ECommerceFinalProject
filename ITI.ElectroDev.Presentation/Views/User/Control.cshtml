@@ -6,14 +6,8 @@
 
 
 <ul>
-@*    <li> <a asp-action="SignIn" asp-controller="User"> <i class="bi bi-person-fill"></i> To THe Admin Login Page </a> </li>
-    *@
     <li> <a class="l" asp-action="SignUp" asp-controller="User"> <i class="bi bi-person-plus-fill"></i> @localizer["To Add a User With Role Options"] </a> </li>
-    <li> <a class="l" asp-action="SignUpEditor" asp-controller="User"> <i class="bi bi-person-plus-fill"></i> @localizer["To Add an Editor"]</a> </li>
-   
-   
-@*    <li> <a class="l" asp-action="SignUpCustomer" asp-controller="User"> <i class="bi bi-person-plus-fill"></i> @localizer["To Add a Customer"] </a> </li>
-*@   
+     
 <li> <a class="l" asp-action="Add" asp-controller="Role"><i class="bi bi-person-plus-fill"></i> @localizer["To Add Role"] </a> </li>
 
     <li> <a class ="l" asp-action="UsersDetails" asp-controller="User"> <i class="bi bi-pencil-square"></i> @localizer["To Update User Information"]</a> </li>
