@@ -12,7 +12,7 @@ using X.PagedList;
 
 namespace ITI.ElectroDev.Presentation
 {
-    [Authorize(Roles = "Admin,Editor")]
+    //[Authorize(Roles = "Admin,Editor")]
 
     public class ProductController : Controller
     {
@@ -28,7 +28,7 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpGet]
-        public  IActionResult Index(int PageIndex = 1, int PageSize = 2)
+        public  IActionResult Index(int PageIndex = 1, int PageSize = 3)
         {
             var product =  context.Product.ToPagedList(PageIndex, PageSize);
             // ViewBag.ImagesPath = con.GetSection("ImagesPath").Value.ToString();

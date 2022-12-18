@@ -33,7 +33,7 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public IActionResult SignUp()
         {
             ViewBag.Title = "Sign Up";
@@ -41,6 +41,110 @@ namespace ITI.ElectroDev.Presentation
 			ViewBag.Roles = RoleManager.Roles.Select(i => new SelectListItem(i.Name, i.Name));
 			return View();
         }
+
+
+        //[HttpGet]
+        //      [Authorize(Roles ="Admin")]
+
+        //      public IActionResult SignUpCustomer()
+        //{
+        //	ViewBag.Title = "Sign Up Customer";
+
+        //	ViewBag.Roles = RoleManager.Roles.Select(i => new SelectListItem(i.Name, i.Name));
+        //	return View();
+        //}
+        //[HttpPost]
+        //public async Task<IActionResult> SignUpCustomer(UserCreateModel model)
+        //{
+        //    model.Role = "Viewer";
+        //    if (ModelState.IsValid == false)
+        //    {
+
+        //        return View();
+
+        //    }
+        //    else
+        //    {
+        //        User user = new User()
+        //        {
+        //            FirstName = model.FirstName,
+        //            LastName = model.LastName,
+        //            Email = model.Email,
+        //            UserName = model.UserName,
+
+        //        };
+        //        IdentityResult result = await UserManager.CreateAsync(user, model.Password);
+
+        //        if (result.Succeeded == false)
+        //        {
+        //            result.Errors.ToList().ForEach(i =>
+        //            {
+        //                ModelState.AddModelError("", i.Description);
+
+        //            });
+        //            return View();
+
+        //        }
+        //        else
+        //        {
+        //            await UserManager.AddToRoleAsync(user, model.Role);
+
+        //            return RedirectToAction("SignIn", "User");
+        //        }
+        //    }
+        //}
+        [HttpGet]
+        //[Authorize(Roles = "Admin")]
+
+        public IActionResult SignUpEditor()
+        {
+            ViewBag.Title = "Sign Up Editor";
+
+            ViewBag.Roles = RoleManager.Roles.Select(i => new SelectListItem(i.Name, i.Name));
+            return View();
+        }
+        [HttpPost]
+		public async Task<IActionResult> SignUpEditor(UserCreateModel model)
+		{
+			model.Role = "Editor";
+			if (ModelState.IsValid == false)
+			{
+
+				return View();
+				
+			}
+			else
+			{
+				User user = new User()
+				{
+					FirstName = model.FirstName,
+					LastName = model.LastName,
+					Email = model.Email,
+					UserName = model.UserName,
+
+				};
+				IdentityResult result = await UserManager.CreateAsync(user, model.Password);
+
+				if (result.Succeeded == false)
+				{
+					result.Errors.ToList().ForEach(i =>
+					{
+						ModelState.AddModelError("", i.Description);
+
+					});
+					return View();
+
+				}
+				else
+				{
+					await UserManager.AddToRoleAsync(user, model.Role);
+
+					return RedirectToAction("SignIn", "User");
+				}
+			}
+		}
+
+
 		
 		[HttpPost]
         public async Task<IActionResult> SignUp(UserCreateModel model)

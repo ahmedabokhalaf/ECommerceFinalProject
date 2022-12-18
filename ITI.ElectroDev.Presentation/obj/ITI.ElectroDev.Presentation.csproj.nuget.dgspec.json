@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj": {}
+    "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj": {}
   },
   "projects": {
-    "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+    "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+        "projectUniqueName": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
         "projectName": "ITI.ElectroDev.Models",
-        "projectPath": "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
-        "packagesPath": "C:\\Users\\Khalaf\\.nuget\\packages\\",
-        "outputPath": "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\obj\\",
+        "projectPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
+        "outputPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Khalaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,17 +97,17 @@
         }
       }
     },
-    "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj": {
+    "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+        "projectUniqueName": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
         "projectName": "ITI.ElectroDev.Presentation",
-        "projectPath": "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
-        "packagesPath": "C:\\Users\\Khalaf\\.nuget\\packages\\",
-        "outputPath": "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Presentation\\obj\\",
+        "projectPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
+        "outputPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Khalaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -121,8 +121,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
-                "projectPath": "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
+              "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+                "projectPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
               }
             }
           }
