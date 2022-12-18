@@ -7341,19 +7341,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Khalaf\\.nuget\\packages\\": {}
+    "C:\\Users\\Mariam Ayman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Mariam Ayman\\Desktop\\DashBoard\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
       "projectName": "ITI.ElectroDev.Models",
-      "projectPath": "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
-      "packagesPath": "C:\\Users\\Khalaf\\.nuget\\packages\\",
-      "outputPath": "F:\\ITI3Months\\ASP.NET\\ElectroDev\\ITI.ElectroDev.Models\\obj\\",
+      "projectPath": "C:\\Users\\Mariam Ayman\\Desktop\\DashBoard\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+      "packagesPath": "C:\\Users\\Mariam Ayman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mariam Ayman\\Desktop\\DashBoard\\ITI.ElectroDev.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Khalaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mariam Ayman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

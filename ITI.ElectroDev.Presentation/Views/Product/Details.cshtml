@@ -12,6 +12,9 @@
         <div>
             <h1> @Model.Name</h1>
             <span style="font-weight:bold">Price : @Model.Price $</span><br />
+            @if(Model.Discount != 0){
+            <span style="font-weight:bold">Price after Discount : @Model.DiscountPrice $</span><br />
+            }
             <span style="font-weight:bold"> Description : @Model.Description</span>
         </div>
         <a asp-action="Index" class="btn btn-outline-secondary mt-4">

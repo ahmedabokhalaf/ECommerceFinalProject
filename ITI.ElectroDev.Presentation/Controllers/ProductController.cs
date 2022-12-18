@@ -12,7 +12,7 @@ using X.PagedList;
 
 namespace ITI.ElectroDev.Presentation
 {
-    [Authorize(Roles = "Admin,Editor")]
+   // [Authorize(Roles = "Admin,Editor")]
 
     public class ProductController : Controller
     {
@@ -91,7 +91,9 @@ namespace ITI.ElectroDev.Presentation
                     Name = createModel.Name,
                     Description = createModel.Description,
                     BrandId = createModel.BrandId,
-                    Price = createModel.Price ,
+                    Price = createModel.Price,
+                    Discount = createModel.Discount,
+                    DiscountPrice=createModel.Price - (createModel.Price * createModel.Discount / 100),
                     Quantity = createModel.Quantity ,
                     ProductImages = productImages,
                 });
@@ -128,6 +130,7 @@ namespace ITI.ElectroDev.Presentation
                 Description = prd.Description,
                 BrandId = prd.BrandId,
                 Price = prd.Price,
+                Discount = prd.Discount,
                 Quantity = prd.Quantity,
                 
 
@@ -162,6 +165,8 @@ namespace ITI.ElectroDev.Presentation
             prd.Name = model.Name;
             prd.Description = model.Description;
             prd.Price = model.Price;
+            prd.Discount = model.Discount;
+            prd.DiscountPrice = model.Price-(model.Price * model.Discount / 100);
             prd.Quantity = model.Quantity;
             prd.BrandId = model.BrandId;
 

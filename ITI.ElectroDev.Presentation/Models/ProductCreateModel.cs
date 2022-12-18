@@ -23,9 +23,11 @@ namespace ITI.ElectroDev.Presentation
         [Display(Name = "Product Description")]
         public string Description { get; set; }
 
+        [Display(Name="Discount on this Product")]
+        public int Discount { get; set; }
+
         [Required(ErrorMessage = "هذا الحقل مطلوب *")]
         [Display(Name="Product Price")]
-
         public int Price { get; set; }
         [Required(ErrorMessage = "هذا الحقل مطلوب *")]
         [Display(Name = "Product Quantity")]
