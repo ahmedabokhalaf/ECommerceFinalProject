@@ -3,6 +3,11 @@
     .prd-row .action {
         right: 25px;
     }
+    .Product {
+        background-color: aliceblue;
+        color: black;
+        font-weight: bold;
+    }
 
     .hr-menu .brand{
         width: 100%;
