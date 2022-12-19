@@ -12,11 +12,8 @@ using X.PagedList;
 
 namespace ITI.ElectroDev.Presentation
 {
-<<<<<<< HEAD
-   // [Authorize(Roles = "Admin,Editor")]
-=======
+
     //[Authorize(Roles = "Admin,Editor")]
->>>>>>> main
 
     public class ProductController : Controller
     {

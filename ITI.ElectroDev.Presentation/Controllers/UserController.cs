@@ -33,11 +33,8 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpGet]
-<<<<<<< HEAD
-      //  [Authorize(Roles = "Admin")]
-=======
+
         //[Authorize(Roles = "Admin")]
->>>>>>> main
         public IActionResult SignUp()
         {
             ViewBag.Title = "Sign Up";
