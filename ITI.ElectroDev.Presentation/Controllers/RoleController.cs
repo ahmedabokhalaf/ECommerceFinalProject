@@ -16,7 +16,9 @@ namespace ITI.ElectroDev.Presentation
 
 
 		[HttpGet]
-		[Authorize(Roles = "Admin")]
+
+	//	[Authorize(Roles = "Admin")]
+
 		public IActionResult Add()
 		{
 
@@ -53,44 +55,5 @@ namespace ITI.ElectroDev.Presentation
 
 			}
 		}
-		//[HttpGet]
-		//[Authorize(Roles = "Admin")]
-		//public IActionResult Delete()
-		//{
-
-		//	return View();
-		//}
-
-
-		//[HttpPost]
-		//public async Task<IActionResult> Delete(RoleCreateModel model)
-		//{
-
-		//	if (ModelState.IsValid == false)
-		//		return View();
-		//	else
-		//	{
-		//		var result =
-		//		await RoleManager.DeleteAsync(
-		//			new IdentityRole
-		//			{
-		//				Id=model.Id,
-		//				Name = model.Name
-		//			});
-		//		if (result.Succeeded == false)
-		//		{
-		//			result.Errors.ToList().ForEach(i =>
-		//			{
-		//				ModelState.AddModelError("", i.Description);
-		//			});
-		//			return View();
-		//		}
-		//		else
-		//		{
-		//			return RedirectToAction("SignUp", "User");
-		//		}
-
-		//	}
-		//}
 	}
 }

@@ -17,7 +17,7 @@ ViewData["Title"] = "Products";
     @localizer["Add Product"]
 </a>
 
-<div class="mt-4">
+<div class="mt-4 Product">
 
 
     @if (!Model.Any())
@@ -29,15 +29,72 @@ ViewData["Title"] = "Products";
     }
     else
     {
-    <div class="row">
+        <table class="table table-secondary table-hover" style="color:black;font-weight:bold;font-size:120%"
+           border="5" bordercolor="black" align="center" id="table">
+            <thead>
+                <tr style="background-color:black">
+                    <th scope="col">#</th>
+                    <th scope="col" class="text-light">Name</th>
+                    <th scope="col" class="text-light">Quantity</th>
+                    <th scope="col" class="text-light">Price</th>
+                    <th scope="col" class="text-light">Image</th>
+                    <th scope="col" class="text-light">Details</th>
+                    <th scope="col" class="text-light">Delete</th>
+                    <th scope="col" class="text-light">Edit</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @{int index = 1 ;}
+                @foreach (var product in Model.ToList<Product>())
+                {
+                    <tr class="mt-5" style="color:blue">
+                    <th  scope="row">@index</th>
+                    <td>@product.Name</td>
+                    <td>@product.Quantity</td>
+                    <td>@product.Price</td>
+                    <td>
+                    <img src="~/Images/@product.ProductImages.FirstOrDefault()?.Path" 
+                     class="img-fluid rounded-start" class="img" alt="@product.Name"
+                         border=3 height=100 width=100 />
+                        </td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-outline-secondary">
+                                <i class="bi bi-camera-reels"></i>
+                                @localizer["Product Details"]
+                            </a>
+                          </td>
+                          <td>
+                          <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-outline-primary">
+                                <i class="bi bi-pencil"></i>
+                                @localizer["Edit Product"]
+                            </a>
+                        </td>
+                        <td>
+
+                            <a href="~/Product/Delete?id=@product.Id" id="deletebtn" onclick="return confirm('Do you Want to delete Product :@product.Name ')" class="btn btn btn-danger" class="alert alert-danger">
+                                <i class="bi bi-trash"></i>
+                                @localizer["Delete Product"]
+                            </a>
+                            </td>
+
+                       
+                        @{
+                            ++index;
+                        }
+                </tr>
+                   
+                }
+            </tbody>
+        </table>
+    }
+@*    <div class="row">
         @foreach (var product in Model.ToList<Product>())
         {
         <div class="col-12">
-            <div class="card mb-3">
+           <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-2" >
-                            @*style="background-image:url(data/image\/*;base64,@Convert.ToByte(product.ProductImages)"*@
-
                         @if (product.ProductImages == null || product.ProductImages.Count == 0)
                         {
                         <h1>@localizer["No Images"]</h1>
@@ -84,6 +141,6 @@ ViewData["Title"] = "Products";
             }
 
         </div>
-        }
+        *@
 @Html.PagedListPager( Model, PageIndex => Url.Action("Index", new { PageIndex }) ) ;
 </div>

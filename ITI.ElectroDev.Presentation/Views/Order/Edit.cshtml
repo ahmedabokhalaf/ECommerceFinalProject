@@ -15,30 +15,6 @@
         <form method="post" asp-controller="Order" asp-action="Edit" asp-route-id="@Model.Id" enctype="multipart/form-data"
               data-ajax="true" data-ajax-complete="OrderAdded" data-ajax-loading="#loader">
             <div class="form-group">
-                <label asp-for="Id" class="control-label"></label>
-                <input asp-for="Id" class="form-control" value="@Model.Id" readonly>
-                <span asp-validation-for="Id"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="UserId" class="control-label"></label>
-                <select asp-for="UserId" class="form-select" aria-label="Default select example" asp-items="@ViewBag.Users">
-                    <option value="@Model.UserId" selected></option>
-                </select>
-                <span asp-validation-for="UserId"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ProductId" class="control-label"></label>
-                <select asp-for="ProductId" class="form-select" aria-label="Default select example" asp-items="@ViewBag.Products">
-                    <option selected value="@Model.ProductId"></option>
-                </select>
-                <span asp-validation-for="ProductId"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TotalPrice" class="control-label"></label>
-                <input asp-for="TotalPrice" class="form-control" value="@Model.TotalPrice">
-                <span asp-validation-for="TotalPrice"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="Type" class="control-label"></label>
                 <select asp-for="Type" class="form-select" aria-label="Default select example">
                     <option selected>-- Select Type of Payment --</option>
@@ -55,11 +31,6 @@
                     <option value="delivered">Delivered</option>
                 </select>
                 <span asp-validation-for="Type"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CreatedAt" class="control-label"></label>
-                <input asp-for="CreatedAt" class="form-control" value="@Model.CreatedAt">
-                <span asp-validation-for="CreatedAt"></span>
             </div>
             <br />
             <div class="form-group">

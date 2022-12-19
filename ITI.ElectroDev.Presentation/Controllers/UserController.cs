@@ -33,7 +33,8 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+
+        //[Authorize(Roles = "Admin")]
         public IActionResult SignUp()
         {
             ViewBag.Title = "Sign Up";
@@ -41,6 +42,7 @@ namespace ITI.ElectroDev.Presentation
 			ViewBag.Roles = RoleManager.Roles.Select(i => new SelectListItem(i.Name, i.Name));
 			return View();
         }
+
 
         //[HttpGet]
         //      [Authorize(Roles ="Admin")]
@@ -93,7 +95,7 @@ namespace ITI.ElectroDev.Presentation
         //    }
         //}
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
 
         public IActionResult SignUpEditor()
         {
@@ -142,6 +144,7 @@ namespace ITI.ElectroDev.Presentation
 				}
 			}
 		}
+
 
 		
 		[HttpPost]
