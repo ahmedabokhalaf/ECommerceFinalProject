@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Rkn7Gcca+BZpM/Dg38nDLxXh5G4eCKaLtk3XO29jDs8=",
+  "Hash": "b+1POK+luGTKPG+g0cup7zizWBd+Xvwl0NoVwW1Np74=",
   "Source": "ITI.ElectroDev.Presentation",
   "BasePath": "_content/ITI.ElectroDev.Presentation",
   "Mode": "Default",
@@ -1256,6 +1256,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\a26b4c1c-7c47-4081-a120-470e0ae6901aOIP (2).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Mariam Ayman\\Desktop\\DashBoard\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\b05008b6-b1fe-44f6-b4ed-2acdcd6d07a612.PNG",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariam Ayman\\Desktop\\DashBoard\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/b05008b6-b1fe-44f6-b4ed-2acdcd6d07a612.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\b05008b6-b1fe-44f6-b4ed-2acdcd6d07a612.PNG"
     },
     {
       "Identity": "C:\\Users\\Mariam Ayman\\Desktop\\DashBoard\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\be17095a-620b-4f64-9b36-7af5e2a9951fdownload (1).jpg",
