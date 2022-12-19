@@ -84,6 +84,7 @@ namespace ITI.ElectroDev.Presentation
             BrandModel brandModel = new BrandModel
             {
                 CategoryId = brand.CategoryId,
+                Id = brand.Id,
                 Name = brand.Name
             };
             return View(brandModel);
@@ -101,18 +102,11 @@ namespace ITI.ElectroDev.Presentation
         }
 
         [HttpGet]
-        public IActionResult Delete(int id)
-        {
-            ViewBag.Title = "Delete Brand";
-            var brand = dbcontext.Brands.FirstOrDefault(i => i.Id == id);
-            return View(brand);
-        }
-        [HttpPost]
         public IActionResult Delete(Brand brand)
         {
             dbcontext.Brands.Remove(brand);
             dbcontext.SaveChanges();
-            return RedirectToAction("AllBrand");
+            return RedirectToAction("Index");
         }
     }
 }

@@ -1,19 +1,20 @@
 ﻿@model List<OrderDetails>
 <h1>@localizer["Orders"]</h1>
 <a asp-action="Add" asp-controller="Order" class="btn btn-primary">@localizer["Add New Order"]</a>
-<main class="bg-surface-primary border-bottom pt-6 mt-5">
-    <div class="container-fluid mt-5 mb-5">
+<main>
+    <div class="container-fluid">
 
         @if (Model.ToList<OrderDetails>().Count != 0)
         {
-            <table class="table">
+            <table class="table table-secondary table-hover" style="color:black;font-weight:bold;font-size:120%"
+               border="5" bordercolor="black" align="center" id="table">
                 <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">@localizer["Order For User"]</th>
-                        <th scope="col">@localizer["Total Price"]</th>
-                        <th scope="col">@localizer["Payment Type"]</th>
-                        <th scope="col">@localizer["Status"]</th>
+                    <tr style="background-color:black">
+                        <th scope="col" class="text-light">#</th>
+                        <th scope="col" class="text-light">@localizer["Order For User"]</th>
+                        <th scope="col" class="text-light">@localizer["Total Price"]</th>
+                        <th scope="col" class="text-light">@localizer["Payment Type"]</th>
+                        <th scope="col" class="text-light">@localizer["Status"]</th>
                         <th scope="col"></th>
                     </tr>
                 </thead>
