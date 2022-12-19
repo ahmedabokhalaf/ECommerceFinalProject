@@ -12,9 +12,9 @@
     <strong>Success !</strong>@TempData["AlertMessage"] 
 </div>
 }
-<a class="btn btn-primary" asp-action="SignUp" asp-controller="User">Add Admin/Subadmin</a> | 
-<a class="btn btn-primary" asp-action="Add" asp-controller="Role">Add New Role</a>
-<table class="table">
+<a class="btn btn-primary" asp-action="SignUp" asp-controller="User">@localizer["Add Admin/Subadmin"]</a> | 
+<a class="btn btn-primary" asp-action="Add" asp-controller="Role">@localizer["Add New Role"]</a>
+<table class="table mt-3">
   <thead>
     <tr>
             <td scope="col" class="table-dark">@localizer["User Name"]</td>

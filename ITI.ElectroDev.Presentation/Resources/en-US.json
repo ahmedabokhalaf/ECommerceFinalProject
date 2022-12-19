@@ -106,5 +106,12 @@
   "Brand Details": "Details",
   "No Brands": "No Brands Found",
   "Back To List": "Back To List",
-  "Successfully Edit": "Successfully Edit"
+  "Successfully Edit": "Successfully Edit",
+  "Quantity": "Quantity",
+  "Price": "Price",
+  "Image": "Image",
+  "Details": "Details",
+  "Search": "Search",
+  "Add Admin/Subadmin": "Add Admin/Subadmin",
+  "Add New Role": "Add New Role"
 }

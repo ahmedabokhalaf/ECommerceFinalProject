@@ -1,7 +1,7 @@
 ﻿@model List<Brand>
 <h1>@localizer["Brands"]</h1>
 <a asp-action="AddNewBrand" asp-controller="Brand" class="btn btn-primary">@localizer["Add Brand"]</a>
-<div class="table-responsive">
+<div class="table-responsive mt-3">
     <table class="table table-secondary table-hover" style="color:black;font-weight:bold;font-size:120%"
            border="5" bordercolor="black" align="center" id="table">
         <thead>
@@ -20,10 +20,10 @@
                     <td><span class="h4 mb-0">@item.Name</span></td>
                     <td><span class="h4 mb-0">@item.Category.Name</span></td>
                     <td class="col-sm-6 col-12 text-sm-end">
-                        <a asp-controller="Brand" asp-action="Details" asp-route-id="@item.Id" class="btn mx-1 btn-outline-secondary">
+                        @*<a asp-controller="Brand" asp-action="Details" asp-route-id="@item.Id" class="btn mx-1 btn-outline-secondary">
                             <i class="bi bi-camera-reels"></i>
                                 @localizer["Brand Details"]
-                        </a>
+                        </a>*@
                         <a asp-controller="Brand" asp-action="Edit" asp-route-id="@item.Id" class="btn mx-1 btn-outline-primary">
                             <i class="bi bi-pencil"></i>
                             <span class="pe-0">@localizer["EditBtn"]</span>

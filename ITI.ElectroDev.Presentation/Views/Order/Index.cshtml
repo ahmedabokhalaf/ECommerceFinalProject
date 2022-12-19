@@ -2,7 +2,7 @@
 <h1>@localizer["Orders"]</h1>
 <a asp-action="Add" asp-controller="Order" class="btn btn-primary">@localizer["Add New Order"]</a>
 <main>
-    <div class="container-fluid">
+    <div class="container-fluid mt-3">
 
         @if (Model.ToList<OrderDetails>().Count != 0)
         {

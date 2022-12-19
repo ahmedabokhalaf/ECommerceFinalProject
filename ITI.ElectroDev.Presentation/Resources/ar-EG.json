@@ -108,5 +108,12 @@
   "Brand Details": "تفاصيل",
   "No Brands": "لا توجد علامات تجارية",
   "Back To List": "الرجوع للقائمة",
-  "Successfully Edit": "تم التعديل بنجاح"
+  "Successfully Edit": "تم التعديل بنجاح",
+  "Quantity": "الكميه",
+  "Price": "السعر",
+  "Image": "الصوره",
+  "Details": "التفاصيل",
+  "Search": "بحث",
+  "Add Admin/Subadmin": "إضافة مسؤول / مسؤول فرعي ",
+  "Add New Role": "إضافة دور جديد "
 }

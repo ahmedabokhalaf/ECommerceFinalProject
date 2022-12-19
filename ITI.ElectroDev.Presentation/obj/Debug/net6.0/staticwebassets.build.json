@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b+1POK+luGTKPG+g0cup7zizWBd+Xvwl0NoVwW1Np74=",
+  "Hash": "ARy5+35MwLi+4JKSkvISqgflEKJuhtRnVGdC8Db7qn4=",
   "Source": "ITI.ElectroDev.Presentation",
   "BasePath": "_content/ITI.ElectroDev.Presentation",
   "Mode": "Default",
@@ -1188,6 +1188,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\6a538340-e771-4d92-848c-719aeb2438d3WhatsApp Image 2022-12-10 at 2.35.08 PM (1).jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Mariam Ayman\\Desktop\\DashBoard\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\732135f2-36d3-4d77-90b1-4fdfc32db1b8Capture.PNG",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariam Ayman\\Desktop\\DashBoard\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/732135f2-36d3-4d77-90b1-4fdfc32db1b8Capture.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\732135f2-36d3-4d77-90b1-4fdfc32db1b8Capture.PNG"
     },
     {
       "Identity": "C:\\Users\\Mariam Ayman\\Desktop\\DashBoard\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\76c1297a-5f98-419e-a2b7-0c5f1e8926752.PNG",
