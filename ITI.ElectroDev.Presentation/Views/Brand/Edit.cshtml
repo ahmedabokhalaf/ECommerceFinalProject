@@ -14,10 +14,10 @@
     <div class="card shadow border-0">
         <div class="card-body">
             <div class="row">
-                <form data-ajax="true" data-ajax-loading="#loader" method="post" asp-route-id="@Model.Id" asp-action="Edit" asp-controller="Brand" enctype="multipart/form-data">
-                    <div class="form-group">
+                <form data-ajax="true" data-ajax-loading="#loader" data-ajax-complete="BrandUpdated" method="post" asp-route-id="@Model.Id" asp-action="Edit" asp-controller="Brand" enctype="multipart/form-data">
+                    <div class="form-group" hidden>
                         <label asp-for="Id"></label>
-                        <input type="text" class="form-control" value="@Model.Id" readonly/>
+                        <input type="text" class="form-control" value="@Model.Id"/>
                         <span asp-validation-for="Id" class="validation"></span>
                     </div>
 

@@ -75,19 +75,7 @@ namespace ITI.ElectroDev.Presentation
             return RedirectToAction("Index");
         }
 
-        [HttpGet]
-        [Authorize(Roles = "Admin,Editor")]
-
-        public IActionResult ConfirmDelete(int id, string name)
-        {
-            ViewBag.Title = "Delete Category";
-            dynamic category = new ExpandoObject();
-            category.Name = name;
-            category.Id = id;
-            return View(category);
-        }
-
-
+        
 
         [HttpGet]
         [Authorize(Roles = "Admin,Editor")]
