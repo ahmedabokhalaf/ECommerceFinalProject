@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ITI.ElectroDev.Models.Migrations
 {
-    public partial class first : Migration
+    public partial class initNew : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

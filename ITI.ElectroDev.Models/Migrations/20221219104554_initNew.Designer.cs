@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ITI.ElectroDev.Models.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20221218203229_first")]
-    partial class first
+    [Migration("20221219104554_initNew")]
+    partial class initNew
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
