@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj": {}
+    "E:\\Matiral_iTi     (Full Stack .Net)\\Final_project\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj": {}
   },
   "projects": {
-    "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+    "E:\\Matiral_iTi     (Full Stack .Net)\\Final_project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+        "projectUniqueName": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
         "projectName": "ITI.ElectroDev.Models",
-        "projectPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
-        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\obj\\",
+        "projectPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+        "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+        "outputPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_project\\ITI.ElectroDev.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,21 +93,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj": {
+    "E:\\Matiral_iTi     (Full Stack .Net)\\Final_project\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+        "projectUniqueName": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_project\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
         "projectName": "ITI.ElectroDev.Presentation",
-        "projectPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
-        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\obj\\",
+        "projectPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_project\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+        "outputPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_project\\ITI.ElectroDev.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -121,8 +121,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
-                "projectPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
+              "E:\\Matiral_iTi     (Full Stack .Net)\\Final_project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+                "projectPath": "E:\\Matiral_iTi     (Full Stack .Net)\\Final_project\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
               }
             }
           }
@@ -183,7 +183,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
