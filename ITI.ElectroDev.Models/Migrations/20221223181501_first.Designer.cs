@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ITI.ElectroDev.Models.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20221222214403_init12")]
-    partial class init12
+    [Migration("20221223181501_first")]
+    partial class first
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -122,8 +122,7 @@ namespace ITI.ElectroDev.Models.Migrations
 
                     b.HasKey("OrderId", "ProductId");
 
-                    b.HasIndex("ProductId")
-                        .IsUnique();
+                    b.HasIndex("ProductId");
 
                     b.ToTable("OrderItems", (string)null);
                 });
@@ -425,8 +424,8 @@ namespace ITI.ElectroDev.Models.Migrations
                         .IsRequired();
 
                     b.HasOne("ITI.ElectroDev.Models.Product", "Product")
-                        .WithOne("OrderItems")
-                        .HasForeignKey("ITI.ElectroDev.Models.OrderItems", "ProductId")
+                        .WithMany("OrderItems")
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

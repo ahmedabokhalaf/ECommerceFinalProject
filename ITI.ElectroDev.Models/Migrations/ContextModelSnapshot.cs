@@ -120,8 +120,7 @@ namespace ITI.ElectroDev.Models.Migrations
 
                     b.HasKey("OrderId", "ProductId");
 
-                    b.HasIndex("ProductId")
-                        .IsUnique();
+                    b.HasIndex("ProductId");
 
                     b.ToTable("OrderItems", (string)null);
                 });
@@ -423,8 +422,8 @@ namespace ITI.ElectroDev.Models.Migrations
                         .IsRequired();
 
                     b.HasOne("ITI.ElectroDev.Models.Product", "Product")
-                        .WithOne("OrderItems")
-                        .HasForeignKey("ITI.ElectroDev.Models.OrderItems", "ProductId")
+                        .WithMany("OrderItems")
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

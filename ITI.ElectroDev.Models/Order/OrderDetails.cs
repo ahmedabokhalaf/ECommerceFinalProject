@@ -18,6 +18,7 @@ namespace ITI.ElectroDev.Models
         public string Street { set; get;  }
         public string Status { get; set; }
         public virtual User User { get; set; }
+       
         public virtual ICollection<OrderItems> OrderItems { get; set; }
     }
 }

@@ -18,10 +18,10 @@ namespace ITI.ElectroDev.Models
             builder.HasKey(i => new { i.OrderId, i.ProductId });
             //builder.HasKey(i => i.OrderId);
             //builder.HasKey(i => i.ProductId);
-            builder.Property(i => i.OrderId).IsRequired();
+           // builder.Property(i => i.OrderId).IsRequired();
             builder.Property(i => i.Quantity).IsRequired();
             builder.Property(i => i.Price).IsRequired();
-            builder.Property(i => i.ProductId).IsRequired();
+           // builder.Property(i => i.ProductId).IsRequired();
         }
     }
 }

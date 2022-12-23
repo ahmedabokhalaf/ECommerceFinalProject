@@ -34,9 +34,9 @@ namespace ITI.ElectroDev.Models
                 .HasOne(i => i.User).WithMany(i => i.OrderDetails)
                 .HasForeignKey(i => i.UserId).OnDelete(DeleteBehavior.Cascade);
 
-            builder.Entity<Product>()
-                .HasOne(i => i.OrderItems).WithOne(i => i.Product)
-                .HasForeignKey<OrderItems>(i => i.ProductId).OnDelete(DeleteBehavior.Cascade);
+            builder.Entity<OrderItems>()
+                .HasOne(i => i.Product).WithMany(i => i.OrderItems)
+                .HasForeignKey(i => i.ProductId).OnDelete(DeleteBehavior.Cascade);
         }
     }
 }
