@@ -25,7 +25,7 @@
                             <th scope="row">1</th>
                             <td>@item.User.FirstName @item.User.LastName</td>
                             <td>@item.TotalPrice</td>
-                            <td>@item.Type</td>
+                            <td>@item.PaymentMethod</td>
                             <td>@item.Status</td>
                             <td class="text-end">
                                 <a class="btn d-inline-flex btn-sm btn-neutral border-base mx-1" asp-controller="Order" asp-action="OrderInfo" asp-route-id="@item.Id">

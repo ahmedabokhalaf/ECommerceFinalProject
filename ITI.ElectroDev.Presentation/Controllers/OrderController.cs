@@ -63,14 +63,14 @@ namespace ITI.ElectroDev.Presentation
                 {
                     UserId = model.UserId,
                     Status = model.Status,
-                    Type = model.Type,
+                    PaymentMethod = model.Type,
                     TotalPrice = model.TotalPrice
                 });
                 context.SaveChanges();
                 context.OrderItems.Add(new OrderItems
                 {
                     ProductId = model.ProductId,
-                    CreatedAt = model.CreatedAt
+                    //CreatedAt = model.CreatedAt
                 });
                 context.SaveChanges();
                 return RedirectToAction("Index");
@@ -91,7 +91,7 @@ namespace ITI.ElectroDev.Presentation
             OrderViewModel orderModel = new OrderViewModel
             {
                 Status = order.Status,
-                Type = order.Type
+                Type = order.PaymentMethod
             };
             return View(orderModel);
         }
@@ -100,7 +100,7 @@ namespace ITI.ElectroDev.Presentation
         {
             OrderDetails order = context.OrderDetails.FirstOrDefault(o => o.Id == model.Id);
             order.Status = model.Status;
-            order.Type = model.Type;
+            order.PaymentMethod = model.Type;
             context.OrderDetails.Update(order);
             context.SaveChanges();
             return RedirectToAction("Index");
