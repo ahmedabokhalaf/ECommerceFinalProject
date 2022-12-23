@@ -8069,19 +8069,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mariam Ayman\\.nuget\\packages\\": {}
+    "C:\\Users\\A\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariam Ayman\\Desktop\\FinalDashboard\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+      "projectUniqueName": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
       "projectName": "ITI.ElectroDev.Presentation",
-      "projectPath": "C:\\Users\\Mariam Ayman\\Desktop\\FinalDashboard\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
-      "packagesPath": "C:\\Users\\Mariam Ayman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mariam Ayman\\Desktop\\FinalDashboard\\ITI.ElectroDev.Presentation\\obj\\",
+      "projectPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\ITI.ElectroDev.Presentation.csproj",
+      "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
+      "outputPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mariam Ayman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8095,8 +8095,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Mariam Ayman\\Desktop\\FinalDashboard\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
-              "projectPath": "C:\\Users\\Mariam Ayman\\Desktop\\FinalDashboard\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
+            "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+              "projectPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj"
             }
           }
         }

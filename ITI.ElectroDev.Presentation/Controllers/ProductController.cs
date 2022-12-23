@@ -13,7 +13,7 @@ using X.PagedList;
 namespace ITI.ElectroDev.Presentation
 {
 
-    //[Authorize(Roles = "Admin,Editor")]
+    [Authorize(Roles = "Admin,Editor")]
 
     public class ProductController : Controller
     {

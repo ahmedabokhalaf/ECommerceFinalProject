@@ -17,7 +17,7 @@ namespace ITI.ElectroDev.Presentation
 
 		[HttpGet]
 
-	//	[Authorize(Roles = "Admin")]
+		[Authorize(Roles = "Admin")]
 
 		public IActionResult Add()
 		{
