@@ -94,56 +94,56 @@ namespace ITI.ElectroDev.Presentation
         //        }
         //    }
         //}
-        [HttpGet]
-        //[Authorize(Roles = "Admin")]
+  //      [HttpGet]
+  //      //[Authorize(Roles = "Admin")]
 
-        public IActionResult SignUpEditor()
-        {
-            ViewBag.Title = "Sign Up Editor";
+  //      public IActionResult SignUpEditor()
+  //      {
+  //          ViewBag.Title = "Sign Up Editor";
 
-            ViewBag.Roles = RoleManager.Roles.Select(i => new SelectListItem(i.Name, i.Name));
-            return View();
-        }
-        [HttpPost]
-		public async Task<IActionResult> SignUpEditor(UserCreateModel model)
-		{
-			model.Role = "Editor";
-			if (ModelState.IsValid == false)
-			{
+  //          ViewBag.Roles = RoleManager.Roles.Select(i => new SelectListItem(i.Name, i.Name));
+  //          return View();
+  //      }
+  //      [HttpPost]
+		//public async Task<IActionResult> SignUpEditor(UserCreateModel model)
+		//{
+		//	model.Role = "Editor";
+		//	if (ModelState.IsValid == false)
+		//	{
 
-				return View();
+		//		return View();
 				
-			}
-			else
-			{
-				User user = new User()
-				{
-					FirstName = model.FirstName,
-					LastName = model.LastName,
-					Email = model.Email,
-					UserName = model.UserName,
+		//	}
+		//	else
+		//	{
+		//		User user = new User()
+		//		{
+		//			FirstName = model.FirstName,
+		//			LastName = model.LastName,
+		//			Email = model.Email,
+		//			UserName = model.UserName,
 
-				};
-				IdentityResult result = await UserManager.CreateAsync(user, model.Password);
+		//		};
+		//		IdentityResult result = await UserManager.CreateAsync(user, model.Password);
 
-				if (result.Succeeded == false)
-				{
-					result.Errors.ToList().ForEach(i =>
-					{
-						ModelState.AddModelError("", i.Description);
+		//		if (result.Succeeded == false)
+		//		{
+		//			result.Errors.ToList().ForEach(i =>
+		//			{
+		//				ModelState.AddModelError("", i.Description);
 
-					});
-					return View();
+		//			});
+		//			return View();
 
-				}
-				else
-				{
-					await UserManager.AddToRoleAsync(user, model.Role);
+		//		}
+		//		else
+		//		{
+		//			await UserManager.AddToRoleAsync(user, model.Role);
 
-					return RedirectToAction("SignIn", "User");
-				}
-			}
-		}
+		//			return RedirectToAction("SignIn", "User");
+		//		}
+		//	}
+		//}
 
 
 		
@@ -241,14 +241,14 @@ namespace ITI.ElectroDev.Presentation
 
         }
 
-        [HttpGet]
-        [Authorize(Roles = "Admin")]
+        //[HttpGet]
+        //[Authorize(Roles = "Admin")]
 
-        public IActionResult Control()
-        {
-            ViewBag.Title = "Control";
-            return View();
-        }
+        //public IActionResult Control()
+        //{
+        //    ViewBag.Title = "Control";
+        //    return View();
+        //}
         [HttpGet]
         [Authorize(Roles = "Admin")]
 
@@ -269,6 +269,7 @@ namespace ITI.ElectroDev.Presentation
                 return View("Error");
 
             }
+           
             else
             {
                 TempData["AlertMessage"] = "User Deleted Successfully";

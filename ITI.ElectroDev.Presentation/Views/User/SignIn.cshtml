@@ -163,6 +163,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- //font-awesome icons -->
     @*    <link rel="stylesheet" href="~/Content/lib/twitter-bootstrap/css/bootstrap.min.css" />
     *@
+    <style>
+        html,body{
+            background-image:none;
+
+        }
+
+        #main {
+            border:1px black solid;
+        }
+        input{
+            border:1px #F3C448 solid;
+            
+        }
+        #sign:hover{
+            background-color:green;
+        }
+        
+       
+      
+    </style>
     <script src="~/Content/js/jquery2.0.3.min.js"></script>
     <script src="~/Content/js/raphael-min.js"></script>
     <script src="~/Content/js/morris.js"></script>
@@ -179,6 +199,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         setTimeout("preventBack()", 0);
         window.onunload = function () { null };
     </script>
+    
 </head>
 <body>
 
@@ -190,32 +211,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
     }
     <div class="log-w3">
-        <div class="w3layouts-main">
-            <h2>Sign In Now</h2>
+        <div class="w3layouts-main" style="background:none" id="main">
+            <h2> @localizer["Sign In To Admin Dashboard"] </h2>
             <form method="post" asp-action="SignIn" asp-controller="User">
                 <span asp-validation-summary="ModelOnly"></span>
         <div>
             <br />  
         <label asp-for="UserName"></label>
-         <select class="s" asp-for="UserName"  asp-items="@ViewBag.UserName" >
+         @*<select class="s" asp-for="UserName"  asp-items="@ViewBag.UserName" >
                 <option></option>
          </select>
-
+*@
+                    <input asp-for="UserName" type="text" class="container-fluid"/>
           <span asp-validation-for="UserName" class="text-danger"></span>
-
+         
     </div>         
               
     <br />
-   <div>
+   <div class="mt-10">
         <label asp-for="Password"></label>
-        <input asp-for="Password" class="ggg" />
+        <input asp-for="Password" class="container-fluid" />
         <span asp-validation-for="Password" class="text-danger" ></span>
+        
     </div>
-
-
+    <br />
+    <div class="mx-10">
                 <input type="hidden" asp-for="ReturnUrl" class="form-control"/>
-                <input class="btn btn-primary" value="Sign In" type="submit" />
+                <input class="btn btn-primary" id="sign" style="background-color:#F3C448;" value="Sign In" type="submit" />
+          </div>
             </form>
+            <img class="w-20 mx-auto rounded d-flex" src="./Images/amazonblack.png">
+
         </div>
     </div>
     <script src="js/bootstrap.js"></script>

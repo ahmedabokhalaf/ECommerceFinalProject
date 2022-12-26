@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {}
+    "D:\\our\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {}
   },
   "projects": {
-    "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
+    "D:\\our\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+        "projectUniqueName": "D:\\our\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
         "projectName": "ITI.ElectroDev.Models",
-        "projectPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
-        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Models\\obj\\",
+        "projectPath": "D:\\our\\ITI.ElectroDev.Models\\ITI.ElectroDev.Models.csproj",
+        "packagesPath": "C:\\Users\\1 way\\.nuget\\packages\\",
+        "outputPath": "D:\\our\\ITI.ElectroDev.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1 way\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
