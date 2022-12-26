@@ -61,7 +61,7 @@ var app = builder.Build();
 
 app.UseStaticFiles(new StaticFileOptions()
 {
-    RequestPath = "/Content",
+    RequestPath = "/wwwroot",
     FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot"))
 });
 
