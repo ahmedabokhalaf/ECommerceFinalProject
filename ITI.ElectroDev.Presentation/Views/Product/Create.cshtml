@@ -13,7 +13,7 @@
         <form method="post" asp-controller="Product" asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly"></div>
             <div >
-                <button type="submit" class="btn btn-primary mt-1">
+                <button type="submit" class="btn btn-outline-secondary mt-1" style="background-color:#fc9b12; color:white" >
                     <i class="bi bi-check"></i>
                     @localizer["Add"]
                 </button>
@@ -57,7 +57,7 @@
             <div class="form-group">
                 <label asp-for="BrandId"></label>
                 <select asp-for="BrandId" class="form-select" aria-label="Default select example" asp-items="@ViewBag.Brands">
-                    <option selected>--Select Brand--</option>
+                    <option selected>@localizer["--Select Brand--"]</option>
                 </select>
                 <span asp-validation-for="BrandId"></span>
             </div>

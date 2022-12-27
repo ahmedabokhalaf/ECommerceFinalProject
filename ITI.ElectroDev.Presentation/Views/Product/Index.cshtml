@@ -12,7 +12,7 @@ ViewData["Title"] = "Products";
 </h2>
 <hr />
 
-<a class="btn btn-primary" asp-controller="Product" asp-action="Create">
+    <a class="btn btn-outline-secondary" style="background-color:#fc9b12; color:white" asp-controller="Product" asp-action="Create">
     <i class="bi bi-plus-lg"></i>
     @localizer["Add Product"]
 </a>
@@ -34,13 +34,13 @@ ViewData["Title"] = "Products";
             <thead>
                 <tr style="background-color:black">
                     <th scope="col">#</th>
-                    <th scope="col" class="text-light">Name</th>
-                    <th scope="col" class="text-light">Quantity</th>
-                    <th scope="col" class="text-light">Price</th>
-                    <th scope="col" class="text-light">Image</th>
-                    <th scope="col" class="text-light">Details</th>
-                    <th scope="col" class="text-light">Delete</th>
-                    <th scope="col" class="text-light">Edit</th>
+                    <th scope="col" class="text-light"> @localizer["Name"]</th>
+                    <th scope="col" class="text-light">@localizer["Quantity"]</th>
+                    <th scope="col" class="text-light">@localizer["Price"]</th>
+                    <th scope="col" class="text-light">@localizer["Image"]</th>
+                    <th scope="col" class="text-light">@localizer["Details"]</th>
+                    <th scope="col" class="text-light">@localizer["Delete"]</th>
+                    <th scope="col" class="text-light">@localizer["Edit"]</th>
 
                 </tr>
             </thead>
@@ -48,29 +48,30 @@ ViewData["Title"] = "Products";
                 @{int index = 1 ;}
                 @foreach (var product in Model.ToList<Product>())
                 {
-                    <tr class="mt-5" style="color:blue">
-                    <th  scope="row">@index</th>
-                    <td>@product.Name</td>
-                    <td>@product.Quantity</td>
-                    <td>@product.Price</td>
-                    <td>
+                    <tr  class="mt-5" style="color:blue">
+                    <th class="table-warning text-black" scope="row">@index</th>
+                    <td class="table-warning text-black">@product.Name</td>
+                    <td class="table-warning text-black">@product.Quantity</td>
+                    <td class="table-warning text-black">@product.Price</td>
+                        <td class="table-warning text-black">
                     <img src="~/Images/@product.ProductImages.FirstOrDefault()?.Path" 
                      class="img-fluid rounded-start" class="img" alt="@product.Name"
                          border=3 height=100 width=100 />
                         </td>
-                        <td>
-                            <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-outline-secondary">
+                        <td class="table-warning text-black">
+                            <a asp-action="Details" asp-route-id="@product.Id"
+                       class="btn btn-outline-secondary" style="background-color:#fc9b12; color:white">
                                 <i class="bi bi-camera-reels"></i>
                                 @localizer["Product Details"]
                             </a>
                           </td>
-                          <td>
+                        <td class="table-warning text-black">
                           <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-outline-primary">
                                 <i class="bi bi-pencil"></i>
                                 @localizer["Edit Product"]
                             </a>
                         </td>
-                        <td>
+                        <td class="table-warning text-black">
 
                             <a href="~/Product/Delete?id=@product.Id" id="deletebtn" onclick="return confirm('Do you Want to delete Product :@product.Name ')" class="btn btn btn-danger" class="alert alert-danger">
                                 <i class="bi bi-trash"></i>

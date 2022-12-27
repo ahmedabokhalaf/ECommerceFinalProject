@@ -21,7 +21,6 @@ html, body {
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
     overflow-x: hidden;
-    background: url(../images/bg.jpg) no-repeat right 0px top 0px;
     background-size: cover;
 }
 

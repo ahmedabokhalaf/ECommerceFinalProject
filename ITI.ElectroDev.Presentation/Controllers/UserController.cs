@@ -45,7 +45,11 @@ namespace ITI.ElectroDev.Presentation
 
 
 
+
         [HttpPost]
+
+        
+		[HttpPost]
         public async Task<IActionResult> SignUp(UserCreateModel model)
         {
 
@@ -151,6 +155,8 @@ namespace ITI.ElectroDev.Presentation
 
             return View(users);
         }
+
+
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(string id)
         {
@@ -161,11 +167,11 @@ namespace ITI.ElectroDev.Presentation
                 return View("Error");
 
             }
-
             else
             {
                 TempData["AlertMessage"] = "User Deleted Successfully";
                 var result = await UserManager.DeleteAsync(user);
+
                 if (result.Succeeded)
                 {
                     return RedirectToAction("UsersDetails");
@@ -178,6 +184,8 @@ namespace ITI.ElectroDev.Presentation
 
             }
         }
+
+
         [HttpGet]
         [Authorize(Roles = "Admin")]
 

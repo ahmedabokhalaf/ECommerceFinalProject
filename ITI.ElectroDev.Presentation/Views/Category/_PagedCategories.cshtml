@@ -10,8 +10,8 @@
             @foreach (Category item in Model)
             {
                 <tr>
-                    <td><span class="h4 mb-0">@item.Name</span></td>
-                    <td class="col-sm-6 col-12 text-sm-end">
+                    <td class ="table-warning text-black"><span class="h4 mb-0">@item.Name</span></td>
+                    <td class="table-warning text-black col-sm-6 col-12 text-sm-end">
                         <a class="btn mx-1 btn-outline-primary" asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id" asp-route-Name="@item.Name">
                             <i class="bi bi-pencil"></i>
                             <span class="pe-0">@localizer["EditBtn"]</span>
