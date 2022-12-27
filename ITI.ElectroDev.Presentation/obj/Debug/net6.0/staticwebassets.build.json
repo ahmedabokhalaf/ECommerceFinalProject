@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tn9Ui5zpjLkGxtXUGpHGJtmYXog/1fegqu7vuPgag7I=",
+  "Hash": "nJyU52GqSgKETXF0HUymhAUh2fJ3Pq6TD6u9ZD+0yck=",
   "Source": "ITI.ElectroDev.Presentation",
   "BasePath": "_content/ITI.ElectroDev.Presentation",
   "Mode": "Default",
@@ -1309,6 +1309,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\76c1297a-5f98-419e-a2b7-0c5f1e8926752.PNG"
     },
     {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\7b7748e0-b586-40f0-aa7e-3b46c661b983now.PNG",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/7b7748e0-b586-40f0-aa7e-3b46c661b983now.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\7b7748e0-b586-40f0-aa7e-3b46c661b983now.PNG"
+    },
+    {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\8af585e3-deb7-470f-ae06-faa8898ae53d11.PNG",
       "SourceId": "ITI.ElectroDev.Presentation",
       "SourceType": "Discovered",
@@ -1375,6 +1392,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\a26b4c1c-7c47-4081-a120-470e0ae6901aOIP (2).jpg"
+    },
+    {
+      "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\amazonblack.png",
+      "SourceId": "ITI.ElectroDev.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\",
+      "BasePath": "_content/ITI.ElectroDev.Presentation",
+      "RelativePath": "Images/amazonblack.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amazonblack.png"
     },
     {
       "Identity": "I:\\ItI\\iti 2022\\Final Project -Dashboard- ITI\\ITI.ElectroDev.Presentation\\wwwroot\\Images\\b05008b6-b1fe-44f6-b4ed-2acdcd6d07a612.PNG",

@@ -8,6 +8,7 @@ namespace ITI.ElectroDev.Presentation
         [Required]
         [Display(Name = "UserName")]
         public string UserName { get; set; }
+
         [Required]
         [MinLength(3)]
         [MaxLength(16)]

@@ -119,10 +119,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/Control.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb250cm9sLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -137,14 +133,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduVXAuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/SignUpCustomer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduVXBDdXN0b21lci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/SignUpEditor.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduVXBFZGl0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [I:/ItI/iti 2022/Final Project -Dashboard- ITI/ITI.ElectroDev.Presentation/Views/User/UsersDetails.cshtml]
