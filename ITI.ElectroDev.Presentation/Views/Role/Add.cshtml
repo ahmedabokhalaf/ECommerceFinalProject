@@ -7,9 +7,9 @@
 <form asp-action="Add" asp-controller="Role" method="post">
     <div asp-validation-summary="ModelOnly"></div>
     <div class="form-group">
-        <label asp-for="Name">@localizer["Name"]</label>
-        <input asp-for="Name" class=" form-control" />
+        <label class="mb-2" asp-for="Name">@localizer["Role Name"]</label>
+        <input asp-for="Name" class=" form-control" style="border:1px solid #fc9b12" />
         <span asp-validation-for="Name"></span>
     </div>
-    <button type="submit" class="btn btn-primary" value="Add" style="margin:10px">@localizer["Add"]</button>
+    <button type="submit" class="btn btn-warning mb-2" value="Add" style="margin:10px">@localizer["Add"]</button>
 </form>

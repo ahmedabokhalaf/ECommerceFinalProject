@@ -101,8 +101,12 @@
       "PackagePath": "staticwebassets\\Content\\images\\3.png"
     },
     {
-      "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\Content\\images\\bg.jpg",
-      "PackagePath": "staticwebassets\\Content\\images\\bg.jpg"
+      "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\Content\\images\\Deprecated.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\Deprecated.jpg"
+    },
+    {
+      "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\Content\\images\\bg.png",
+      "PackagePath": "staticwebassets\\Content\\images\\bg.png"
     },
     {
       "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\Content\\images\\close.png",
@@ -537,8 +541,32 @@
       "PackagePath": "staticwebassets\\Images\\fa93b826-d308-43e4-9991-04d1900f8896Screenshot (65).png"
     },
     {
+      "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\android-chrome-96x96.png",
+      "PackagePath": "staticwebassets\\android-chrome-96x96.png"
+    },
+    {
+      "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\browserconfig.xml"
+    },
+    {
+      "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\favicon-16x16.png"
+    },
+    {
+      "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\favicon-32x32.png"
+    },
+    {
       "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\favicon_package_v0.16.zip",
+      "PackagePath": "staticwebassets\\favicon_package_v0.16.zip"
     },
     {
       "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\bootstrap\\bootstrap-icons\\bootstrap-icons.svg",
@@ -1099,6 +1127,18 @@
     {
       "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\mstile-150x150.png",
+      "PackagePath": "staticwebassets\\mstile-150x150.png"
+    },
+    {
+      "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\safari-pinned-tab.svg",
+      "PackagePath": "staticwebassets\\safari-pinned-tab.svg"
+    },
+    {
+      "Id": "D:\\our\\ITI.ElectroDev.Presentation\\wwwroot\\site.webmanifest",
+      "PackagePath": "staticwebassets\\site.webmanifest"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ITI.ElectroDev.Presentation.Microsoft.AspNetCore.StaticWebAssets.props",

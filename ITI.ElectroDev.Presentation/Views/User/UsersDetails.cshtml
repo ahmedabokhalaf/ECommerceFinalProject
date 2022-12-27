@@ -1,5 +1,9 @@
 ﻿@model List<User>
-
+<style>
+    li:hover{
+        color:red;
+    }
+</style>
 <h3 style="text-align:center;color:black; margin-top:10px;">@localizer["All Users Dtails In The Dashboard"]</h3>
 <br />
 <br />
@@ -12,17 +16,18 @@
     <strong>Success !</strong>@TempData["AlertMessage"] 
 </div>
 }
-<a class="btn btn-primary" asp-action="SignUp" asp-controller="User">Add Admin/Subadmin</a> | 
-<a class="btn btn-primary" asp-action="Add" asp-controller="Role">Add New Role</a>
+
+
+
 <table class="table">
   <thead>
     <tr>
-            <td scope="col" class="table-dark">@localizer["User Name"]</td>
-            <td scope="col" class="table-dark">@localizer["First Name"]</td>
-            <td scope="col" class="table-dark">@localizer["Last Name"]</td>
-            <td scope="col" class="table-dark">@localizer["Email"]</td>
-            <td scope="col" class="table-dark">@localizer["Edit"]</td>
-            <td scope="col" class="table-dark">@localizer["Delete"]</td>
+            <td scope="col" class="table-dark text-white">@localizer["User Name"]</td>
+            <td scope="col" class="table-dark text-white ">@localizer["First Name"]</td>
+            <td scope="col" class="table-dark text-white">@localizer["Last Name"]</td>
+            <td scope="col" class="table-dark text-white">@localizer["Email"]</td>
+            <td scope="col" class="table-dark text-white">@localizer["Edit"]</td>
+            <td scope="col" class="table-dark text-white">@localizer["Delete"]</td>
 
     </tr>
   </thead>
@@ -30,23 +35,23 @@
       @foreach(var u in Model){
     <tr id="i">
 
-                <td class="table-secondary">@u.UserName</td>
-                <td class="table-secondary">@u.FirstName</td>
-                <td class="table-secondary">@u.LastName</td>
-                <td class="table-secondary">@u.Email</td>
+                <td class="table-warning text-black">@u.UserName</td>
+                <td class="table-warning text-black">@u.FirstName</td>
+                <td class="table-warning text-black">@u.LastName</td>
+                <td class="table-warning text-black">@u.Email</td>
 
                 
                     
                 @if (User.IsInRole("Admin") && User.Identity.IsAuthenticated)
                 {
-                    <td class="table-secondary"><a class="btn btn-info" asp-controller="User" asp-action="Edit" asp-route-id="@u.Id">@localizer["Edit"]</a></td>
-                    <td class="table-secondary"><a class="btn btn-danger" asp-controller="User" asp-action="Delete" asp-route-id="@u.Id" onclick="return confirm('Are you sure you want to delete this user: @u.UserName')">@localizer["Delete"]</a></td>
+                    <td class="table-warning"><a class="btn btn-info" asp-controller="User" asp-action="Edit" asp-route-id="@u.Id">@localizer["Edit"]</a></td>
+                    <td class="table-warning"><a class="btn btn-danger" asp-controller="User" asp-action="Delete" asp-route-id="@u.Id" onclick="return confirm('Are you sure you want to delete this user: @u.UserName')">@localizer["Delete"]</a></td>
 
 
                 }else{
 
-                    <td class="table-secondary"><button class="btn btn-info" disabled asp-controller="User" asp-route-id="@u.Id" asp-action="Edit">Edit</button></td>
-                    <td class="table-secondary"><button class="btn btn-danger" disabled asp-controller="User" asp-action="Delete" asp-route-id="@u.Id" onclick="return confirm('Are you sure you want to delete this user: @u.UserName')">Delete</button></td>
+                    <td class="table-warning"><button class="btn btn-info" disabled asp-controller="User" asp-route-id="@u.Id" asp-action="Edit">Edit</button></td>
+                    <td class="table-warning"><button class="btn btn-danger" disabled asp-controller="User" asp-action="Delete" asp-route-id="@u.Id" onclick="return confirm('Are you sure you want to delete this user: @u.UserName')">Delete</button></td>
 
                 }
                
@@ -57,7 +62,16 @@
      
   </tbody>
 </table>
+<ul class="mt-2">
+    <li>
+        <a class="text-black" asp-action="Add" asp-controller="Role">@localizer["To Add New Role"]</a>
 
+    </li>
+    <li>
+        <a class="text-black" asp-action="SignUp" asp-controller="User">@localizer["To Add Admin/Editor"]</a>
+    </li>
+
+</ul>
 
 
 
